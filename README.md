@@ -1,4 +1,86 @@
+## 2025-05-02
+- Merge branch 'master' into Playerbot
+
+## 2025-05-01
+- chore(DB): import pending files
+- fix (DB/Creature) The Horses' pack and the single horse now have a path and jump the fence. (#22033)
+- Revert "Fix(Core/Player): Energy regen rate bonuses (#20321)" (#22032)
+
+## 2025-04-30
+- chore(DB): import pending files
+- chore(Core/Spells): move db `spell_dbc` corrections to SpellInfoCorre… (#21819)
+
+## 2025-04-29
+- fix(Scripts/SunwellPlateau): Ensure proper reset for Kil'jaeden encounter (#22024)
+- fix(Scripts/SunwellPlateau): Dark Fiends should use threat table and not deal melee damage (#21991)
+- fix(Core/Creature): Implement respond to call for help faction flag. (#21959)
+
+## 2025-04-30
+- fix(Script/Spell) exclude original target from glyph of holy light (#22002)
+- fix(Core/Player): correct SpellPriority logic  (#21052)
+- chore(DB): import pending files
+- fix(DB/Spells) add K'iru's Song of Victory to Intellect and Stamina aura stack groups (#22022)
+- chore(DB): import pending files
+- fix(DB/Spells) add Battle Squawk to Melee Haste aura stack group (#22021)
+- chore(DB): import pending files
+- fix(db/locale): Added missing Russian translation for the (Shaman) Totems (#22012)
+- chore(DB): import pending files
+- fix(Scripts/SunwellPlateau): exclude tank from flame sear (#22014)
+
+## 2025-04-29
+- chore(DB): import pending files
+- fix(DB/Creature) Solve a wrong SmartAI update in my previous PR. (#22020)
+- chore(DB): import pending files
+- fix(DB/Creature) Solve various issues on dk starting area (phase 4). (#22017)
+- fix(Core/worldserver.conf) Clarification for AllowTwoSide.Interaction.Auction (#22013)
+
+## 2025-04-27
+- fix(Scripts/SunwellPlateau): Make Twin special abilities target one of the highest 6 in threat of the other twin (#21964)
+
+## 2025-04-26
+- chore(DB): import pending files
+- fix (DB/Creature) Citizen of New Avalon inside Scarlet Tavern now remain dead. (#21996)
+- fix(deps/PackageList.txt): update for current state of dependencies (#21968)
+- fix(Core/Player) internally handle expertise as float (#21967)
+- fix (Script/Gruul) Kiggler polymorph targets his tank (#21966)
+- refactor(Core/WorldState): Initial addition of world state definition file. (#21875)
+- fix(SmartAI): Ensure immediate combat engagement (#21854)
+- chore(Core/Auth): align mysql ping log level and name to worldserver (#21986)
+
+## 2025-04-25
+- chore(DB): import pending files
+- fix(Scripts/SunwellPlateau): Make Blue Dragon Breath Haste apply 25% haste effect (#21984)
+- fix(Scripts/SunwellPlateau): Make Kil'jaeden's Sinister Reflections clone the same player (#21949)
+- chore(DB): import pending files
+- fix(DB/SAI): Despawn Mu'ru Void Spawns on evade (#21989)
+
+## 2025-04-24
+- fix (Script/SWP) use enrage function for brutallus enrage (#21987)
+- fix(Scripts/SunwellPlateau): Fix Entropius wrong spell ID and timers (#21970)
+- fix(Core/Maps): Do not allow entering an instance if the player is (#21973)
+
+## 2025-04-23
+- fix(Script/Sunwell): Use raycast to prevent Singularity throwing players through walls (#21928)
+
+## 2025-04-21
+- chore(Deps/Zlib): Upgrade zlib to 1.3.1 (#21940)
+- fix(Core/AI): Ignore PvP flagged players for aggressive pets if owner is not PvP flagged. (#21922)
+
+## 2025-04-20
+- chore(DB): import pending files
+- fix(DB): Add and correct arena season rewards. (#21960)
+- chore(DB): import pending files
+- fix(DB/Loot): Consolidate Sunwell trash recipe drops into one reference table and update chance. (#21962)
+- fix(Core/Spells): Suppress Crystal Spire of Karabor procs (#21961)
+
+## 2025-04-19
+- fix(Deps/Boost): Fix build for boost 1.88. (#21952)
+- chore(DB): import pending files
+- fix(Scripts/Noblegarden): fix bunny transformation on egg looting (#21957)
+- fix(Scripts/SunwellPlateau): Correct Felmyst landing pos variable names (#21954)
+
 ## 2025-04-18
+- fix(Battlefield/WG): set default maxplayer 120, minlevel 75 (#21937)
 - Merge branch 'master' into Playerbot
 
 ## 2025-04-17
