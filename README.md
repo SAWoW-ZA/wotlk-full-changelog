@@ -1,3 +1,52 @@
+## 2025-05-09
+- Merge branch 'master' into Playerbot
+- refactor(Core): Add definition file for area table entries. (#22054)
+- chore(DB): import pending files
+- fix(DB/Creature): Ahn'kahar Watcher will no longer spawn in normal mode. (#22083)
+- chore(DB): import pending files
+- refactor(Core/World): Move various worldstate related functions to worldstate class. (#22086)
+- fix(DB/Creature): Remove Wrath Enforcer damage requirement (#22065)
+- fix(Core/Spells): Heart of the Crusader (#22070)
+
+## 2025-05-07
+- fix(Scripts/SunwellPlateau): Ensure Kil'jaeden encounter resets correctly on evade (#22006)
+- fix(Scripts/SunwellPlateau): Kiljaeden shouldnt interrupt Darkness of… (#21982)
+
+## 2025-05-06
+- Revert "fix(Core/Spells): Allow glyphed PS to be casted while Seduced… (#22067)
+
+## 2025-05-05
+- chore(DB): import pending files
+- fix(DB/Creature) Havenshire Horses now have a blizz-like behaviour when dismounted or die. (#22059)
+- fix(Core/Spells): Allow glyphed PS to be casted while Seduced (#22047)
+- refactor(Core/AI) don't add currentTarget to the front of the SelectTargetList for MaxThreat/Random (#21965)
+
+## 2025-05-04
+- chore(DB): import pending files
+
+## 2025-05-05
+- fix(DB/Conditions): Quest 'Harp on This!' not allowing interaction wi… (#22051)
+- fix(DB/Conditions): Gather Lumber not despawning Coldwind Tree GOs (#22050)
+
+## 2025-05-04
+- chore(DB): import pending files
+
+## 2025-05-05
+- fix(DB/Custom): UP Avenging Spirit's Wither should stack from multip… (#22056)
+- fix(Scripts/CoS): First trio transforming on low HP (#22055)
+
+## 2025-05-04
+- chore(DB): import pending files
+- fix(DB/Formations): Naxxramas - Embalming Slime (#22046)
+- fix(Core/Player): smooth energy regeneration with `SPELL_AURA_MOD_POWER_REGEN_PERCENT` mods (#22041)
+- chore(DB): import pending files
+- fix(DB/GameObject): place Alchemy Lab on the Alchemy Table (#22045)
+
+## 2025-05-03
+- chore(DB): import pending files
+- fix(DB/Spells) Thunderfury does not stack with Infected Wounds/Thunderclap/Icy Touch anymore (#22035)
+- refactor(Scripts/BlackTemple) remove tanks from Fatal Attraction after setting the target amount (#22038)
+
 ## 2025-05-02
 - Merge branch 'master' into Playerbot
 
