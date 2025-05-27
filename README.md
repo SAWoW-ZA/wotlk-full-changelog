@@ -1,3 +1,76 @@
+## 2025-05-23
+- Merge branch 'master' into Playerbot
+
+## 2025-05-22
+- chore(DB): import pending files
+- fix (DB/Creature) Kil'Jaeden Sinister Reflections now have 3 seconds of delay before attacking. (#22162)
+
+## 2025-05-21
+- chore(DB): import pending files
+- fix(DB/SAI): Correct Fireball spell ID used by Wyrmcult Scouts and Zealots. (#22147)
+
+## 2025-05-22
+- fix(Core/Player): aura removal logic to equipped "Use" items (#22164)
+
+## 2025-05-21
+- chore(DB): import pending files
+- fix(DB/Spells): Shadow Bolt Volley of Hand of Deceivers on the Kil'jaeden fight stack (#22156)
+
+## 2025-05-20
+- chore(DB): import pending files
+- fix(DB/Loot): Adjust Thori'dal drop chance. (#22124)
+
+## 2025-05-19
+- docs(AUTHORS): add Cross-project Collaboration section (#22034)
+- chore(DB): import pending files
+- fix(DB/Loot) - Dalaran Wizard's Robe no longer drops from un-wanted creatures. (#22091)
+
+## 2025-05-18
+- chore(DB): import pending files
+- fix(DB/SAI) - Removes Link in Smart AI for creature Ziggurat Defender (#22137)
+- fix(Scripts/Zone): Quest 'Fire At Will!' should give group credit (#22145)
+
+## 2025-05-17
+- fix(Scripts/SunwellPlateau): Fix Killjaeden text spam (#22139)
+- fix(Scripts/Spells): Kil'Jaeden Fire Bloom AoE pet damage (#22133)
+
+## 2025-05-16
+- Merge branch 'master' into Playerbot
+
+## 2025-05-15
+- chore(DB): import pending files
+- fix(Scripts/SunwellPlateau): Spell Fury spellsteal resets stacks and is no longer consumes on dot ticks (#22125)
+- feat(apps/extractor): add extractor for non windows (#22123)
+
+## 2025-05-13
+- chore(DB): import pending files
+- fix(DB/Creature): Correct Kil'jaeden's model info. (#22120)
+- fixup! refactor(Core/World): Move various worldstate related function… (#22119)
+- fix(Scripts/SunwellPlateau): Fix flame dart timers and cast in all ph… (#22113)
+
+## 2025-05-12
+- chore(DB): import pending files
+- fix(DB/Creature) Scarlet Crusaders don't hook invisible Eye of Acherus anymore (phase 2). (#22106)
+- fix (Script/Sunwell Plateau) Edit Kil'Jaeden Darkness Timers. (#22115)
+- chore(DB): import pending files
+- fix(DB/Creature): Add Taunt Immunity to Kil'Jaeden. (#22114)
+
+## 2025-05-10
+- fix(Scripts): Use distinct sound entry for BRD L70ETC Music Doodad. (#22029)
+- chore(DB): import pending files
+- fix(DB/Commands) Corrected syntax for "help server exit" and "help reload config". (#22100)
+- chore(DB): import pending files
+- fix(Core/Spells) reimplement SPELL_ATTR3_CAN_PROC_FROM_PROCS (#22072)
+- fix(Spells/Paladin) remove custom cooldown and procFlags from Judgement of Wisdom/Light (#22018)
+- chore(DB): import pending files
+- fix(Scripts/Paladin): Add cast check to Hand of Protection for casting spell on non-self targets. (#22077)
+- chore(DB): import pending files
+- fix(DB/Conditions): 'Opening the Backdoor' pre-quests (#22097)
+- fix(Scripts/Desolace): Kodo Roundup (#22052)
+- fix (Script/SunwellPlateau): Edit some Kil'jaeden dialogue and spells' timers. (#22093)
+- chore(DB): import pending files
+- fix(DB/Loot) - Lorgalis Manuscript no longer drops from creatures. (#22092)
+
 ## 2025-05-09
 - Merge branch 'master' into Playerbot
 - refactor(Core): Add definition file for area table entries. (#22054)
