@@ -1,4 +1,85 @@
+## 2025-06-01
+- Merge branch 'master' into Playerbot
+
+## 2025-05-31
+- chore(DB): import pending files
+- fix (DB/Script) Move Eye of Acherus event to SmartAI. (#22249)
+- chore(DB): import pending files
+- fix(Scripts/SunwellPlateau): Eredar Twins blaze trap delay (#22253)
+
+## 2025-05-30
+- chore(DB): import pending files
+- fix(DB/Creature) Edit Sinister Reflection spell timers. (#22233)
+- chore(DB): import pending files
+- feat(Scripts/Commands): Add group revive command (#22204)
+- chore(DB): import pending files
+- fix(Scripts/Oculus): Varos Cloudstrider does not summon Azure Ring Captain (#22198)
+- chore(DB): import pending files
+- feat(Scripts/Commands): `.debug boundary` to visualize `CreatureBoundary`  (#22099)
+- chore(DB): import pending files
+- fix(Scripts/AhnKahet): Ahn'kahar Spell Flinger failing to channel S… (#22082)
+- chore(DB): import pending files
+- fix(Scripts/Items): Noblegarden Chocolate instantly giving Well Fed buff (#22150)
+- fix(Core/Creature): Use home position for leash distance check for creatures with no movement. (#22245)
+- chore(DB): import pending files
+- fix(Scripts/VioletHold): Sinclari gossip order, crystals being spamma… (#22195)
+- fix(Scripts/TheEye): Al'ar don't attack other players if the onlyone tank died (#22118)
+- chore(DB): import pending files
+- fix(Scripts/Karazhan): Script Wrath of the Titans (#22165)
+- fix(Scripts/AhnKahet): Amanitar shouldn't be immune to nature damage (#22244)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove Set_Active from some creatures in dk starting area. (#22234)
+- fix(Scripts/AhnKahet): Elder Nadox enrage & health check (#22208)
+
+## 2025-05-29
+- chore(DB): import pending files
+- fix(DB/Creature): Jedoga Shadowseeker should be disarmable and hard r… (#22215)
+- chore(DB): import pending files
+- fix(DB/SAI) - SAI for NPCs related to ETC event to no longer display errors. (#22222)
+
+## 2025-05-27
+- fix(Scripts/SunwellPlateau): Don't inflict Darkness damage if Darkness aura is removed by death. (#22223)
+- chore(DB): import pending files
+- fix(DB/Command) - Updates the "guild rank" command to be more clear. (#22186)
+- chore(DB): import pending files
+- refactor(Core): Use database tables for Shaman totems and Druid shapeshift forms. (#22104)
+- chore(DB): import pending files
+- fix(DB/SAI): Portal Keepers now uses the correct Arcane Missiles spell (#22209)
+
+## 2025-05-26
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Script Recall Eye of Acherus & fix Summo… (#22205)
+
+## 2025-05-24
+- fix(Core/Spells): Siphon Bloodgem now channels no matter the player's orientation. (#22143)
+- fix(Scripts/SWP): Breath: Haste now removes impairing auras (#22192)
+- chore(DB): import pending files
+- fix(Scripts/Spells): - Weapon Coating Enchant (#22060)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Devour Humanoid castable without target … (#22196)
+- fix(Scripts/SunwellPlateau): crash in Sinister Reflection Clone spellscript (#22201)
+- chore(DB): import pending files
+- fix(DB/Spells): Shield of the Blue output damage reduction (#22191)
+
 ## 2025-05-23
+- chore(DB): import pending files
+- fix(DB/Creature): Warp Storm doesn't do anything (#22144)
+- chore(DB): import pending files
+- fix(DB/Creature): Captured Totem shouldn't be attackable (#22142)
+- chore(DB): import pending files
+- Fix(DB/Spells): Hallows End candies should not give Well Fed buff. (#22141)
+- chore(DB): import pending files
+- fix(Scripts/Northrend): Crashing wave should do double damage to frozen … (#22057)
+- fix(Scripts/OldKingdom): Jedoga Shadowseeker boundary (#22084)
+- fix(Scripts/Spells): re-add startDelay for some traps (#22102)
+- refactor(Core/Worldstate): Remove redundant worldstate usage. (#22126)
+- fix(Core/Creature): Leashing improvements. (#22129)
+- chore(DB): import pending files
+- Update 2 mobs with broken damage (#22149)
+- Worldserver conf table reference correction (#22177)
+- chore(DB): import pending files
+- fix (DB/Creature) Improve Citizen of Havenshire SmartAI. (#22185)
+- fix(DB/Creature) Configure Set_Active on various npcs in dk starting area. (#22175)
 - Merge branch 'master' into Playerbot
 
 ## 2025-05-22
