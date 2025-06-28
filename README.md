@@ -1,3 +1,78 @@
+## 2025-06-28
+- Merge branch 'master' into Playerbot
+
+## 2025-06-27
+- fix (Core/SmartScript) Improve SMART_ACTION_START_CLOSEST_WAYPOINT. (#22364)
+- chore(DB): import pending files
+- feat(Script/Commands): allow to pass email in account create (#22310)
+- fix(Player/Skills): Improve skill validation and logging in Player::_… (#22369)
+- refactor(Core/Scripting): Forward-declare AuctionEntry as a struct rather than a class. (#22282)
+- chore(DB): import pending files
+- feature(Scripts/Commands) choose Xth spawn of entry for go creature/gameobject id (#22363)
+- chore(DB): import pending files
+
+## 2025-06-26
+- fix(DB/Creature): Bound Air, Fire and Water Elemental damage and immu… (#22300)
+- fix(Script/SWP): unify events that interact with Anveena in P5 Kil'Jaeden (#22366)
+- fix(CORE/SAI): Properly Implement START_CLOSEST_WAYPOINT (#22256)
+
+## 2025-06-24
+- refactor(Core/AI): rename FarthestTargetSelector to RangeSelector (#22026)
+- fix(Core/Movement): Use attack speed for leash reset period and only extend timer if in melee range or can't move freely. (#22350)
+- fix(Core/AI): crashfix(#22352) (#22353)
+
+## 2025-06-23
+- fix(Core/Grids): Crash fix (#22347)
+- fix(Core/Spell): implement SPELL_ATTR5_NOT_ON_PLAYER and SPELL_ATTR5_NOT_ON_PLAYER_CONTROLLED_NPC (#22332)
+- fix(Core/SAI): Exclude GMs for player target/event (#22345)
+
+## 2025-06-22
+- fix (Core) update comments on unused SpellAttributes (#22343)
+- fix(Scripts/Spell): snapshot %dmg and crit when spreading or refreshing diseases with pestilence (#22306)
+
+## 2025-06-21
+- chore(DB): import pending files
+- fix (DB/Script/Scarlet Enclave) Corrects some spell timers and adds a new spell for Darion Mograine. (#22324)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): City guards should throw stuff at new DKs (#22317)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Rewrite Brothers in Death (#22303)
+- chore(DB): import pending files
+- fix(DB/Condition): Deliver Stolen Horse only works near Salanar. (#22341)
+
+## 2025-06-20
+- feat(Core/Utilities): add `Seconds` overload for `randtime` (#22337)
+
+## 2025-06-18
+- fix(Core/PlayerTaxi): prevent pop_front crash (#22292)
+- chore(DB): import pending files
+- fix(Scripts/ZulDrak): Fix Ghymer not being healed by storm clouds (#22302)
+
+## 2025-06-17
+- chore(vscode): update extensions, settings, tasks (#22200)
+- chore(DB): import pending files
+- fix(DB/Creature) add CC immunities to the Fel Crystals in the Selin Fireheart encounter (#22304)
+- fix(core/SMART_EVENT_LINK) - Seperation and clarification of "not found or invalid, skipped" (#22240)
+- chore(DB): import pending files
+- fix(Scripts/HoL): Ionar's Static Overload missing knockback (#22049)
+- chore(DB): import pending files
+- fix(DB): set game_event_* tables to use smallint (#22309)
+- chore(DB): import pending files
+- fix(DB/Creature): Molten War Golem - Added immunities (#22315)
+- fix(bash): repository initialization bugs and update configurations (#22311)
+
+## 2025-06-16
+- chore(DB): import pending files
+- fix(Scripts/Items): Bloodsail Admiral's hat should despawn parrot on … (#22327)
+
+## 2025-06-15
+- chore(DB): import pending files
+- fix(DB/Gameobject): Correct Area 52 Mailbox faction. (#22319)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Improve Might of Mograine aura behavior. (#22320)
+- chore(DB): import pending files
+- fix(DB/Loot) - Archimonde now properly drops the Helms (#22322)
+- 
 ## 2025-06-14
 - Merge branch 'master' into Playerbot
 
