@@ -1,1 +1,3177 @@
 
+## 2025-06-27
+- Warlock overhaul (#1397)
+
+## 2025-06-24
+- Update Pvp Prohibited Zone Id's (#1390)
+
+## 2025-06-21
+- Fix various hunter bugs (Amended w/ Nullptr check) (#1389)
+
+## 2025-06-22
+- [URGENT Fix] Trinket proc effects are getting cast even if they are not onUse - Leads to big server lags (#1385)
+
+## 2025-06-21
+- Fixes #1093 (Hunter's stuck in Auto shot pose and Can't equip gear) (#1377)
+
+## 2025-06-17
+- ICC Fix/Improve (#1380)
+
+## 2025-06-12
+- AutoScaleActivity refactoring (#1375)
+- fix: ⚡ added missing guildTaskEnabled checks for GuildTaskMgr (#1374)
+- fix: ⚡ added missing checks for PetIsDeadValue (#1376)
+
+## 2025-06-11
+- ICC Refactor, All bosses improved NM/HC (#1370)
+
+## 2025-06-09
+- Revert "Fixed opening trade window while using DBM or Questie addon (#1363)" (#1367)
+
+## 2025-06-08
+- - Migrated tips for ilvl gear in config (#1364)
+- Fixed opening trade window while using DBM or Questie addon (#1363)
+- Addresses #1110 - Add a system to blacklist GameObject GUID's (#1365)
+
+## 2025-06-06
+- - Fixed Thorim strategy positioning in phase 2 (#1362)
+- - Added Blessing of Sanctuary to paladin health buff strategy (#1345)
+- Addresses #1360  (#1361)
+- - Added Mimiron Strategy (#1358)
+
+## 2025-06-01
+- CMaNGOS Playerbots "lfg" command implemented (#1291)
+
+## 2025-05-27
+- Fix crash when using random levels with a lowered max player level (#1344)
+
+## 2025-05-25
+- Active loot roll (#1338)
+- Update playerbots.conf.dist with DisabledWithoutRealPlayer context (#1340)
+
+## 2025-05-24
+- Do not disband alt bots group when master goes away (#702)
+- - Added disabled without real player feature (#1335)
+- - Added casting Blessing of Sanctuary on tank bots (#1329)
+- Update PlayerbotFactory.cpp (#1324)
+- Typo fix in AcceptBgInvitationAction (#1332)
+- - Reverted arena join queue changes (#1333)
+
+## 2025-05-22
+- - [Bugfix] Fixed bug with unequip and item in bags (#1327)
+
+## 2025-05-20
+- - Added Auriaya fall from floor protection (#1318)
+- Calculation of the power of items with random properties (#1312)
+
+## 2025-05-19
+- Convert PlayerbotsXPRate to RandomBotXPRate (#1313)
+
+## 2025-05-18
+- - Fixed Iron Assembly Rune of Power trigger (#1314)
+- - Added skipping messages from AdvancedWotLKCombatLog addon in trade action (#1310)
+- Expose zone level brackets to user configuration  (#1309)
+- Additional improvements to readability and accessibility of config (#1301)
+- Fixed a number of issues with texts (#1308)
+
+## 2025-05-17
+- druid cat and ret pally offheal strat (#1298)
+- Translated Chinese text documents (#1306)
+- - Added Thorim strategy (#1305)
+
+## 2025-05-16
+- Revert "fix(#1276) Prevent bots from equipping relics intended for other clas…" (#1303)
+
+## 2025-05-15
+- Clarify EnableNewRpgStrategy relation to RandomBotTeleLowerLevel and RandomBotTeleHigherLevel, and making them more intuitive (#1294)
+- Improve readability and accessibility of config (#1296)
+
+## 2025-05-14
+- Fix hunter bot losing dismissed pet during maintenance (#1286)
+
+## 2025-05-12
+- Revert "Introduction of the SafeLearn(spellId) lambda that checks if the bot …" (#1289)
+
+## 2025-05-11
+- PoS Strategies (#1283)
+
+## 2025-05-10
+- Fixed a typo in filename and renamed table for consistency (#1279)
+- Fix bot chest looting exploits in ICC and Halls of Stone (#1280)
+- feat(playerbots): staggered taxi take-off for bots (#1281)
+
+## 2025-05-09
+- Update ChatHelper.cpp, Replace sprintf with snprintf (#1278)
+- - Added Iron Assembly Rune of Power strategy (#1275)
+
+## 2025-05-08
+- fix(#1276) Prevent bots from equipping relics intended for other classes (#1277)
+
+## 2025-05-07
+- - Added Kologarn Focused Eyebeam cheat (#1274)
+- fix(strategy): Revert InitTriggers to previous implementation (#1272)
+
+## 2025-05-06
+- FoS Improve, ICC LM, LDW, PP improve (#1268)
+- fix (#1179): resolve bot stuttering in BGs after player death (#1269)
+
+## 2025-05-05
+- Fix inventory clear on init quests (#1266)
+- fix(#1250): Fix movement animation desync after CC effects This fixes a bug where playerbots fail to display proper movement animations after crowd control effects wear off. When affected by movement-restricting abilities (e.g., Net-o-Matic Projector), bots would abruptly snap between positions instead of transitioning smoothly with walking or running animations. (#1264)
+- feature - (#1100) Linking of "trusted" accounts to allow altbot-control apart from own account or guild (#1267)
+
+## 2025-05-04
+- ICC GS fix (#1261)
+- Comment fix (#1263)
+
+## 2025-05-03
+- ToC dungeon strategies (#1259)
+
+## 2025-05-01
+- fixing multiple 'unused variable' warnings (#1224)
+- ICC LK Improve (#1256)
+- check if already exist before apply (#1254)
+
+## 2025-04-30
+- ICC BQL crash fix and trigger/action optimization (#1252)
+
+## 2025-04-28
+- Name fix (#1248)
+
+## 2025-04-27
+- Add index on playerbots_random_bots to reduce deadlocks (#1247)
+- Travel: Fixed crash when trying to travel in maps with no nodes (#1171)
+- Introduction of the SafeLearn(spellId) lambda that checks if the bot … (#1226)
+- - Added generic boss aura triggers and actions (#1242)
+- Fix: Prevent concurrent bot initializations during .playerbot init= commands (#1227)
+- Update LfgActions.cpp (#1225)
+- Crash fix for teleport action (#1245)
+
+## 2025-04-25
+- ICC 25HC LDW shade fix (#1241)
+
+## 2025-04-24
+- Merge pull request #1235 from liyunfan1223/revert-1125-patch-17
+- Revert "Add possible crash fix when summoning an invalid bot (#1125)"
+
+## 2025-04-22
+- - Added Kologarn Rubble slowdown strategy (#1220)
+- ilvl calculation fixed warfury use case (#1222)
+
+## 2025-04-20
+- Warning fix + ilvl function fix (#1210)
+- ICC Sindragosa and LK Improve (#1216)
+- Resistance usage to ulduar strategy (#1212)
+- Feat/onyxia raid strategy init (#1182)
+
+## 2025-04-18
+- Fix: Prevents bots from learning spells twice (#1211)
+
+## 2025-04-16
+- Add additional trading options (#1186)
+
+## 2025-04-17
+- Added more defense programming (#1195)
+- Kologarn strategy (#1205)
+- ICC LM, LDW & DBS Improve (#1202)
+
+## 2025-04-11
+- Big update InviteToGroupAction.cpp (#1154)
+- Set Lockpicking Skill (#1140)
+- Enable new rpg strategy by default (#1192)
+
+## 2025-04-10
+- Loot packet fix (#1190)
+
+## 2025-04-08
+- - Added skipping disperse tactic while bot is in stay stance (#1180)
+- Move LoadFromDB from player session to world session (#1173)
+- Fix keyring for low level bots (#1177)
+- Make battleground join / arena join / loot money session packet (#1178)
+
+## 2025-04-07
+- Update RaidIccActions.cpp - (#1174)
+
+## 2025-04-04
+- Crash fix: Bots now properly turn their corpse into bones when resurrected so they don't have a second corpse after dying and releasing again. (#1165)
+- Summon improvement: Selfbot no longer complains about being unable to… (#1166)
+
+## 2025-03-31
+- - Added Biting Cold cheat (#1131)
+- Fixed crash in MoveFromWhirlwindAction::Execute function (#1150)
+- Fix multithread issue on LFG and group leave (#1143)
+- Merge pull request #1153 from NoxMax/NoxMax-patch-1
+
+## 2025-03-30
+- playerbots.conf.dist comment fixed
+
+## 2025-03-29
+- This update adds null pointer checks and extra validations to the AttackAnythingAction::isUseful() method, preventing invalid accesses that could cause crashes. (#1135)
+- Crash fix: Bots inviting teleported players. (#1142)
+
+## 2025-03-28
+- Add config option for RND bot trading. (#1132)
+- Add possible crash fix when summoning an invalid bot (#1125)
+- Fix crash in trade status action (#1123)
+- Correct UseMeetingStoneAction to only apply on meeting stone portals
+
+## 2025-03-26
+- BG crash fix: Fixed a crash when the bot was marked as being inside a battleground but had no battleground. (#1122)
+- Make make a full check before questgiver choose such as reputation (#1109)
+
+## 2025-03-25
+- Added Vault of Archavon strategy with Emalon tactics (#1117)
+- BG: Crash fix when bots are trying to determine the eye flagcarrier when the battleground no longer exists (#1119)
+
+## 2025-03-24
+- Chat: Fix index out of bounds crash in case verb_pos equals zero (#1115)
+
+## 2025-03-25
+- ItemUsageValue: Handle items that create required items (#1091)
+
+## 2025-03-24
+- ICC - Implement Val'kyr grabbing bots and dropping (#1098)
+
+## 2025-03-22
+- Fix frost nova crash (#1106)
+
+## 2025-03-21
+- ICC minor update (#1104)
+- - Changed Eye of Eternity healers selection (#1102)
+
+## 2025-03-20
+- Optimize Mountaction: Movement Logic with Early Return for Matching F… (#1099)
+- Stay strategy improvement (#1072)
+
+## 2025-03-18
+- Fix faction count calculation error (#1085)
+
+## 2025-03-17
+- Fix move npc action (#1087)
+
+## 2025-03-18
+- Rogue bots can unlock items in their bags and in the trade window (#1055)
+
+## 2025-03-17
+- - Fixed checking MaxAddedBots (#1083)
+
+## 2025-03-15
+- add ability to add or remove character with same name as account (#1070)
+
+## 2025-03-16
+- Fix rpg game objects quest accept and reward (#1080)
+
+## 2025-03-14
+- Auto do quest feature (new rpg strategy) (#1034)
+- Prevent crash on update SQL (#1076)
+
+## 2025-03-08
+- - Code refactoring in RaidUlduarActions (#1065)
+- General improvement on init and strats (#1064)
+
+## 2025-03-06
+- Merge pull request #1063 from kadeshar/freya-strategies
+- - Added tactic for Freya Nature bomb - Added tactic for Freya Eonar's gift
+- Silence error if preferred mounts SQL table playerbots_preferred_mounts does not exist (#1062)
+- Item Usage and Loot Roll (#1059)
+- fix classbots autogear not working when altbots autogear turned off (#1060)
+
+## 2025-03-05
+- Reinstate cached preferred mounts (#1058)
+
+## 2025-03-04
+- Fix server crash when bots apply strategies on a custom naxx raid (#1052)
+- Fix: Bots not mounting in BG's anymore (#1056)
+
+## 2025-03-03
+- Avoids the possible incorrect swimming state when bots coming ashore (#1051)
+- Fix/Feature: Bots can use travel/flight Shapeshift where appropriate (#1042)
+
+## 2025-03-04
+- Hunter equip bug (#1050)
+
+## 2025-03-03
+- Fix m_CastItem in CastSpell (#1047)
+
+## 2025-03-01
+- Fix SpecialSpells to be correctly applied (#1044)
+- Resolve most warnings - PlayerbotAI (#1025)
+- EnablePeriodicOnlineOffline config and modify CalculateTotalAccountCount (#1043)
+- ChatHelper link localization (#1036)
+
+## 2025-02-28
+- dynamically load database names for cleanup queries (#1040)
+- Improve XP rate config (#1035)
+
+## 2025-02-27
+- Cleanup Database More (#1032)
+
+## 2025-02-26
+- Properly cleanup database with playerbot delete (#1027)
+- Githubactions - Cancel workflow fix (#1029)
+- Githubactions - Cancel workflow on new commits in the same PR (#1028)
+
+## 2025-02-27
+- Allow bots to enter all TBC dungeons (rep/keys/quest attunements) (#1014)
+
+## 2025-02-26
+- Maintenance command to retain defined special spells (#1024)
+
+## 2025-02-24
+- - Fixed Hodir strategy bugs (#1015)
+- Permission check and readability improvements (#997)
+
+## 2025-02-23
+- Fix chat and beautify server promo box (#1008)
+
+## 2025-02-22
+- add enabled hook lists for performance improvement (#1004)
+- Disable Hire command (#1003)
+- Scripts and sessions update to align with acore (#987)
+- Include pvp as default non-combat strat for alt/class bots (#1001)
+- Minor improvments on logs, stats weights and aoe distance calculation (#995)
+- Hunter ammo equip bug and other issues with BuyAction.cpp (#986)
+- Fixes on naxxramas heigan and thaddius (#994)
+
+## 2025-02-21
+- Better tank target selection (#996)
+- Revert expireActionTime (#991)
+
+## 2025-02-19
+- Avoid creating accounts if both maxRandom & ClassBots are set to zero (#984)
+
+## 2025-02-18
+- Fix stuck on knockback, enhance movement & flee and trap weave strats (#980)
+- Change "Initializing guilds..." from INFO to DEBUG (#982)
+
+## 2025-02-17
+- Hodir tactics (#977)
+
+## 2025-02-16
+- Only invoke InitGuild when randomBotGuildCount > 0 (#975)
+
+## 2025-02-15
+- - Added protection for unparsable data in worldposition contructor (#974)
+
+## 2025-02-14
+- Autocalc Accounts - take rotation into account (#971)
+- Replace tabs with spaces (#973)
+
+## 2025-02-15
+- Allow addclass bots that are not in a real guild (#970)
+
+## 2025-02-14
+- Auto calculate RandomBotAccountCount by default (#964)
+- Re-instate random bots guilds (#969)
+
+## 2025-02-13
+- - Fixed loading WorldPosition from string to fix RTSC points loading (#965)
+- edit to announcement  (#967)
+- Add announcement on server initialization and character login (#963)
+
+## 2025-02-11
+- CheckMountStateAction refactor Final (#960)
+
+## 2025-02-10
+- German full translation (#961)
+
+## 2025-02-09
+- Add LimitTalentsExpansion config (#954)
+
+## 2025-02-08
+- Worldbuff startup fix (#951)
+
+## 2025-02-07
+- ICC minor update (#950)
+
+## 2025-02-05
+- Always allow addclass bots login and init (#946)
+
+## 2025-02-04
+- BattleGrounds: Refactor and Fix bots re-spawning when graveyard meanwhile gets lost (#937)
+- ICC Sindragosa minor improve (#943)
+
+## 2025-02-03
+- Improve random accounts creation (#942)
+- Added Frostfire spec for fire mage (#936)
+- Improve login and init permission for rndbots and addclass bots (#930)
+
+## 2025-02-02
+- BattleGround: Fix bot's already cast (ranged) spells to be redirected to bot's ghost on death (#934)
+
+## 2025-02-01
+- MSA Improvement Part 2 (#66) (#933)
+
+## 2025-01-31
+- ICC LK minor update (#931)
+
+## 2025-01-30
+- French full translation (#918)
+- ICC BQL/VDW major update + minor fixes/improvements (#929)
+- fix(BotAI/BattleGrounds) Bots AI improved based around capture points (#927)
+
+## 2025-01-31
+- Eye of the Storm changes (#924)
+
+## 2025-01-30
+- Resolved issues with herb gathering (#926)
+
+## 2025-01-29
+- CheckMountStateAction: Added SPELL_AURA_TRANSFORM and IsInDisallowedMountForm (#923)
+- Arena team type is included in the LOG_INFO output (#925)
+
+## 2025-01-28
+- ICC BPC major update, fix and improve (#920)
+- Refactor of the CheckMountStateAction class (#919)
+
+## 2025-01-26
+- ICC Festergut 10 man fix (#915)
+- Reset added rndbots on server restart to automatically apply configuration changes (#913)
+- Add stuck fallback for rpg move far (#914)
+
+## 2025-01-25
+- ICC improve Rotface (#911)
+- Update formation info to reflect chaos as default (#910)
+- Fix bot swimming behavior at the surface and in shallow waters (#908)
+- Improve gear initialization (#909)
+
+## 2025-01-24
+- Update README.md (#899)
+- Refactor Bot engine Queue (#895)
+
+## 2025-01-25
+- Add undead-rogue to rndbots (#901)
+
+## 2025-01-23
+- Fixed swimming value calculation (#897)
+- ICC sindy Improve (#896)
+- Removed mount action in "protect fc" + reduced support bot chance (#892)
+- Tweaked Alterac Valley so bots kill final bosses (#886)
+
+## 2025-01-22
+- BG: restore !bot->IsInWorld() check (#891)
+- BG: Final fix against potential inconsistencies
+- ICC fixes GS, PP, BQL, SINDY (#885)
+- Fix over-queuing in BG's (#887)
+- Improve ICC spread and fix Valithria trigger (#884)
+
+## 2025-01-21
+- Additional Chatter Lines to ai_playerbot_texts.sql (#864)
+
+## 2025-01-20
+- Feature: Have bots auto join/start all supported BG's (if enabled)  (#877)
+- Streamline and 'fancify' README.md (#882)
+- Merge pull request #880 from liyunfan1223/improve_dps
+
+## 2025-01-19
+- Increase ammo count for hunter
+- Unholy dk gltphs update
+- Frost mage ice barrier health trigger
+- Magic focus magic on party
+- Fix possible mem leak on vigilance
+- Fix shaman enchant inv type
+- Leave group instead of disband group
+- Mage improvement (fire mage aoe)
+- Merge pull request #879 from liyunfan1223/fix_crash_talk
+- Fix comments
+- Hunter wolf pet config and modify config file layout for activities
+- Fix estimated life time with dead group member
+- Fix triggered charged buff check
+- Leave group on login instead of disband group if group is invalid
+
+## 2025-01-18
+- Improve and fix unholy dk rune triggers
+- Improvement hunter track and spell
+- Improvement on warlock life tap glyph
+
+## 2025-01-19
+- Fix talk crash by correcting "nearest game objects"
+
+## 2025-01-18
+- Added ability to specify bot target for spell casting (#874)
+- LK HC update (#876)
+
+## 2025-01-15
+- Performance: Refactored a bunch of functions in Playerbot ai (#865)
+- 10HC until PP (#872)
+- Fix playerbots database request queue stacking (#870)
+
+## 2025-01-14
+- - [Paladin] added crusader aura support (#867)
+
+## 2025-01-13
+- Minor fixes to spell and mount init (#863)
+
+## 2025-01-10
+- LK update (#862)
+- Refactored Engine::DoNextAction (#854)
+- Update PVP Restricted Area (#858)
+
+## 2025-01-11
+- Fix/Enhance warlock pet spells (#860)
+
+## 2025-01-10
+- Update bug_report.md (#861)
+
+## 2025-01-08
+- Delete superfluous semicolon in conf (#856)
+- Merge pull request #850 from liyunfan1223/fix_follow_master
+- Merge pull request #853 from valsan-azerty-boi/ft/conf-min-lvl-mount
+
+## 2025-01-07
+- Update PVP areas (#855)
+
+## 2025-01-06
+- Gunship fix (#846)
+
+## 2025-01-05
+- add bot mount in conf
+
+## 2025-01-04
+- Follow master instead of group master in formation
+- Merge pull request #849 from liyunfan1223/revert-844-paladin_blessings2
+- Revert "Paladins use Greater Blessings"
+- Merge pull request #845 from liyunfan1223/lfg_leave
+- Merge pull request #844 from avirar/paladin_blessings2
+- Remove from group when no real player in lfg group
+- Merge pull request #842 from liyunfan1223/lfg_leave_group
+- BuffTrigger instead of OnParty
+- Arcane Brilliance
+- Arcane Brilliance
+- Arcane Brilliance
+- OnParty
+- Prayer of Fortitude
+- Prayer of Fortitude
+- Gift/Mark of the Wild
+- Gift/Mark of the Wild
+- Gift/Mark of the Wild
+- Add to Paladin default strats
+- Created bgreater strat and trigger/action contexts
+- Create PaladinBuffGreaterBlessingStrategy
+- Create PaladinBuffGreaterBlessingStrategy
+- Create CastGreaterBlessingAction
+- Create CastGreaterBlessingAction
+- Create CastGreaterBlessingTrigger
+- Create CastGreaterBlessingTrigger
+- Create BlessingManager.h
+- Create BlessingManager.cpp
+
+## 2025-01-03
+- ICC Strategy (doable 10/25NM) (#789)
+
+## 2025-01-04
+- Allow use of more portal game objects (#840)
+- Warrior strategy update (#838)
+- Added logic for early ranged/thrown weapon equipping (#839)
+
+## 2025-01-02
+- [performance] smart scaling configurable (#834)
+
+## 2025-01-03
+- Prevent Warriors using Charge during Ionar Disperse and Loken Lightning Nova (#836)
+
+## 2025-01-01
+- Improve inactive grind status
+- Improve rpg movement and grind
+- Fix movement after spell cast
+- Shaman totems enhancement
+- Fix LFG leave group
+
+## 2024-12-31
+- Merge pull request #832 from liyunfan1223/move_backwards
+- Fix FleeAction
+- Add backwards paramater on MoveAway (apply only on FleeAction)
+- Reduce move far attempts for performance
+
+## 2024-12-30
+- Put IsValidAttackTarget check on both bots and their pets (#833)
+- Merge branch 'master' into move_backwards
+- Merge pull request #830 from avirar/arms_warrior_tweak
+- Lowered Heroic Strike for Prot spec too
+- Merge branch 'liyunfan1223:master' into arms_warrior_tweak
+- Merged Fury tweaks into Arms branch for unified PR
+- Merged Fury tweaks into Arms branch to unify PR
+- Merged Fury tweaks into Arms branch
+- Update ArmsWarriorStrategy.cpp
+- Update GenericWarriorStrategy.cpp
+- Prot warriors cast vigilance when in a group (#825)
+
+## 2024-12-29
+- Oculus - fix flying/attacking drake (#827)
+- Make backwards movement for flee
+- Update GenericWarriorStrategy.cpp
+- Added medium aoe trigger for SS/BS combo
+- Update ArmsWarriorStrategy.cpp
+- Update GenericWarriorStrategy.cpp
+- Update ArmsWarriorStrategy.cpp
+- Missing )
+- Adjusted priorities
+- Adjusted priorities
+- Lowered Heroic Strike priority
+- Worldbuff feral druid bear/cat logic (#816)
+
+## 2024-12-28
+- Fix rpg move far (#822)
+
+## 2024-12-27
+- Merge pull request #817 from nl-saw/defchaosform
+- Merge pull request #795 from avirar/razorscale_final
+
+## 2024-12-26
+- Add ratio config for alliance and horde rndbots (#818)
+
+## 2024-12-24
+- Change default formation to Chaos
+- Merge branch 'liyunfan1223:master' into razorscale_final
+
+## 2024-12-22
+- Fix various formations - Issue #749 (#807)
+- [Bugfix] (#809)
+- Update RaidUlduarTriggers.cpp
+- Adjusted priority for fuse armor
+- Removed Static declarations for role assignment cooldowns
+- Refined assignment cooldowns and logic for bot tanks
+- Added logic for bots to offtank
+- Update RaidUlduarBossHelper.cpp
+- Update RaidUlduarBossHelper.cpp
+- Role assignment cooldown mapped per bot
+- Allowed tank bots to reassign roles if human main tank is affected by fused armor
+- Allowed tank bots to reassign roles if human main tank is affected by fused armor
+- Allowed tank bots to reassign roles if human main tank is affected by fused armor
+- Resolved issues with IsRealPlayer and GET_PLAYERBOT_AI
+- Still fixing bot say
+- Fixed bot say
+- Update RaidUlduarBossHelper.cpp
+- Update RaidUlduarBossHelper.cpp
+- Merge branch 'liyunfan1223:master' into razorscale_final
+- Bots say when giving main tank to a real player as request player taunt
+
+## 2024-12-21
+- Make bots use mounts when player is in travel form as well (#806)
+- Merge pull request #804 from kadeshar/worldbuff-strategy
+- 5-8 percent performance increase when when botActiveAlone is 100% and smartScale disabled (#803)
+- Feature: Bots use flying mounts when player has flight form (#805)
+
+## 2024-12-20
+- Added worldbuff strategy
+- Merge pull request #799 from liyunfan1223/fix_joinlfg
+
+## 2024-12-19
+- Minor updates after patches (#801)
+- Merge pull request #800 from liyunfan1223/remove_warrior_mark_rti
+- Remove mark rti strats for tank warrior
+- Comment for threadsafe
+- Fix JoinLFG crash
+- Revert "Make AutoScaleActivity further configurable (#766)" (#798)
+
+## 2024-12-18
+- Make AutoScaleActivity further configurable (#766)
+
+## 2024-12-19
+- Resolved issues with rndbots and equipmentPersistence (#778)
+
+## 2024-12-18
+- Improve check to work in custom defines zones as well (#797)
+- Update RaidUlduarTriggers.h
+- Update RaidUlduarTriggers.cpp
+- Update RaidUlduarTriggerContext.h
+- Update RaidUlduarStrategy.cpp
+- Moved ULDUAR_MAP_ID definition outside RazorscaleBossHelper
+- Update RaidUlduarBossHelper.h
+- Create RaidUlduarBossHelper.cpp
+- Update RaidUlduarActions.h
+- Update RaidUlduarActions.cpp
+- Implemented Razorscale logic
+
+## 2024-12-17
+- Fix bots attacking others despite being in a prohibited zone - Issue 227 (#793)
+- Merge pull request #791 from avirar/stop_attacking_argent_tournament_dummy_targets
+- Merge pull request #792 from xSparky911x/master
+- Merge pull request #759 from liyunfan1223/new_rpg_strats
+- fix typo in requested config value
+- Prevent bots attacking dummy Targets at the Argent Tournament Grounds
+
+## 2024-12-16
+- Merge pull request #786 from Bobblybook/master
+- Merge branch 'master' of https://github.com/Bobblybook/mod-playerbots
+- EoE cleanup
+
+## 2024-12-15
+- Prevent autogear on player alt bots (#772)
+- Fixed config options (#785)
+
+## 2024-12-16
+- Merge pull request #779 from Bobblybook/master
+
+## 2024-12-15
+- botActiveAlone; added new botActiveAlone confguration option (#783)
+- Allow bots to trade conjured items (#781)
+- added additional botActiveAlone confguration options (#780)
+
+## 2024-12-16
+- Increase pet attack priority
+
+## 2024-12-15
+- Update locs level
+- Merge pull request #777 from avirar/titans_grip_weapon_type_restrictions
+- Starter location collection
+- Merge branch 'master' into master
+- Prelim EoE completion
+- New rpg bug fix that preventing bots from long distance movement
+
+## 2024-12-14
+- Fix reload command security (#774)
+- Fix get zone id
+- EnableNewRpgStrategy switch for initialization
+- Update starter position
+- Revert classes folder
+- Enhanced dual wield logic in EquipItem
+- Update EquipAction.cpp
+- Update EquipAction.cpp
+- Update EquipAction.cpp
+- Update EquipAction.cpp
+- Enhanced dual-wield logic
+- Update ItemUsageValue.cpp
+- Update far move to prevent invalid movement
+- Increase reach melee relevance
+- Update starter position
+
+## 2024-12-13
+- Update GO_INNKEEPER prob
+- Modify file structure
+- Merge branch 'master' into new_rpg_strats
+
+## 2024-12-11
+- Update rpg status probability
+
+## 2024-12-10
+- Merge pull request #767 from liyunfan1223/crash_fix_bg
+- [Crash fix] Fix race condition on BattlegroundData
+- Reduce near npc range distance
+
+## 2024-12-08
+- locsPerLevelCache faction filter
+- Modify starter position (add flightmaster)
+
+## 2024-12-07
+- Minor spell enhancement
+
+## 2024-12-06
+- Merge branch 'master' into new_rpg_strats
+- Add a config option for dropping obsolete quests (#745)
+
+## 2024-12-05
+- - added spec configuration for world buffs (#761)
+- Merge pull request #757 from noisiver/support-newer-master
+
+## 2024-12-04
+- Improve performance by ZoneHasRealPlayers and MoveFarTo
+
+## 2024-12-03
+- Improve near npc move
+- Innkeeper position and windows compile error
+- Eye of Eternity skeleton
+- - fixed attack rti target action (#758)
+
+## 2024-12-02
+- Update random bots level stats
+- Logs and rpg status for new rpg strats
+- Remove redundant logs (set to debug level)
+- Use another helper and revert one instance HasPlayerFlag
+- Fix compiler errors and switch to using available helpers
+
+## 2024-12-01
+- - fixed mark rti bug (#755)
+- Warlock soulstone action (#753)
+
+## 2024-12-02
+- Obsidian Sanctum implementation (#752)
+- [New Rpg] Implement GO_INNKEEPER and NEAR_NPC status
+- Obsidian Sanctum implementation
+
+## 2024-12-01
+- Merge pull request #747 from Raz0r1337/master
+- Merge pull request #751 from noisiver/update-character-online
+
+## 2024-11-30
+- Change statement to a newly created one
+- [New Rpg] New rpg start up (add GO_GRIND and NEAR_RANDOM status)
+
+## 2024-11-29
+- Update playerbots.conf.dist
+- Update playerbots.conf.dist
+
+## 2024-11-27
+- Merge pull request #742 from avirar/inCombatErrorTypo
+
+## 2024-11-25
+- database update data folder location (#741)
+
+## 2024-11-26
+- Update InventoryChangeFailureAction.cpp
+
+## 2024-11-25
+- Merge pull request #740 from liyunfan1223/core_sync_241125
+- Naxx core sync
+
+## 2024-11-24
+- Fix print about invalid format (#739)
+
+## 2024-11-19
+- Increased updateInterval booster time (#732)
+- playerbots.conf.dist comment added (#731)
+
+## 2024-11-18
+- Fix a crash in Forge of Souls (#729)
+- Merge pull request #724 from hermensbas/feature/alignment_core_data_folder
+
+## 2024-11-16
+- Fix bots dropping quests that are green (#723)
+- placed sql into the data folder as core/module describes
+- Merge pull request #720 from liyunfan1223/core_sync_241116
+- [Core Sync] Add header file MMapFactory.h
+- Fixed issue with random bots not respecting RandomBotFixedLevel (#714)
+
+## 2024-11-14
+- Allow players to command self-bots instead of getting an I'm busy message. (#707)
+- Fix Crashs Formation Arrow (#708)
+- Fix LfgAction (#690)
+
+## 2024-11-15
+- Updated ItemUsageValue to handle unique items that are not equipped (#712)
+
+## 2024-11-13
+- Questdetails popup for bots without quest attached. (#705)
+- [performance] enable autoscale again on top of latest changes (#711)
+- [performance] minor changes (#709)
+- Merge pull request #672 from LFTEC/master
+
+## 2024-11-10
+- Merge pull request #700 from Bobblybook/master
+- Dungeon strat improvements (GD & UP)
+
+## 2024-11-08
+- Merge pull request #699 from Bobblybook/master
+- Merge pull request #697 from liyunfan1223/Update-readme
+- Merge branch 'master' into master
+- Offhand equip bugfix
+
+## 2024-11-07
+- Update README.md
+
+## 2024-11-08
+- Handle bot gear upgrades for multi-slot items (#695)
+
+## 2024-11-07
+- Update EquipAction.cpp
+- Handle bot gear upgrades for multi-slot items
+
+## 2024-11-06
+- 2024-11-6 correct problems
+- 2024-11-6 correct problems of forge of souls bronjahm strategy
+- date: 2024-11-06
+
+## 2024-11-05
+- Update LfgAccept (#681)
+- [performance] bots scale idle fix (#678)
+- Merge pull request #680 from Bobblybook/master
+- Dungeon botAI bugfixes
+
+## 2024-11-03
+- Set _isBotInitializing if randomBotAutologin=0 (#670)
+- date: 2024-11-3 bronjahm strategy
+- 2024-11-3
+
+## 2024-10-30
+- add strategy about bronjahm
+- [performance] side-effect of other bug causes to stay inactive when botAmount min/max not equal
+
+## 2024-10-29
+- [performance] Added additional circle of life, 600 yards (#655)
+- [performance] server_and_bot_init_phase_patch2 (#653)
+- [performance] server_and_bot_init_phase_patch1 (#652)
+- Limit JC jeweler's gems to 3
+- [performance] initialize server and bots fase
+- [performance] new baseline (#644)
+- Fix new compiler errors (#645)
+
+## 2024-10-27
+- Oculus implementation
+
+## 2024-10-23
+- Fix the level when a quest becomes trivial (grey/gray)
+
+## 2024-10-21
+- Update OldKingdomActions.cpp
+- Typo
+- UP and CoS dungeons
+
+## 2024-11-03
+- Fix Crash QuestAction (#665)
+- Fix Crash SayToChannel (#666)
+
+## 2024-11-01
+- disabled smartscale by default for now (#663)
+- Merge pull request #662 from Bobblybook/master
+- Oculus crash fix
+
+## 2024-10-31
+- Merge pull request #659 from Bobblybook/master
+- Fix healer and tank multiplier on Krikthir
+
+## 2024-10-30
+- Merge pull request #657 from liyunfan1223/sync_241030
+- [Sync] Core sync 20241030
+- date: 2024-10-30 fos bronjahm v1
+- Merge pull request #656 from hermensbas/feature/performance_old_broken_calc_breaks_functionalitiy
+- [performance] side-effect of other bug causes to stay inactive when botAmount min/max not equal
+
+## 2024-10-29
+- [performance] Added additional circle of life, 600 yards (#655)
+- [performance] server_and_bot_init_phase_patch2 (#653)
+- [performance] server_and_bot_init_phase_patch1 (#652)
+- Merge pull request #648 from Bobblybook/master
+- Merge pull request #651 from hermensbas/feature/performance_server_and_bot_init_phase
+- [performance] initialize server and bots fase
+- Limit JC jeweler's gems to 3
+- [performance] new baseline (#644)
+- Fix new compiler errors (#645)
+
+## 2024-10-27
+- Merge pull request #642 from Bobblybook/master
+- Oculus implementation
+
+## 2024-10-23
+- Merge pull request #634 from noisiver/fix-trivial-level
+- Fix the level when a quest becomes trivial (grey/gray)
+
+## 2024-10-21
+- Merge pull request #631 from avirar/AvoidShadowCrashAction_crashfix
+- Merge pull request #632 from Bobblybook/master
+- Typo
+- UP and CoS dungeons
+- Update OldKingdomActions.cpp
+- Merge pull request #618 from avirar/armor_token_usage
+- Merge pull request #625 from Bobblybook/master
+- Merge pull request #630 from Jellypowered/mining-skinning
+- Merge branch 'liyunfan1223:master' into armor_token_usage
+
+## 2024-10-20
+- Update Items Eligible for Professions
+- Merge pull request #627 from EricksOliveira/patch-1
+- Fix Logs LOG_ERROR for LOG_DEBUG
+- Update HallsOfStoneActions.cpp
+- Merge branch 'master' of https://github.com/Bobblybook/mod-playerbots
+- Update UtgardeKeepTriggers.h
+- Merge branch 'master' into master
+- Update NexusActions.cpp
+- Reapply "Dungeon code cleanup"
+- Merge pull request #622 from Bobblybook/master
+- Revert "Dungeon code cleanup"
+- Dungeon code cleanup
+- Update LootRollAction.cpp
+
+## 2024-10-19
+- Merge pull request #624 from EricksOliveira/patch-7
+- Merge pull request #623 from EricksOliveira/patch-6
+- Fix Crash The Nexux
+- Fix Crash q [ link item ]
+- Reapply "Preferred mount selection for bots"
+- Merge pull request #621 from Bobblybook/master
+- Revert "Preferred mount selection for bots"
+- Preferred mount selection for bots
+- Winged Steed of the Ebon Blade northrend fix
+- Merge pull request #612 from EricksOliveira/patch-4
+- Merge pull request #616 from EricksOliveira/master
+- Merge pull request #619 from noisiver/fix-typo-and-split-files
+- Fix a typo
+- Move tables into their own files
+- Merge pull request #615 from Bobblybook/master
+- Merge branch 'liyunfan1223:master' into armor_token_usage
+- Update LootRollAction.cpp
+
+## 2024-10-18
+- Revert "Update PlayerbotCommandServer.cpp"
+- Update PlayerbotCommandServer.cpp
+- Merge branch 'master' of https://github.com/liyunfan1223/mod-playerbots
+- Fix Crash - OnBotLogin
+- HoL updates
+- Halls of Lightning implementation
+- Merge pull request #610 from Trus3683/patch-1
+- Update LootRollAction.cpp
+
+## 2024-10-17
+- Fix Bug Bot blocked in PT
+
+## 2024-10-18
+- Update LootRollAction.h
+- Update LootRollAction.cpp
+
+## 2024-10-17
+- Merge pull request #611 from hermensbas/feature/bugfix_and_back_orginal_values
+- minor bugfix and back to original cmangos values
+- Visual update playerbots.conf.dist
+- Merge pull request #609 from hermensbas/feature/revert_rewrite_scaling
+- Revert "Rewrote scaling, moving away from cmangos solutions"
+- Merge pull request #605 from Bobblybook/master
+
+## 2024-10-15
+- Halls of Stone implementation
+
+## 2024-10-14
+- Merge pull request #597 from avirar/clean_quest_log
+- Merge pull request #602 from EricksOliveira/patch-3
+
+## 2024-10-13
+- Fix LFG Join bug
+
+## 2024-10-14
+- Merge pull request #601 from hermensbas/feature/minor_istaxiflying_method_usage
+
+## 2024-10-13
+- Replaced isTaxiFlying check with new function
+
+## 2024-10-14
+- Merge pull request #600 from hermensbas/feature/rewrite_scaling
+
+## 2024-10-13
+- Rewrote scaling, moving away from cmangos solutions
+- Merge pull request #599 from Bobblybook/master
+- Gundrak implementation
+- Merge pull request #598 from hermensbas/feature/smartscale_added_missing_activity
+- [performance] Smartscale added missing acitivity
+- Merge branch 'liyunfan1223:master' into clean_quest_log
+
+## 2024-10-12
+- Merge pull request #596 from Bobblybook/master
+- Update VioletHoldTriggers.h
+- Comment cleanup
+- Violet Hold implementation
+- Generalise dragon flanking action
+- Merge pull request #595 from hermensbas/feature/autoscale_profile_increase_slightly_more_aggrassive
+- [performance] SmartScale slighty more aggresive, after testing i found some bots to active
+- Update DropQuestAction.cpp
+
+## 2024-10-11
+- Merge pull request #594 from hermensbas/feature/autoscale_last_feature_latency_scaling
+- Autoscale latency modifier
+- Merge pull request #593 from hermensbas/feature/autoscale_tweaking
+- [performance] Tweaked autoscale, too many rndbots were idle which defeats the purpose of having rndbots
+- Merge pull request #591 from hermensbas/feature/BotActiveAlone_SmartScale_Toggle_Min_Max_level
+- Merge pull request #592 from Bobblybook/master
+- corrections
+- DTK Implementation
+
+## 2024-10-10
+- Added min and max level for smartScale
+- Merge pull request #588 from hermensbas/feature/BotActiveAlone_SmartScale_Toggle
+
+## 2024-10-09
+- [performance] BotActiveAlone SmartScale toggle
+- Merge pull request #586 from Bobblybook/master
+
+## 2024-10-08
+- Old Kingdom implementation
+- Merge pull request #580 from hermensbas/feature/increasing_server_memory_patch
+
+## 2024-10-07
+- Ported cmangos of allowAcitity and prority, removed autoscaled based on latency
+- Merge pull request #585 from Bobblybook/master
+- Remove debug #2
+- Remove debug
+
+## 2024-10-06
+- Merge pull request #583 from liyunfan1223/update_optimize
+
+## 2024-10-07
+- Azjol-Nerub implementation
+
+## 2024-10-06
+- Merge pull request #582 from liyunfan1223/fix_interrupt
+- [Spell] Dont interrupt spell on drop target
+- [Performance] YieldThread when casting spell
+- [Performance] Pull up CanUpdateAI() check
+- Merge pull request #581 from hermensbas/feature/increasing_server_memory_prepatch
+- Merge pull request #578 from Bobblybook/master
+- increased interval to 20 to mitigate memory issues
+- Typo
+- Nexus implementation & dragon flank code
+
+## 2024-10-05
+- Merge pull request #577 from noisiver/fix-null-check
+- Utgarde Keep strat cleanup
+- Correct fingers of frost mage AI
+
+## 2024-10-04
+- Use empty() instead of size()
+- Fix typo in log message
+- Add check to make sure there are races available for a class
+- Merge pull request #576 from liyunfan1223/assist_dps
+- [Strategy] Rename "assist dps" to "healer dps"
+- [Core sync] Add DynamicObject.h
+- [Spell] Healer spell enhancement
+- [Spell] Priest prayer of mending buff owner
+- [Spell] Fix alternative healing spell
+- [Spell] SpellInfo check on current spell
+- [Movement] Modify combat reach calculation
+- [AI] Remove reset after near teleport
+- [Spell] Handle tree of life and assist dps
+
+## 2024-10-03
+- [Assist Dps] Healer assist dps strats
+
+## 2024-10-04
+- Merge pull request #575 from avirar/master
+- Update UtgardeKeepTriggers.cpp
+
+## 2024-10-03
+- Merge pull request #562 from hermensbas/feature/performance_botActiveAutoScale
+- Merge pull request #572 from hermensbas/feature/fix_end_of_lines
+- added acitivty autoscale and related config property
+- CRLF replaced with LF
+- Merge pull request #571 from liyunfan1223/interrupt_heal
+- Merge pull request #570 from liyunfan1223/fix_party_buff_crash
+- Merge pull request #569 from avirar/master
+- Merge branch 'liyunfan1223:master' into master
+- [Spell] Interruption healing spell if target with full health
+- Merge pull request #566 from EricksOliveira/patch-2
+- [Crash fix] Party buff check
+- Update OpenItemAction.h
+- Update ChatActionContext.h
+- Merge branch 'liyunfan1223:master' into master
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update ChatActionContext.h
+- Update TeleportAction.cpp
+- Merge pull request #565 from EricksOliveira/patch-1
+- Merge pull request #564 from noisiver/fix-warning
+- Update and rename OpenItemAction_v2.cpp to OpenItemAction.cpp
+- Add files via upload
+
+## 2024-10-02
+- Update PlayerbotAI.cpp
+- Update QueryQuestAction.cpp
+- Silence totalDps being uninitialized
+
+## 2024-10-01
+- header defs
+- Update UtgardeKeepTriggers.h
+- Indentation and misc cleanup
+- Merge pull request #560 from Bobblybook/master
+- Merge pull request #561 from hermensbas/feature/config_sync_correction
+- Merge pull request #555 from hermensbas/feature/optimizes_teleporting
+
+## 2024-09-30
+- Aligned the 'BotActiveAlone' conf and coded value
+- teleport optimizations
+
+## 2024-10-01
+- Placeholder structure
+
+## 2024-09-30
+- Variable cleanup
+- Wotlk dungeon structure & Utgarde Keep
+
+## 2024-09-29
+- Merge pull request #554 from hermensbas/feature/mitigation_server_OOM_problem
+
+## 2024-09-27
+- Optimized the firstRandomize, increase pressure when balancing, lower pressue completed
+- Merge pull request #551 from liyunfan1223/fix_tank_face
+- [Combat formation] Fix leftover code
+
+## 2024-09-26
+- Merge pull request #549 from liyunfan1223/combat_formation
+- [Attack target] Fix a target selection bug that causing bot stuck
+- [Spell cast] Fix channeled spell cast (mind control)
+- [Tank target] Improve position
+- [Combat formation] Compatible with naxx and avoid aoe
+- [Tank target] Improve main tank target selection
+
+## 2024-09-25
+- [Knockback] Fix knockback causing stuck in Ahnqiraj
+
+## 2024-09-24
+- [Knockback] Fix knockback direction
+- [Tank face] Improve angle calculation
+- Tank face and dps behind
+
+## 2024-09-23
+- Merge pull request #546 from liyunfan1223/icc_gunship
+- [CI] Fix macos
+- Fix cannon enter
+- Icecrown gunship strategy
+
+## 2024-09-21
+- Merge pull request #538 from liyunfan1223/disable_test_items
+
+## 2024-09-18
+- Disable test items
+- Merge pull request #536 from liyunfan1223/crash_prequest
+
+## 2024-09-17
+- Fix crash of prequest
+
+## 2024-09-13
+- Merge pull request #524 from hermensbas/feature/initialize_server_and_bots_performance_config_sync
+
+## 2024-09-12
+- correction synced playerbots.config.dist and PlayerbotAIConfig class
+- Merge pull request #522 from hermensbas/feature/initialize_server_and_bots_performance_config
+- Minor correction forgot to update the imperative default configs
+
+## 2024-09-11
+- Merge pull request #521 from liyunfan1223/readme_update_documentation_link
+- Update README.md
+- Update README.md
+- Merge pull request #520 from liyunfan1223/name_creation_check
+- Name creation check
+- Merge pull request #517 from liyunfan1223/fix_ammo
+- Merge pull request #514 from hermensbas/feature/initialize_server_and_bots_performance
+
+## 2024-09-10
+- Optimized the init bots, assign first level and teleportForLevel
+- Fix prioritized targets reset
+- Reset prioritized targets
+- Merge pull request #515 from fuzzdeveloper/bwl-strats
+- Disable pet taunt
+- refactored BWL's action/trigger context's to be consistent with other raids (which define these things in header files with raid name in it, and in the same directory as other raid related code)
+- Merge branch 'master' into bwl-strats
+- bots in BWL will now use hourglass-sand to cure affliction-bronze
+
+## 2024-09-09
+- Reduce inner focus usage
+- Temporary ammo init fix
+
+## 2024-09-08
+- Merge pull request #512 from liyunfan1223/avoid_aoe_whitelist
+- Remove mana potion -> drink alternative
+- Can equip weapon type fix
+- Quest auto pick "yes"
+- Avoid aoe max radius and whitelist
+
+## 2024-09-07
+- Merge pull request #511 from liyunfan1223/fix_spell_corpse
+- Fix spell allowing dead target
+- Merge pull request #509 from liyunfan1223/spell_interruption
+- Serveral crashes fix
+- Merge branch 'master' into equip_init
+- Spellcooldown and instance refresh on randomize
+- Merge pull request #508 from atidot3/extractregexfix
+- Unholy dk
+
+## 2024-09-06
+- Fix avoid aoe crash
+- Unholy dk
+- Arm warrior and dk
+- Improve combat reach and dps target, allowing spell interruption
+
+## 2024-09-05
+- Merge pull request #507 from liyunfan1223/equip_init
+- Optimised ExtractAllQuestIds ExtractAllItemIds
+- Fix initself crash
+- Fix unique equip init and bots login
+- Fix DeleteRandomBotAccounts crash
+
+## 2024-09-04
+- TwoRoundsGearInit config option
+- Init equipment and init available spell speed up
+- Misdirection and tricks of the trade
+- Item usage and equip initialization
+- Hunter pet talents init
+- Dps hunter
+- Dps paladin
+- Rewrite stats overflow calculation
+
+## 2024-09-02
+- Merge pull request #506 from liyunfan1223/estimated_group_dps
+- weapon type fix
+- Drink threshold with freefood
+- Warnings fix
+- Cat druid energy control
+
+## 2024-09-01
+- Improve estimated group dps
+- Merge pull request #502 from liyunfan1223/druid-cat
+- Merge pull request #504 from fuzzdeveloper/aq20-ossirian-strat
+- aq20 ossirian strat
+- Ferocious bite time fix
+- melee attacker arc
+- General trigger fix
+- Estimated dps calculation
+- Shaman stats weight and totem
+- Cat druid optimization
+- Shaman maelstrom weapon
+- Fix addclass
+- Merge pull request #503 from atidot3/master
+
+## 2024-08-31
+- fix double chat
+
+## 2024-09-01
+- Estimated group dps calculation
+
+## 2024-08-31
+- Keep bear strategy for bear druid in bg
+- Improve druid cat spec
+- Merge pull request #500 from liyunfan1223/fix-addclass
+- Add PlayerbotAIConfig
+- Speed up addclass with pre calculation
+- Test items filter
+- Merge pull request #499 from liyunfan1223/macos_CI
+- Enable macos CI
+
+## 2024-08-29
+- Merge pull request #497 from atidot3/fix_quest
+- Fix double squar
+
+## 2024-08-27
+- Merge pull request #495 from fuzzdeveloper/move-from-group-and-baron-geddon
+
+## 2024-08-26
+- added mc/moltencore strat (just for baron geddon's inferno and living-bomb)
+- added 'move from group' action/strat/shortcut-action
+
+## 2024-08-25
+- Merge pull request #491 from liyunfan1223/dev_0825
+- [Crash fix] Try to fix lfg crash
+- Bot creation wait time
+- Auto learn spell only for random bots
+- Kill broadcast
+- Ulduar flame leviathan improvement
+- [Crash fix] Circle formation
+
+## 2024-08-22
+- Merge pull request #489 from hermensbas/feature/performance_botnames_loading_with_cache
+
+## 2024-08-21
+- Minor correction in logging text and removed in_use from the playerbots_names table and added an additional index for the fallback
+- Loading the botnames from a cache
+
+## 2024-08-20
+- Merge pull request #488 from fuzzdeveloper/mounting-changes
+- bot will no longer mount to reach target within 21 units (as this is the distance at which the time taken to cast mount spell is more than the time saved by moving faster), warrior bot will now dismount with enough distance to perform charge (rather than right infront of target which real warrior wouldnt do)
+- fixed bug I introduced in f87c87f5d4f5aefbf8db0a139d02b5989bf7b587 where bots wont dismount when they should
+- Merge pull request #487 from liyunfan1223/flame_leviathan
+- Fix flame leviathan chasing
+- SaveToDB in randomize
+
+## 2024-08-19
+- Config option ApplyInstanceStrategies
+- [Crash fix] Duplicate loading bot
+- Merge pull request #486 from liyunfan1223/misc_0819
+- Ulduar flame leviathan (normal mode)
+- [Talk] Disable ExtractAllItemIds for heavy regex
+- Add quest rewards to gear initialization
+
+## 2024-08-18
+- Merge pull request #485 from atidot3/master
+
+## 2024-08-17
+- Fix bot taking unwanted quest
+- Fix double ap calculation for ranged class
+
+## 2024-08-15
+- Spells
+- Merge pull request #479 from fuzzdeveloper/self-bot-and-crash-fixes
+- fix for bots trying to mount in WSG and AV tunnels
+
+## 2024-08-14
+- potential fix for #94 (not 100% sure as can't reproduce)
+- potential fix for #469 (not 100% sure as can't reproduce)
+- [Arena] self bot now leaves finished arena game reliably (may also fix issues with other bot types leaving arena or all bot types leaving BG's but I wasnt able to reproduce any 'bots stay in bg/arena' bugs except self-bots in arena)
+
+## 2024-08-09
+- [Battlegrounds] fix bot self respawn in battleground
+
+## 2024-08-15
+- Merge pull request #476 from liyunfan1223/fix-lag
+
+## 2024-08-14
+- Fix hunter melee attack
+- Fix lag in choose rpg target
+- Merge pull request #475 from liyunfan1223/dev-0814
+- Levelup maintenance compile
+- CI
+- Aggresive water elemental
+- Dynamic delay
+- Movement priority
+- Levelup maintenance
+- Improve class spell and use trinket
+- Merge pull request #474 from liyunfan1223/fix-chat
+- Fix on autoLearnQuestSpells
+- Revert auto learn spell
+- Remove duplicate message spam
+- Complete quest end with interacting with gameobject
+- Correct config options
+- Crash fix when enableBroadcasts=0
+- Merge pull request #433 from atidot3/bot_questing
+
+## 2024-08-13
+- Missing packet turn in query quest handler
+
+## 2024-08-14
+- Merge pull request #471 from CiMaWi/name-rework
+
+## 2024-08-13
+- Restore <questgiver quest details> to allow bot to take quest from GOB
+- Fix merge conflict
+- Merge pull request #445 from atidot3/oil_fix
+- Merge pull request #470 from CiMaWi/pmon-improvements
+- Name Rework: 1. Arena Team & Guild Names: Edited/deleted/replaced many names by hand, removing potentially offensive names, grammatical inconsistency, faction-specific names (since there is no faction categorization), non-standard spelling, etc. After the rework there are 100 arena team names per bracket & 400 guild names, which is fewer than before, but should be enough. 2. Replaced the playerbot name list with 100k names (some overlap), split into 5k names per race and gender, with human & undead sharing the same pool of double size. Module code has been edited to assign created bots a name specific to their race. 3. Minor: Random race is now guaranteed to be assigned, removing the miniscule chance of failure in 15 attempts.
+- Performance Monitor Improvements: 1. Added command for runtime toggle 2. Changed where tick time is captured to properly capture per-tick statistics (matching cmangos playerbots)
+
+## 2024-08-12
+- fix merge master conflict
+- Merge branch 'liyunfan1223:master' into oil_fix
+- Merge pull request #466 from liyunfan1223/fix-transport
+- Collision check in movement
+- Fix movement on transport
+- Fix transport movement
+- Merge pull request #463 from liyunfan1223/rewrite-equip-score2
+- Change config description and default value
+
+## 2024-08-11
+- Merge branch 'master' into rewrite-equip-score2
+- Merge pull request #462 from liyunfan1223/fix-trade
+- ID fix (Darkmoon Card: Wrath)
+- Limit expansion for enchant and gear by default
+- Handle increase health aura
+- Reduce stackable spell score
+- Enable quality blend
+- More spell to stats calculation
+- Merge branch 'liyunfan1223:master' into oil_fix
+- Merge branch 'liyunfan1223:master' into bot_questing
+- Item spell coverage calculation
+
+## 2024-08-10
+- Trigger spell availability check
+- Deathnight enchant check
+
+## 2024-08-09
+- Add power regen stats
+- Stats collector for more spell
+
+## 2024-08-08
+- Fix oil priority based on weapon type and code reduncy
+- Merge pull request #454 from fuzzdeveloper/fix-eots-mounting-bug
+
+## 2024-08-07
+- Handle command and trade check for summoned bot
+
+## 2024-08-08
+- Rewrite stats weight and item score calculation
+- Merge branch 'liyunfan1223:master' into oil_fix
+- Merge branch 'liyunfan1223:master' into bot_questing
+- [Battlegrounds] fixed bug I introduced in PR#422 where bots alternate mount/unmount near flag indefinately, also fixed other erroneous uses of sqrt on distances
+- Merge pull request #450 from liyunfan1223/fix_gear_quality2
+- Fix itemQuality for random bots
+- Merge pull request #447 from fuzzdeveloper/wsg-fixes
+- Merge pull request #448 from liyunfan1223/fix_gear_quality
+
+## 2024-08-07
+- [Battlegrounds] fix for #424 - flag carrier not fighting back when enemy has flag too and bot is hiding
+- Handle command and trade check for summoned bot
+- Fix gear quality issue for random bots
+- db update file
+- fix the fix
+
+## 2024-08-06
+- [Battlegrounds] wsg pathing fix for #442
+- Merge pull request #446 from fuzzdeveloper/ioc-fixes
+- Merge branch 'liyunfan1223:master' into bot_questing
+- cleaned up movement code (and left comment for liyunfan)
+- [Battlegrounds] many IOC fixes: fixed bots not being able to revive in their own base GY, fixed bots not able to use flags in IOC at all (couldnt cap anything), added path so bots could reach boss and several other paths too, fixed horde bots not being able to tell that alliance gate is down (stayed outside forever), fixed bots not able to get in vehicles, fixed bots not able to drive vehicles, fixed bots in vehicles becoming unresponsive after a fight (in-combat status seems to never clear in vehicle which may be AC bug), reduced bot 'agro distance' when in vehicle so they can get to their objective, redid selectObject strat completely, prevented bots using cannons (bots are useless in them) and catapults (they dont know how to use them), prevented bots using Glaive Thrower's Blade Salvo as it's bugged (and stops them using any attacks after they use it), many other fixes
+- Fix oil issue
+- Merge pull request #440 from liyunfan1223/fix-combat-reach
+- Fix move delay and reach combat
+
+## 2024-08-05
+- Merge branch 'liyunfan1223:master' into bot_questing
+- Merge pull request #439 from liyunfan1223/performance
+- Merge branch 'master' into bot_questing
+- Merge branch 'liyunfan1223:master' into master
+- Disable macos CI
+- Improve containsstrategy performance
+- Improve party member to heal and has aura to dispel check performance
+- Add missing rpg triggers
+- macos CI
+- Try to fix macos CI
+- Waypoint for move random
+- Ensure move to rpg target a valid position
+- Config for fast react in bg
+- Code style
+- Better waypoints for combat reach
+
+## 2024-08-03
+- Allow spell casting during movement
+
+## 2024-08-05
+- Merge pull request #435 from liyunfan1223/mount0804
+
+## 2024-08-04
+- removed unwanted changes because of branch merging
+
+## 2024-08-05
+- Revert reach combat to
+
+## 2024-08-04
+- Code style
+- Dismount distance check
+
+## 2024-08-03
+- Check mount state
+- Make better move point for follow and reach combat
+
+## 2024-08-04
+- Fix code indentation
+- Merge code line
+- Chat tweak, guild bots management tooggle
+- Merge pull request #405 from liyunfan1223/code-style-and-check
+- Run clang-format
+
+## 2024-07-29
+- CI for Code style
+- .clang-format and code format script
+
+## 2024-08-03
+- Merge branch 'liyunfan1223:master' into dedicated
+- Merge pull request #427 from liyunfan1223/mount_0731
+
+## 2024-08-02
+- Allow bots to manage their own quest log and removed quests based on conditions
+
+## 2024-08-03
+- Merge pull request #423 from liyunfan1223/improve-knockback
+- Enable mount for random bots
+- Fix mount bug after bot logout
+- Enable flight mount for bots
+
+## 2024-08-02
+- optimization loop
+- Merge pull request #422 from fuzzdeveloper/bots-hiding-in-av-flags-fix
+- [Battlegrounds] additional change I meant to include last commit
+- [Battlegrounds] bots will no longer hide within flagpoles when capping points in AV AB or IOC
+
+## 2024-08-01
+- Last fixes on chat + database incorrect charset
+- Chat refactor quests and generic + suggest
+
+## 2024-07-31
+- Fix knockback vertical speed
+
+## 2024-07-30
+- [Movement] Improve knockback
+
+## 2024-08-01
+- Merge pull request #419 from liyunfan1223/fix-trigger
+
+## 2024-07-31
+- Refactoring bot chat and sayaction caused by group crash <NOT FINISHED>
+- Merge pull request #418 from mtm84/code-cleanup
+- Fix knockback vertical speed
+- Rework in progress crash chat botgroup
+- Fix triggers bug
+- Fix crash: PlayerbotAI::FindOilFor was making the server randomly crashing ChooseTravelTargetAction::getNewTarget: when active bot groupping was making the server crash as looking for unexisting params
+
+## 2024-07-30
+- Update RandomPlayerbotFactory.cpp
+- Update RandomPlayerbotFactory.h
+- Update RandomPlayerbotFactory.cpp
+- Update RandomPlayerbotFactory.h
+- fix settarget + test force accept quest after complete one
+- Quest polish + log fixes
+- add log console + drop quest info
+- fix missing log
+- Bot should be more consistent at doing quest +several fixes
+- Merge pull request #415 from atidot3/master
+- [Movement] Improve knockback
+- [Movement] Revert knockback
+- [Movement] Improve knockback
+- Merge branch 'liyunfan1223:master' into master
+- missing conf parameters
+- Merge pull request #410 from fuzzdeveloper/eots-fixes
+
+## 2024-07-29
+- Merge pull request #411 from noisiver/fix-lootguid
+- Merge pull request #406 from CrypticAvocado/fix-autojoin-rated-arena-battlegrounds
+- Merge pull request #409 from liyunfan1223/fix-spec-link
+- Fix another instance of the wrong guid being assigned
+- Merge branch 'master' into eots-fixes
+- Merge branch 'master' into fix-autojoin-rated-arena-battlegrounds
+- Fix formatting and use correct value data type
+- Merge pull request #407 from noisiver/fix-compile-errors
+- Merge pull request #404 from atidot3/master
+- Fix spec tabs error
+- [Battlegrounds] EOTS - improved path selection, bots no longer just hide near spawn when they have flag but no objective (they try to take to neutral or enemy point with to capture both point then flag), bots now defend points on their side of map more aggressively
+- Fix compile errors related to sSpellMgr
+
+## 2024-07-28
+- removed useless string
+- Add parameters to allow bot to talk in guild + fix multi guild same message + bot in group wont ask for dungeon
+
+## 2024-07-29
+- Merge pull request #402 from liyunfan1223/dev0728
+- Fix rated arena and battleground bot autojoining
+
+## 2024-07-28
+- reduce spam
+- fix current_zone_name incorrect values + refactoring guild broadcast simplier + refactoring randomTalk to actually use area / zone general etc
+
+## 2024-07-29
+- Revert stats weight calculation
+- [Initialization] Mount for nightelf (remove Swift Zulian Tiger)
+- Allow greater control of Arena team creation
+- Improve arena positioning based on class
+
+## 2024-07-28
+- Polish bot chatting
+- Remove can not enter message
+- Account creation info message
+- Unholy Deathknight
+- [Initialization] Ammo init
+- [Initialization] Fix unique gem
+- teleport for randomize first
+- Merge pull request #386 from atidot3/locale_fix
+- Merge branch 'liyunfan1223:master' into locale_fix
+- removed action error log
+- Merge pull request #396 from noisiver/transports
+- Merge pull request #397 from noisiver/loot-quest-objects
+- Merge pull request #398 from liyunfan1223/fix-misc
+- [CI] Fix bad CI
+- [Command] Fix revive condition for summon
+- Merge pull request #395 from atidot3/master
+- [Command] Command filter for multiple players
+- Fix bots looting quest objects
+- Fix debug message
+- Add bots to transports
+- missing eTalkType enum on trade chat
+- Allow bot to talk in guild when they loot nice item, levelup, kill unique monsters
+- Allow bot to attack mobs they need to kill / loot for quests up to 5 levels above their level
+
+## 2024-07-27
+- Fix chain link broken (random) unknown + dbc local enus force in some case (spell / chathelper etc)
+- Merge pull request #392 from atidot3/shaman_fix
+- Merge branch 'liyunfan1223:master' into shaman_fix
+- Fix shaman cure strategy
+- Fix spellid value to use forced enUS locale
+- using config to toggle chat functionnality and suggest dungeon
+- Suggest dungeon implementation + log action unknown to help debug
+
+## 2024-07-26
+- Merge pull request #385 from liyunfan1223/quick-ci
+- [CI] ccache for linux build
+- Merge branch 'liyunfan1223:master' into locale_fix
+- [CI] core_build key order
+- Merge pull request #384 from liyunfan1223/fix-formatitem
+- [Battlegrounds] bots now jump down from starting platforms in EOTS, fixed assymetric flag cap strategy between teams
+- [CI] CI cache
+- [Crash fix] Fix format item crash
+
+## 2024-07-25
+- fix log
+- Progress on channels and say yell etc
+- Fix crash
+- Merge branch 'liyunfan1223:master' into locale_fix
+- Merge pull request #381 from noisiver/fix-translation-commit
+- Fix import issues after French translation commit
+- Merge branch 'liyunfan1223:master' into locale_fix
+- Merge pull request #380 from liyunfan1223/fix-invite
+- Merge pull request #377 from atidot3/master
+- [Configuration] Better frost mage talent
+- [Class spell] Optimize toggle pet spell
+- [Console] Fix .playerbot bot console message
+- Say debug + fixes
+- French + locale dbc use fix
+- More french translation
+
+## 2024-07-24
+- [Warning] Fix warnings
+- [Avoid aoe] Fix crash
+- [Initialization] Remove duplicate mount init
+- [Configuration] Make more options for ReviveBotWhenSummoned
+
+## 2024-07-23
+- [Command] Language locale check
+
+## 2024-07-22
+- [Command] Only follow the command given by master when multiple player one group
+- [Interaction] Set the group inviter as master instead of the group leader
+
+## 2024-07-24
+- Fix LFG random classic dungeon limitation level issue
+- [Battlegrounds] fixed main EOTS issues (teleport bots off starting platform, fixed incorrect BG objective for the bases), still some minor pathing issues present
+- Merge pull request #367 from liyunfan1223/self-command
+
+## 2024-07-23
+- Merge pull request #369 from noisiver/optimize-pvp-flag-check
+- Remove StartTime from PvP check
+- Merge pull request #360 from Bobblybook/master
+- Frost mage freeze procs complete
+- Frost mage test triggers
+- Freeze snare testing
+- Cone of Cold isUseful check
+- Proper FoF stack handling
+
+## 2024-07-22
+- Proper FoF combo, non-arbitrary weightings
+- Merge branch 'master' into self-command
+- Merge pull request #366 from pilovm/308-fix-multiple-spell-cast-attempts
+- Does not reassign castCount so it being casted only once
+- Merge pull request #365 from fuzzdeveloper/more-av-fixes
+- [BattleGrounds] fix for mac/linux build failing
+- [BattleGrounds] just a few little fixes before PR
+- Merge branch 'master' into more-av-fixes
+- Optimize the check for PvP flag
+- Merge branch 'master' into self-command
+- Merge pull request #364 from noisiver/fixes-for-newer-azerothcore
+- Merge branch 'master' into more-av-fixes
+- [BattleGrounds] Bots no longer needlessly dismount in BG's when near a creature (eg: AV rams). AV: attacking bots now concentrate on final GY and boss when all enemy towers are down (prevents them running back to previous GY's when they should just down the boss), attacking bots now try to get first enemy GY before first tower (helps alliance), bots respawning in cave starting area's now leave cave before selecting path (they were making bad selections due to all paths starting too far away from spawn point, defending horde bots would try to clip through walls and go directly to horde base GY), new path to get from horde cave to horde base (prevents horde defenders trying to scale the hills/walls to get in), overall balance between teams much improved. new playerbots debug bg commands (that I used to develop/test these changes)
+- Fix: Updated to work with newer commits of AzerothCore
+- Merge pull request #363 from noisiver/pvp-fix
+
+## 2024-07-21
+- Fix: Bots attacking players not flagged
+- Fix spell cast after self bot
+- Addclass command account id check
+- Random name generation improvement (#359)
+- [Command] Send talents info data after glyph changed
+- [Class spell] Mirror image
+
+## 2024-07-19
+- [Misc] Init bag, hunter spell
+- [Initialization] Send talent packet after intialization
+- [Command] Fix self command
+- [Crash fix] Fix a possible crash
+- [Command] Enable to cancel self command
+- [Command] Fix sell item command
+
+## 2024-07-21
+- Water ele waterbolt
+- Water ele typo
+- Ice barrier typo
+- Frost mage AI
+- Frost mage AI
+- Frost mage AI
+
+## 2024-07-19
+- Merge pull request #358 from liyunfan1223/dev0718
+
+## 2024-07-18
+- [Warning] Fix
+- Merge pull request #355 from liyunfan1223/fix-summon
+- [Configuration] Max added bot
+- [Summon] Fix bot remove from world casued by summon
+
+## 2024-07-17
+- Merge pull request #349 from Bobblybook/master
+- Merge pull request #354 from liyunfan1223/crash-fix-0717
+- [Crash fix] Fix summon to instance crash
+- [Crash fix[ Reduce area debuff check interval to fix avoid aoe crash
+- Correct alternative actions for weapon buffs
+- [Crash fix] Teleport bots exceed dungeon max players limit
+- Merge pull request #353 from liyunfan1223/crash-fix-custom-spell
+- Merge pull request #351 from fuzzdeveloper/pmon-enhancements
+- [Crash fix[ Custom cast spell
+- PerformanceMonitor - fixed linux build issue
+- Merge branch 'master' into pmon-enhancements
+- Update ShamanTriggers.cpp
+- Fix endless earthliving-> flametongue buff loop
+- Add weapon check for OH
+
+## 2024-07-16
+- Merge branch 'master' into more-av-fixes
+- fix wrong NPC for vanndar, upped bots gathered before taking out captain because alliance was struggling
+- Merge pull request #346 from liyunfan1223/fix-crash-avoid-aoe
+- [Crash fix] Owner check for AvoidAuraWithDynamicObj
+- Merge pull request #343 from Jgoodwin64/stay-bug-fix
+
+## 2024-07-15
+- fixed defenders sitting in burning building lamenting their failures, some attackers now advance to next objective without waiting for full capture, added new path for alliance to bypass mid on the way to galv, made objective selection logic same for both teams
+
+## 2024-07-14
+- Fixed bug in StayActions.cpp
+- Merge pull request #341 from fuzzdeveloper/limit-gear-expansion
+- added AiPlayerbot.LimitGearExpansion option so that bots <= 60 can be limited to expansions gear based on level (bot-level <= 60 gets vanilla gear, bot <= 70 gets TBC gear). also modified level thresholds for LimitEnchantExpansion option (which were <= 69 for vanilla enchants and <= 79 for TBC - those dont seem right because 61-69 are TBC levels, not vanilla, same for 71-79 being WOTLK)
+- Merge pull request #340 from Bobblybook/master
+- Update CasterShamanStrategy.cpp
+- Fix/rewrite Shaman weapon buff checking (incl. dual wield support)
+- Merge pull request #336 from Caffarius/master
+
+## 2024-07-13
+- Add DK starter map to PvpProhibitedZoneIds
+- Merge pull request #334 from liyunfan1223/conf-reorder
+- [Initialization] Disable init command during combat
+- [Crash fix] Fix a crash in bg join with group
+- [Configuration] Reorder config file
+- Merge pull request #325 from liyunfan1223/dev-20240711
+- Merge pull request #333 from BenWagner-UX/fixed_wim_spam_protection
+- Merge pull request #330 from BenWagner-UX/Lfg-Fix
+- [Warnings] Fix
+
+## 2024-07-12
+- [Warnings] Fix warnings
+
+## 2024-07-11
+- [Random bots] Ensure teleport after randomize
+- [Configuration] Rogue glyphs
+- [Class spell] Improve warrior, dk, paladin
+- [Configuration] Talents for fire mage and resto shaman
+- [Class spell] Shaman elemental mastery
+- [Initialization] Fix random bot gear quality
+- [Configuration] Gear quality on random bots
+- [Class spell] Reduce reach spell relevance
+- [Attack target] Cancel mount aura and remove within dist check
+- [Misc] Cat druid equip score calculation
+
+## 2024-07-09
+- [Crash fix] Fix crash caused by duplicate login
+
+## 2024-07-13
+- fixed: Warcraft Instant Messenger is causing massive spam by sending bots WIM-specific commands such as handshakes which can not be processed by the bot.
+
+## 2024-07-12
+- fixed: Bots are now able to join LFG - Missing worker activation implemented
+- Merge pull request #329 from Caffarius/fix_compile_issue
+
+## 2024-07-13
+- Merge pull request #327 from Chromie-WoW/configured65-mod-playerbots-pr-branch
+
+## 2024-07-12
+- Enable Compilation on More Platforms
+- Merge pull request #326 from noisiver/cleanup-summon-options
+- Merge branch 'master' into configured65-mod-playerbots-pr-branch
+- Update playerbots.conf.dist
+- Cleanup
+- Merge pull request #323 from noisiver/amend-summon-requirements
+
+## 2024-07-11
+- Correction for the default value info
+- Add config options for the new summon conditions
+- Merge pull request #320 from Chromie-WoW/configured65-mod-playerbots-pr-branch
+- Repaironsummon change
+- Merge pull request #318 from fuzzdeveloper/pathing-and-av-fixes
+- Merge pull request #319 from noisiver/fix-draenei-creation
+- fixed bots of same faction not fighting in arena until player triggers it
+
+## 2024-07-10
+- Add option
+- Fix Draenei being created with expansion set to 0
+- many many fixes for AV - fixed main path from horde cave starting too far away (flying bots, or bots going nowhere), fixed wrong objects targetted for objective-nodes (bots hanging around already captured points), wrong creatures targetted for boss and captain (bot running toward and away from captain, bot capturing every point then running home), wrong flag state checked for certain points (bot waiting forever in burning tower), fixed bots not moving close enough to flags in towers (bots sitting in towers forever), and more
+- improved path selection for non-WSG BG's (improvements to pathing in AB and AV especially)
+- optionally disable bots using MotionMaster::MoveSplitPath() for BG/Arena or everywhere (so that stuns stun/snare/root/etc can work against bots)
+- Merge pull request #315 from noisiver/summon-conditions
+- Merge pull request #317 from noisiver/fix-database
+- Fix hardcoded database name
+
+## 2024-07-09
+- Conditions for Summon
+- Merge pull request #302 from liyunfan1223/dev-combat-formation
+- [Strategy] Enable cat strategy, remove threat by default, reset strategy on talents change
+- [Configuration] Make some configs deprecated
+- [Combat formation] Flee optimize
+- [Combat formation] Avoid flee repeatly
+- [Combat formation] Last flee angle check
+
+## 2024-07-08
+- PerformanceMonitor enhancements - better formatting of results, subtotals for different types, now measured in microseconds (needed to accurately measure impact things that take < a millisecond to do but which are done VERY often)
+
+## 2024-07-07
+- [Class spell] Aoe threat check
+- [Command] Disperse command tips
+- [Command] Autogear command ammo
+
+## 2024-07-05
+- [Class spell] Seed of corruption
+- [Combat formation] Combat formation set up
+- [Crash fix] Duplicate bots login
+- [Initialization] Stop server after accounts deletion
+- [Configuration] Enable free food
+
+## 2024-07-07
+- Merge pull request #307 from noisiver/item-info
+- Merge pull request #305 from yuan227301/fix
+
+## 2024-07-06
+- Merge pull request #304 from yuan227301/feat
+- [fix] Remove a class that is defined twice.
+
+## 2024-06-10
+- [feat] Added the function to manually clear raids states of shared bot.
+
+## 2024-07-05
+- Item Info
+- Merge pull request #298 from fuzzdeveloper/master
+- additional waypoints/paths for AB (helps bots get down from blacksmith)
+- fix for #300 bots no longer hang around stables indefinately
+- cleanup arena changes before PR
+- Merge branch 'liyunfan1223:master' into master
+
+## 2024-07-04
+- added tactics for dalaran and ring-o-valour arena's (just makes them go toward middle and hopefully fight)
+- fixed bot endlessly resetting strats in nagrand and blades edge
+- improved check to avoid unresponsive BG/arena bot, and removed possibility of battleground strat crashing server when in wrong BG
+- fixes for arena I've been working on with Dave (most credit belongs to him I feel)
+
+## 2024-07-03
+- Merge pull request #294 from liyunfan1223/readme_discord
+- [Readme] Update README.md
+
+## 2024-07-02
+- Merge pull request #287 from liyunfan1223/dev0624
+
+## 2024-06-30
+- [Warnings] Fix double to float
+
+## 2024-06-29
+- [Initialization] Titan's grip for fury warrior
+- [Avoid aoe] Position selection
+
+## 2024-06-28
+- [Initialization] Ammo amount
+- [Optimization] Valid target check order
+- [Initialization] Ammo init
+- [Attack target] Valid target check
+
+## 2024-06-27
+- [Configuration] Random bots fixed level
+- [Configuration] Fixed level
+- [Configuration] Fixed level
+
+## 2024-06-26
+- [Log] Better bot teleport info
+- [Avoid aoe] Fix avoid aoe position
+- [Configuration] Enable avoid aoe by default
+- [Configuration] Enable avoid aoe by default
+- [Initialization] Glyphs remove and dual spec
+- Merge pull request #286 from fuzzdeveloper/master
+- [Misc] fixed dead code, unused variables other merge errors introduced by commit 3879b5116e344469b33d60e05bb7ad05a27cfe7f
+- [Crash Fix] Fixed crashing a few min after server start when AiPlayerbot.PerfMonEnabled=1 (would crash with ACCESS_VIOLATION on first PlayerbotFactory::Randomize() call due to pmo->finish() being called twice on same variable). Also fixed formatting used in PerformanceMonitor::PrintStats() (would print %7.3f etc to screen instead of format the number)
+- [Typo] Fixed inconsistent name for the co adds strategy - added with co +ads removed with co -adds (ads verses adDs), now uses adds name for both. Fortunately this isn't referred to by 'ads' anywhere else (not in AiFactory.cpp and dont think its used by UnBot addon either)
+- [Log] Reduced spam of 'xxx failed because has current channeled spell' by making it respect the AiPlayerbot.LogInGroupOnly setting (like related spell errors)
+
+## 2024-06-24
+- [Avoid aoe] Smarter position
+- [Attack target] Ignore moon mark
+- [Optimization] Better performance
+- Merge pull request #281 from liyunfan1223/dev0623
+- [Avoid aoe] Tell avoiding timer
+- [Avoid aoe] Aura detection
+- [Attack target] Skull mark icon index fix
+- [Performance] Look object stack
+
+## 2024-06-23
+- [Warnings] Fix.
+- [MIscs] Equips, avoid aoe tell
+- [Class spell] Hunter auto shot
+- [Class spell] Fix attack action for ranged
+- [Random bots] Banker pos
+- [Initialization] Fix pet_spell sql
+- [Random bots] Fix banker position out-of-bounds
+- [Bot initialization] Slot level check
+- [Bot initialization] Neck level check
+
+## 2024-06-22
+- [Warnings] Fix warnings
+- [Warnings] Fix warnings
+- [Bot behaviour] accept invitation teleport distance check
+- [Random bots] Miscs
+- Merge pull request #279 from liyunfan1223/feat_teleport
+- [Random bots] Race distance threshold for teleport locs
+- Merge pull request #274 from yuan227301/fix_rti
+- [Random bots] Teleport locs shuffle
+- [Configuration] Disable death knight login
+- [Random bots] Random teleport race check for low level bots
+
+## 2024-05-29
+- [Optimization] Optimize the judgment of attack targets
+
+## 2024-06-12
+- Merge pull request #272 from fuzzdeveloper/master
+- fix for #271 - Issues with gems added to randomised bot gear
+
+## 2024-06-10
+- [Class spell] Paryer of healing trigger
+- [Class spell] Prayer of healing cast trigger
+- Merge pull request #268 from liyunfan1223/sync_20240610
+- [CI] Cache for actions
+- [Sync] Sync with azerothcore (update the core before pull this commit)
+
+## 2024-06-09
+- [Log] Log info level
+
+## 2024-06-07
+- Merge pull request #245 from liyunfan1223/attack_target
+
+## 2024-06-06
+- [Crash fix] Unit in world check for manual set value
+
+## 2024-06-05
+- [Log] Intialization log info
+- [Raid] Naxx grobbulus
+
+## 2024-06-04
+- [Attack target] Fix
+- [Strategy] Focus strategy
+- [Attack target] Fix attack
+- [Crash fix] Target IsInWorld check
+
+## 2024-06-03
+- [Log] Downgrade duplicate log
+- [Initialization] No pet talents reset
+- [Talents] Switch command
+
+## 2024-06-02
+- [Attack target] Crash fix
+
+## 2024-05-28
+- [Attack Target] Prioritized targets
+- [Attack Target] Invalid target check
+
+## 2024-06-02
+- Merge pull request #242 from liyunfan1223/fix_misspell
+
+## 2024-05-30
+- Merge pull request #250 from yuan227301/opt_warning
+
+## 2024-05-26
+- [optimization] Fixed several compilation warnings
+
+## 2024-05-28
+- [Configuration] Misspell
+- [Crash Fix] Pet initialization
+
+## 2024-05-27
+- [Configuration] Fix misspell
+
+## 2024-05-28
+- Merge pull request #243 from brian8544/master
+- Fix typo
+
+## 2024-05-27
+- Add performance tuning
+
+## 2024-05-26
+- [Raid] Sync with azerothcore (update the core before pull this commit)
+- Merge pull request #234 from yuan227301/opt_quest
+
+## 2024-05-23
+- [Optimization] Optimize quests initialization code.
+
+## 2024-05-22
+- Merge pull request #224 from liyunfan1223/autogear
+
+## 2024-05-21
+- Merge pull request #231 from yuan227301/master
+
+## 2024-05-20
+- [Fixed] Missing return
+- [Configuration] Quests required for dungeons
+
+## 2024-05-12
+- [Command] Command autogear
+
+## 2024-05-07
+- Merge pull request #221 from liyunfan1223/fix_script
+- [Scripts] Fix crash on exit
+- [Configuration] Blood dk talents
+- Merge pull request #219 from liyunfan1223/miscs
+- [Class spell] Fix healing priests stop casting due to threat
+
+## 2024-05-06
+- [Configuration] Frost mage talents
+- [Configuration] Glyphs
+- Fix possible crash
+
+## 2024-04-21
+- [Class spell] Fix paladin blessing
+- Merge pull request #203 from liyunfan1223/fix_avoid_aoe
+
+## 2024-04-20
+- [Avoid aoe] Tell when avoid aoe configuration
+- Merge pull request #198 from liyunfan1223/fix_avoid_aoe
+- [Equip score] Skip can take more check
+- [Equip score] Weapon dps calculation
+- [Movement] Fix path finder
+- [Movement] Fix path finder
+- [Avoid aoe] Fix avoid unit
+- [Avoid aoe] Fix possible triggers
+
+## 2024-04-19
+- [Avoid aoe] Enhance spell judge
+- [Avoid aoe] Area debuff judgement
+- [Cast spell] Arc check only forfacing  spell
+
+## 2024-04-18
+- [Avoid aoe] Fix avoid unit with damage aura
+- [Avoid aoe] Crash fix and cover more spell
+
+## 2024-04-16
+- Modify command `s` to prevent the accidental sale of all items
+
+## 2024-04-18
+- Hunter crash fix
+- Fix movement on ship
+
+## 2024-04-16
+- Merge pull request #192 from oiuv/dev
+- Modify command `s` to prevent the accidental sale of all items
+
+## 2024-04-15
+- Merge pull request #183 from liyunfan1223/avoid_aoe
+- [Avoid aoe] Fix friendly game object
+- Fix avoid aoe output text
+- Avoid aoe for game object
+- Fix warlock
+- Distance check
+- Warlock
+
+## 2024-04-14
+- Auto avoid aoe config
+- Avoie aoe strategy
+
+## 2024-04-12
+- Avoid aoe base
+
+## 2024-04-13
+- Merge pull request #182 from liyunfan1223/item_score
+- Score calculation for item spell
+
+## 2024-04-12
+- Merge pull request #180 from liyunfan1223/perf
+
+## 2024-04-11
+- Fix maxMovementSearchTime
+- Movement search time config
+- Movement overhead
+- Rewrite has totem check
+- Reduce string overhead and totem check overhead
+- Performance optim
+
+## 2024-04-10
+- Merge pull request #175 from liyunfan1223/config/spec
+- Better performance
+- Army of the dead
+- Warlock destro pve
+- Unholy DK
+- Merge pull request #177 from oiuv/README_CN
+
+## 2024-04-09
+- Unholy spell order
+- Unholy spell order
+
+## 2024-04-08
+- Unholy pve spec
+- DK death and decay
+- Unholy DK
+- Unholy DK
+- Gear score
+- add chinese README
+- Mod equip score calculation
+- More glyph config and level check
+
+## 2024-04-03
+- Improve premade spec links
+
+## 2024-04-02
+- Merge pull request #171 from oiuv/player_bots
+
+## 2024-04-01
+- fix ...
+- 增加是否允许登录其它玩家角色为机器人的配置
+
+## 2024-03-31
+- add config for another player's character as bot
+- Merge pull request #169 from liyunfan1223/fix/gem
+
+## 2024-03-30
+- Fix unique gem
+- Init glyphs for maintenance
+- Fix unique gem
+
+## 2024-03-28
+- Merge pull request #166 from liyunfan1223/fix_offhand
+
+## 2024-03-27
+- Fix occasionally unequip offhand
+- Enchant paladin divine sacrifice
+
+## 2024-03-26
+- Merge pull request #163 from liyunfan1223/healer_save_mana
+
+## 2024-03-25
+- Change default SaveManaThreshold=60
+- Enchance shaman healer
+
+## 2024-03-24
+- AiFactory add save mana
+
+## 2024-03-23
+- Auto save mana strategy
+
+## 2024-03-19
+- Enhance equip upgrade
+- Update README
+- Fix gem initialization
+
+## 2024-03-18
+- Merge pull request #159 from liyunfan1223/enchants_gems
+- Apply enchant and gems
+- Fix macos compile (HUGE identifier)
+- Fix macos compilation
+- Modify stats score calculation
+- Fix enchant ignore list
+- Re-write Enchantment (work in progress)
+
+## 2024-03-17
+- Update workflows
+
+## 2024-03-15
+- Enchantments and gems preload
+
+## 2024-03-12
+- Fix melee consecration
+- Remove macos_build.yml
+- Fix melee consecration
+- Spell casting
+- Update core-build.yml
+- Update core-build.yml
+- Merge pull request #151 from liyunfan1223/revert-149-master
+- Revert "Update RaidUlduarScripts.h"
+- Merge pull request #149 from Garashan/master
+
+## 2024-03-11
+- Update RaidUlduarScripts.h
+- Merge pull request #148 from Garashan/master
+- Ulduar base files
+
+## 2024-03-05
+- Merge branch 'master' of github.com:liyunfan1223/mod-playerbots
+- Remove tell master cooldown
+- Rogue poison
+- Switch to AGPL-3.0 LICENSE
+- Update macos_build.yml
+- Update macos_build.yml
+- PremadeSpecGlyph config (unimplemented)
+
+## 2024-03-04
+- Update core-build.yml
+- Update core-build.yml
+- Update core-build.yml
+- Update workflows
+- Update core-build.yml
+- Update workflow
+- Update core-build.yml
+- Create windows_build.yml
+- Update core-build.yml
+- Update and rename cmake-multi-platform.yml to core-build.yml
+- Merge branch 'master' of github.com:liyunfan1223/mod-playerbots
+- Fix Value.h
+- Update cmake-multi-platform.yml
+- Update cmake-multi-platform.yml
+- Create cmake-multi-platform.yml
+- Maintenance command
+
+## 2024-03-03
+- Playerbots.cpp (sync with core)
+
+## 2024-02-14
+- Item use check
+
+## 2024-02-12
+- Disable talent initialzation for persistence random bot
+- Loot roll config
+- Fix talk command crash
+
+## 2024-02-11
+- Shadow pve talent
+- Optimize fury warrior
+
+## 2024-02-10
+- Fix hunger for blood target
+- Rogue stealth spell & Target selection for combo class
+- Fix GetGuidValue crash
+- Fix talent autopick
+
+## 2024-02-09
+- Rogue spell cast optimize
+- FIx move to
+- Fix melee reach target
+- Naxx thaddius strategy
+
+## 2024-02-08
+- Fix four horsemen
+- Naxx fourhorsemen strategy
+- Naxx loatheb strategy
+- Item spell cast
+- Loot when moving
+- Pet attack (fix shadowfiend)
+
+## 2024-02-07
+- Spell cast time calculation
+
+## 2024-01-30
+- Miscs for spell casting
+
+## 2024-01-15
+- Fix random_shuffle compile error
+- Fix rotation class imbalance
+
+## 2024-01-14
+- Fix spec list
+- Reduce error log of PremadeSpecName
+- Reduce error log
+- Rebuild talents command
+
+## 2024-01-10
+- Fury whirlwind
+- Improve movement performance
+- Fix movement stuck
+
+## 2024-01-08
+- Auto teleport check; Miscs
+
+## 2024-01-07
+- Fix movement on slope
+- Tank warrior aoe
+- Remove battle shout taunt
+- Remove battle shout taunt
+- Rogue eviscerate for almost dead enemy
+- Fix dps target
+- Dps target
+
+## 2024-01-06
+- Allow multiple rupture from diff players
+- Remove polymorphed target from attackers
+- Reduce delay time
+- Warrior spell cleave
+- Increase level for fury warrior
+
+## 2024-01-04
+- Merge branch 'master' of github.com:liyunfan1223/mod-playerbots
+- Fix attack action
+
+## 2023-12-29
+- Merge pull request #89 from oiuv/master
+- fix GM only bug when AiPlayerbot.AddClassCommand=0
+
+## 2023-12-26
+- Fix conf description
+
+## 2023-12-25
+- Update issue templates
+- Merge branch 'master' of github.com:liyunfan1223/mod-playerbots
+- Hunter pet happiness set
+
+## 2023-12-24
+- Fix sync quest with player
+- Clear playerbots name
+- Speed up bot creation
+- Feat: Bot rotation
+- Optimize talents initialization
+- Handle escort quest accept
+- Better too close distance calculation
+- Update README FAQ
+- Init pet talents
+- Fix initpet error
+
+## 2023-12-22
+- Raise flee action relevance
+
+## 2023-12-20
+- Update issue templates
+
+## 2023-12-19
+- Crash fix trial: move to rpg target
+- Hunter melee
+
+## 2023-12-18
+- aspect of the monkey
+- SightDistance, FollowChatShortcutAction, concussive shot
+- quest share
+- init pet in refresh
+- pet attack
+- allow grinding
+
+## 2023-12-17
+- summon when group config
+- reduce memory leak
+- update readme
+- remove item cache info
+- Thunderstorm
+- crash fix
+- crash fix 4
+- fix invalid target
+- dps paladin improvement
+- crash fix 3
+- crash fix 2
+- crash fix trial
+- config fix
+
+## 2023-12-12
+- sync with azerothcore
+
+## 2023-11-10
+- fix action node factory
+- remove meaningless flee
+
+## 2023-11-04
+- quest complete with gameobject
+- README Acknowledgements
+- README Player Progression Path
+- README order
+- README urls
+- Update REAME
+
+## 2023-11-02
+- fix quest confirm accept action compile
+- reset bot strategies after remove from group
+- auto equip upgrade
+
+## 2023-11-01
+- quest confirm accept(group quest)
+
+## 2023-10-30
+- disable equipments with "QR"
+- increase expected group dps
+
+## 2023-10-29
+- better shaman totem strategy
+
+## 2023-10-28
+- rogue debuff spell
+- trainer learn command
+- move random for rpg
+- Pvp Prohibited Areas
+
+## 2023-10-27
+- rndbot teleport to city
+- bot auto leave group
+- Merge pull request #53 from liyunfan1223/smart_target
+- reduce database error during creation
+- bdps for enhancement shaman
+
+## 2023-10-26
+- move random angle
+- move random for rpg strategy
+- rpg strategy default actions
+
+## 2023-10-25
+- miscs
+
+## 2023-10-22
+- gs_modifier for expected dps
+- shaman bdps
+- target && hunter auto shoot
+- default actions
+- fix rogue stealth
+- smarter dps target and tank target
+
+## 2023-10-20
+- shadow priest shoot
+
+## 2023-10-19
+- enable battleground
+
+## 2023-10-17
+- modify bot revive when summon behaviour
+
+## 2023-10-14
+- rollback strategy deletion
+
+## 2023-10-13
+- cast time strategy & relieve memory leak
+
+## 2023-10-10
+- tell expected group dps
+- dps estimation
+
+## 2023-10-08
+- better initself
+- configuration chore
+- init=auto when bot's level > master's
+- bot revive
+
+## 2023-10-07
+- more configurations
+- rollback tank target value
+- fix rndbot stuck bug
+- fix rndbot stuck bug
+
+## 2023-10-06
+- init equips for level < 15
+- InitPetTalents
+- init pet talents
+
+## 2023-10-05
+- topN GetMixedGearScore
+- clear quest reward inventory
+- init=auto
+
+## 2023-10-04
+- spell modification
+- tank target fix
+- InitInstanceQuests
+- bestial wrath
+- hunter auto shot
+
+## 2023-10-03
+- PlayerbotAIConfig compile fix
+- tank target fix
+
+## 2023-09-24
+- blood dk talent config
+
+## 2023-09-23
+- talents initialization
+
+## 2023-09-17
+- movement for fly & swimming
+
+## 2023-09-15
+- Merge pull request #36 from liyunfan1223/dev
+- equipmentPersistence
+
+## 2023-09-14
+- CanCastSpell
+- facing to & reach party member to resurrect
+
+## 2023-09-08
+- mage fireball
+- optimize class spell
+
+## 2023-09-07
+- miscs
+
+## 2023-09-06
+- ammo init
+
+## 2023-09-05
+- grind food & drink
+- druid caster form
+- portal reagent for mage
+- warlock pet
+- movement for narrow room
+- movement
+- fix debuff trigger
+- InitBags
+- debuff on attacker
+- fix knockback
+- time unit for expected lifetime
+- movement
+- better movement
+
+## 2023-09-04
+- Totem of the Earthen Ring
+- shaman bmana
+- summon imp
+- movement fix test
+- life time check for debuff spell & cast time spell
+- fix crash caused by bot logout (maybe)
+
+## 2023-09-03
+- naxxramas gluth
+- miscs
+- dk presence
+
+## 2023-09-02
+- major class spells
+- move & knockback
+
+## 2023-08-29
+- mind sear for shadow priest
+- fan of knives for rogue
+- dual wield for rogue
+- minor modification
+- random glyphs initialization
+- move on slope
+- master priority
+
+## 2023-08-28
+- main tank
+- miscs
+- bwl strategy
+- paladin seal
+- fix loot
+- debuff on melee attackers
+- nearest corpses
+- attackers value
+- attackers value
+- fix currentBots crash
+
+## 2023-08-27
+- too close trigger
+- movement on slope
+- HandleMasterIncomingPacket coredump
+- concentration aura
+
+## 2023-08-25
+- bot swim
+- refresh initequipment quality
+- fix compile issue
+- reduce target calculation overhead
+- swimming
+- charge available
+
+## 2023-08-24
+- fix crash issue
+- drink & food noncombat only
+- cat stealth auto cast off
+- bot add fix
+- bot factory(temp disable guild init)
+- engine depth
+
+## 2023-08-10
+- speed up InitEquipment
+- conf for playerbots log & pet init
+- DestroyItem in InitEquipment
+- fix fury warrior equip init
+- performance improve
+- init dagger for assasination rogue
+- fix HandleBotOutgoingPacket
+- miscs(pet, log, needForQuest)
+
+## 2023-08-09
+- rewrite random bot accounts deletion
+- lfg action
+- try to fix HandleBotOutgoingPacket coredump
+- randombot accoutn del & name selection
+- InitTalentsTree
+- try to fix HandleBotOutgoingPacket coredump
+
+## 2023-08-08
+- fix ammo cache, enchant coredump
+- random and teleport delay
+- set ammo, fix enchantment
+- Merge pull request #22 from liyunfan1223/random_bots
+- rewrite locsPerLevelCache sql
+- random bots maintanence
+- ClearAllItems during randomize
+
+## 2023-08-07
+- randombot refresh
+
+## 2023-08-06
+- initpet level strict
+
+## 2023-08-05
+- reduce item instance guid consume
+- automatically initpet
+- firebolt for low-level arcane mage
+- Merge branch 'master' of github.com:liyunfan1223/mod-playerbots
+- automatically action for random bots
+
+## 2023-08-04
+- leave group when leader is randombot
+- temporary disable rndbot group strategy
+
+## 2023-08-03
+- Merge pull request #18 from liyunfan1223/ms_time
+- miscs: engine
+- coredump fix & rpg actions
+
+## 2023-08-02
+- fix RandomBotTeleLevel
+- miscs: movement, coredump fix, rndbot
+- test: ms_time
+- miscs: refresh & moveto
+
+## 2023-08-01
+- feat: rndbot teleport, grind, stuck problem etc.
+
+## 2023-07-31
+- random bot teleport
+- ranged and group heal
+- grind, teleport, move random for rndbot
+- arrow formation
+- fix IsInPvpProhibitedZone
+- fix freefood
+
+## 2023-07-30
+- enable teleport to eastern continent
+- miscs: teleport & grind target
+- fix hunter auto shot
+- attacker checker & strategy init
+- Merge pull request #10 from liyunfan1223/rpg
+- fix strategies conflict for rndbot
+
+## 2023-07-29
+- disable heavy-cost rpg action
+
+## 2023-07-28
+- greatly improve performance
+- optimize performance by increase cure check interval
+
+## 2023-07-27
+- performance optimize
+- fix earth shield
+
+## 2023-07-26
+- lfg related
+- fix lfg action
+- miscs: CMSG received correctly (quest, loot etc.)
+
+## 2023-07-24
+- correct titan's grip spellId
+- fix paladin aura
+- miscs(class spell)
+- change talents spec command
+- clear default race/class skills when randomizing
+- sapphiron strategy fix
+- naxx sapphiron strategy
+- dps assist strategy type
+- Discipline priest shield
+
+## 2023-07-19
+- fix compile error in windows platform
+
+## 2023-07-18
+- razuvious strategy
+- try fix compile problem for windows
+- refactor: naxxramas and kel'thuzad strategy
+
+## 2023-07-15
+- paladin buff
+- fury warrior execute
+- paladin trigger fix
+- warrior strategy optimize
+- paladin buff strategy
+- change proportion of talent specs
+- fix resurrect bug
+- initself command(test)
+- warlock pet spell toggle
+- pet attack status fix
+- tab spec for duel talents
+- increase revive spell priority
+- remove out of group spell (for perfermance)
+
+## 2023-07-14
+- refactor raid naxx related
+- pet react state & reach target for autoshoot
+- set pet react state to defensive during attack
+- druid rebirth in combat
+- fix bot resurrect bot problem
+- balance value for worldboss
+- frost presence for blood dk
+- remove shoot from warlock default action
+- fix equip replace bug
+- disable custom::say
+- fix(triggers): group heal occation
+- rollback reactDelay
+
+## 2023-07-08
+- feat(bot): addclass command for non-gm player
+- miscs: warlock trigger
+- fix(strategy): warlock immolate on attackers
+
+## 2023-07-05
+- feat(strategy): priest aoe heal
+- feat(strategy): druid aoe strategy optimize
+- miscs(log): log level
+- miscs(log): log level
+
+## 2023-06-23
+- chore(conf): reduce default rndbot interval
+- temporary disable bot factory enchant
+
+## 2023-06-22
+- anubrekhan strategy port
+
+## 2023-06-13
+- chore(value): attackers value
+
+## 2023-06-11
+- naxx chat short cut
+- feat(performance): reduce lag impact by attackers and yieldthread
+- miscs(triggers): spell range, fury warrior equip
+- remove debug info
+- miscs(spell): paladin, rogue poison, shaman totem
+- fix(spell): paladin and dk aggro spell, warrior
+
+## 2023-06-09
+- grobbulus fixed
+
+## 2023-06-08
+- naxx raid grobbulus
+- shaman, rogue strategy port, use item action.
+
+## 2023-06-07
+- movement action
+
+## 2023-06-06
+- modify readme.md
+- modify Readme.md
+- miscs(raid strategy, distance triggers, etc)
+
+## 2023-06-03
+- paladin and attackers value
+- mage and paladin strategy port
+- warlock and dk strategy port
+
+## 2023-06-02
+- debuff trigger and action, allow multiple spell
+- tank target, formation arrow, mount fix, miscs
+
+## 2023-06-01
+- remove aoe position
+
+## 2023-05-30
+- ammo, pet return
+- distance and reach related
+- mount state
+- miscs
+- remove next check delay log
+- set deny group level
+- party member to heal value
+- misc(druid shape shift and spell immuned)
+- attacker value with LOS
+- pet related
+- spell interval problem
+
+## 2023-05-29
+- sight distance change
+- drink command
+- fix party member dispel.
+- refresh bug
+- ammo
+- pet initialization
+- playerbots configuration
+- modify action priority
+- Flee action, factory setting
+
+## 2023-05-28
+- pet attack and bot target selection
+- dk raise dead
+- inventory and use item
+
+## 2023-05-27
+- movement, disable hearthstone
+- update equipment initialization
+- fix cast spell stuck and lagging
+- configuration and duplicate name
+- feat: addclass feature
+- feat: fix initialization
+
+## 2023-05-26
+- rndbot initialization
+
+## 2023-05-24
+- fix warning & misc
+- fix warnings
+- feat: fix warning
+
+## 2023-05-23
+- fix: bot stuck after drink or food && initialization customized
+
+## 2023-05-22
+- feat: log action
+
+## 2023-04-04
+- Auto Join BG config
+- Add lfg strategy to fix bots not giving leader in dungeon
+- Rogue AI: use slice and dice as finisher
+
+## 2023-03-31
+- Fix Paladin compilation issues
+
+## 2023-03-30
+- Paladin AI tweaks
+- Don't grind/rpg with objects more than 5y away if master is not resting
+
+## 2023-03-28
+- Revert "Fix GetTargetIcons calls (thanks xuanfeng66)"
+- Fix GetTargetIcons calls (thanks xuanfeng66)
+
+## 2023-03-23
+- Add more logging to debug strategy for useless/not possible actions
+- Fix bots using swimming form where they can't swim
+- Do not use outnumbererd trigger in raid group
+- Disable random phrases for bots
+- Increase spell/heal range
+- Add judgement for paladins
+- avoid AOE strategy (WIP)
+- Tweak loot check for quest items
+- Fix bots not looting non-quest items
+
+## 2023-03-22
+- Merge pull request #170 from AlvinZhu/PR6
+- Merge pull request #169 from AlvinZhu/PR4
+- Merge pull request #171 from AlvinZhu/PR5
+- fix build for clang
+- fix crash null QuestItemList
+
+## 2023-03-10
+- fix debug crash client
+
+## 2023-03-21
+- Casting tweaks
+- Movement tweaks
+- Remove some annoying emotes
+- Check debuff owner on target
+- Reduce chat spam once more
+- Check loot for quest when looting items
+- Trigger fixes and Warrior AI tweaks
+- Reduce chat spam
+- Less often guild group invites
+- WIP Paladin missing actions
+- Check BG queue even if no players online
+- Fix error in stat weight check
+
+## 2023-03-16
+- Fix crash when RandomBotSayWithoutMaster set to 1
+- Fix crash when selecting quest reward
+- Fix bot teleportation (thanks Rydelfox)
+- Fix wrong Team enum usages
+- Fix crash when AI is disabled
+
+## 2023-03-06
+- Merge pull request #161 from AlvinZhu/PR1
+- Merge pull request #162 from AlvinZhu/PR2
+- Merge pull request #163 from AlvinZhu/PR3
+
+## 2023-02-04
+- fix warning
+
+## 2023-03-06
+- fix DK spell
+
+## 2023-01-31
+- fix crash
+
+## 2023-01-23
+- fix db name
+
+## 2022-12-08
+- Do not respond to empty message packets
+
+## 2022-11-18
+- Fix crash in PlayerbotSecurity
+
+## 2022-10-25
+- Fix console command SQL query
+
+## 2022-10-07
+- Do not whisper unreachable players
+- Fix ReturnDelay crash
+- Update default config settings
+
+## 2022-10-06
+- Now yes! Independent bots!
+
+## 2022-09-30
+- Fix crash in ChooseRpgTargetAction
+
+## 2022-09-27
+- Fix crash when bot unable to find valid reply.
+- Disable achievements for random bots
+- Update Playerbot text SQL
+
+## 2022-09-26
+- Rewrite bot texts
+- Fix real guild check
+- PvP: ignore Spirit of Redemption and pets
+- BG Crash fixes
+
+## 2022-09-23
+- Fix crash due to empty channel name
+- Crash fix in GuildManagementActions
+
+## 2022-09-22
+- Do not give leader back in open world
+- Allow looting some quest objects that have herbalism in code
+- Fix errors on wrong command
+- Do not give leader back
+- Tweak automation
+- Remove broken Github CI build
+- Is in real guild function
+- count low level paladin as healer
+- Do not make NPCs face bots
+- Tweak rage calculation
+- Store area name for explore travel target
+- Fix bots not able to invite nearby players to existing guild
+- Increase delays for non active bots
+
+## 2022-08-19
+- ResetChatTimer no longer needed with upstream chat flood handling changes
+
+## 2022-08-16
+- Merge pull request #98 from hongyiqin/test
+
+## 2022-08-11
+- Update PlayerbotMgr.cpp
+
+## 2022-06-22
+- Update README.md
+- Fix some case of bots AFK
+
+## 2022-06-01
+- Merge pull request #79 from qudzy/bug/rndbot-dk-by-expansion
+- Merge pull request #78 from qudzy/bug/rndbot-races-by-expansion
+- Merge pull request #76 from qudzy/bug/targetPosRecalcDistance-distance-calc
+- Merge pull request #77 from qudzy/bug/creaturedata-nullptr
+- Merge pull request #75 from qudzy/bug/hunter-bot-auto-shot
+- Encourage hunter bots to use auto shot
+- Remove targetPosRecalcDistance from distance calcucations
+- Prevent crash by guarding creatureData against nullptr
+- Restrict random bot races by expansion
+- Restrict Death Knight random bot creation by expansion
+
+## 2022-05-26
+- Merge pull request #71 from qudzy/bug/spell-cast-facing-angle
+- Remove sightDistance from spell cast facing angle
+
+## 2022-05-24
+- Merge pull request #67 from qudzy/upstream/feature/support-target-command
+- Merge pull request #68 from qudzy/upstream/feature/fix-melee-combat-facing-angle
+
+## 2022-05-22
+- Remove sightDistance from attack angle calculation
+- Support target command
+
+## 2022-05-23
+- Remove conserve mana from default non-combat strategies
+- Update bot stats after equipping items
+- Allow Randombot to teleport to grind spot on randomize
+- Add README note for Bots addon
+- Merge pull request #65 from whipowill/compilebugs
+
+## 2022-05-20
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Merge branch 'compilebugs' of github-whipowill:whipowill/wow-module-playerbots into compilebugs
+- Compile bug fixes.
+
+## 2022-05-19
+- Merge branch 'ZhengPeiRu21:AzerothCore' into compilebugs
+- Merge pull request #64 from whipowill/dbfix
+
+## 2022-05-18
+- Fix sql file error. Issue #59.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+- Compile bug fixes.
+
+## 2022-05-17
+- Merge branch 'AzerothCore' of https://github.com/ZhengPeiRu21/mod-playerbots into AzerothCore
+- Remove outdated versioning string
+- Fix DB Migration updates for playerbots_dungeon_suggestion_definition table
+
+## 2022-05-16
+- Merge pull request #55 from qudzy/bug/sql-select-randombot-accounts
+
+## 2022-05-13
+- Correct select randombot sql wildcard syntax error
+
+## 2022-05-11
+- Merge pull request #54 from qudzy/hotfix/move-base-dungeon-suggestion-definition
+- Move dungeon suggestion definitions to base folder
+
+## 2022-05-10
+- Update README.md
+- Merge pull request #51 from qudzy/upstream/refactor-instance-suggestions
+
+## 2022-05-03
+- Refactor instance suggestions
+
+## 2022-04-19
+- Merge branch 'AzerothCore' of https://github.com/ZhengPeiRu21/mod-playerbots into AzerothCore
+- Fix crash when reporting item destroyed to master
+
+## 2022-04-17
+- Merge pull request #43 from qudzy/upstream/fix/suggest-faction-interpolation
+- Merge pull request #42 from qudzy/upstream/gitignore-vs
+
+## 2022-04-12
+- Correct faction interpolation in reputation suggestion
+
+## 2022-04-04
+- Categorize Visual Studio folder in gitignore
+
+## 2022-04-11
+- Merge pull request #38 from Bogir/fixes_1
+
+## 2022-04-09
+- Update PlayerbotFactory.cpp
+- Update PlayerbotFactory.cpp
+- .
+- fix create random guild
+
+## 2022-04-08
+- fixed some ids
+- .
+- check if player already is member of any Arena-tream
+- removed unexisting spell id
+- fix synthax
+- fix
+- fix
+
+## 2022-04-06
+- Disable knockback handling until spline issue can be resolve
+
+## 2022-04-04
+- Another Position comparison fix
+- Merge pull request #30 from qudzy/contribution
+- Port fixes until 774db31 - arena emblems, fix non-usable classes, disable multi-thread account delete
+- Correct spelling in instance names
+- Prevent uninitialized exception loop in TravelMgr
+- Remove unnecessary include
+- Fix spline flag in bot knockback packet
+
+## 2022-04-01
+- Change MovementAction comparison to avoid compile error on Linux
+- Fix CMSG_BATTLEMASTER_JOIN packet format
+
+## 2022-03-31
+- Fix typo causing crash in GuildCreateActions SQL
+- Prevent invalid BGJoinAction
+
+## 2022-03-30
+- Attempt to fix crash in playerbot logout
+
+## 2022-03-26
+- Fix SQL query in Guild kill advertisement
+- More Enchanting crash fixes
+- Set correct owner for randombot items to prevent crash when applying enchants
+
+## 2022-03-25
+- Fix crash when bot re-logs
+- Fix getting AI during teleport
+- Fix crash in Refresh PlayerbotAI method
+- Merge branch 'AzerothCore' of https://github.com/ZhengPeiRu21/mod-playerbots into AzerothCore
+- Prevent another crash in RandomTeleport
+- Merge pull request #8 from htc16/AzerothCore
+
+## 2022-03-24
+- Add files via upload
+- Fix crash in GetPlayerbotMgr
+- Properly check tlocs instead of locs in RandomTeleport crash
+
+## 2022-03-23
+- Prevent crashes when getting PlayerbotMgr
+- Prevent crash in RandomTeleport
+- Remove unnecessary include
+- Crash fixes, movement fixes, WIP knockback support
+- Several crash fixes
+
+## 2022-03-22
+- Port fixes until b4094bf - flying, mount animations, bot attack range, free food option
+- Update README.md
+- Fix corrupt item cache crashes, bot whispers, trade crashes
+
+## 2022-03-12
+- Big update.
+
+## 2021-12-30
+- Initial commit - mod-playerbots
+
