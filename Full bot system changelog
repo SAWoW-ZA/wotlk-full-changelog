@@ -1,3 +1,133 @@
+## 2025-07-28
+- Merge pull request #1474 from ThePenguinMan96/Druid-Flight-Form-Bug-Fix
+
+## 2025-07-27
+- Merge pull request #1456 from brighton-chi/worldbuff
+- Merge pull request #1466 from Wishmaster117/Add-glyphs-and-glyph-equip-commands
+- Druid Flight Form Bug Fix
+- Merge pull request #1472 from liyunfan1223/drink_aura
+- Merge pull request #1468 from ThePenguinMan96/Mage-Overhaul
+- Fix: Properly track RNDbot and AddClass accounts, and login faction balance issue (#1434)
+- - Added raid cheat to configuration to add posibility to turn off (#1465)
+- Change drink aura for free food
+
+## 2025-07-26
+- Migrate important cooldowns over to BoostStrategy
+- Update EquipGlyphsAction.cpp
+- Update ChatTriggerContext.h
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatCommandHandlerStrategy.cpp
+- Update ChatTriggerContext.h
+- Update EquipGlyphsAction.cpp
+- Merge remote-tracking branch 'upstream/master' into worldbuff
+- Merge pull request #1467 from ThePenguinMan96/Warlock-Pet-Re-Summon-on-Strategy-Change
+- Mage Overhaul
+
+## 2025-07-25
+- Warlock Pet Re-Summon on Strategy Change
+
+## 2025-07-26
+- Merge pull request #1463 from ThePenguinMan96/Warlock-Soul-Shard/Soulstone-ID-conversion
+- Add /w botname "glyphs" and  "glyph equip" commands
+
+## 2025-07-25
+- Changes requested
+- Engine optimization for better performance and mem usage  (#1462)
+
+## 2025-07-24
+- Merge remote-tracking branch 'upstream/master' into worldbuff
+
+## 2025-07-23
+- Bagspace checks
+- Warlock Soul Shard/Soulstone ID conversion
+- RPG update travel flight status (#1445)
+- - Replaced custom protection of soul shard by trigger check interval (#1453)
+
+## 2025-07-19
+- Make world buff strategy conditions configurable
+- Warlock Soulstone/Soulshard hotfix (#1452)
+
+## 2025-07-17
+- Hunter Pet Chat Command (#1448)
+
+## 2025-07-15
+- Warlock Soul Shard Hotfix (#1442)
+
+## 2025-07-14
+- - Fixed loot trigger to respect stay strategy (#1437)
+- Hunter/Warlock AoE Fix (#1440)
+
+## 2025-07-13
+- Merge pull request #1435 from ThePenguinMan96/Hunter-Overhaul
+- Merge pull request #1436 from ThePenguinMan96/Firestone-Error-Fix/Excess-Soul-Shard-Fix
+
+## 2025-07-12
+- Firestone Error Fix/Excess Soul Shard Fix
+
+## 2025-07-11
+- Hunter Overhaul
+
+## 2025-07-08
+- Merge pull request #1430 from ThePenguinMan96/Warlock-Curse/Spellstone-and-Firestone-Strategies,-Soul-Shard-Replenish
+- Minor Battleground tactics improvements (#1431)
+
+## 2025-07-07
+- Modified code to allow the build to complete on mac
+- Warlock Curse/Spellstone and Firestone Strategies, Soul Shard Replenish
+- Merge pull request #1418 from Boxhead78/bg-tactics-rewrite
+
+## 2025-07-08
+- fix warnings (#1428)
+- fix trinket (#1429)
+
+## 2025-07-06
+- - Fixed bug with not respecting InstantFlightPaths config (#1410)
+- Merge pull request #1426 from NoxMax/delete-all-the-orphans
+- Merge pull request #1425 from liyunfan1223/rpg_gear_incremental
+- Merge pull request #1422 from ThePenguinMan96/Warlock-Ranged-Designation/DPS-Strat-cleanup
+
+## 2025-07-05
+- Ensuring data orphans are deleted
+- correct typo in conf
+- Random bots gear related enhancements
+
+## 2025-07-04
+- Eureka!
+- Merge pull request #1424 from Raz0r1337/master
+- Merge pull request #1420 from Wishmaster117/Correction-Code
+- Added range checks for running away if too close
+- Update PlayerbotAI.cpp
+- Update playerbots.conf.dist
+- - Added chat command to wipe group (#1408)
+- Added configuration on excluded prefixes for trade action (#1401)
+- Warlock Ranged Designation/DPS Strategy Cleanup
+- PlayerbotAI – Fix GetEquipGearScore to mirror Blizzard’s average-ilvl rules
+
+## 2025-07-03
+- Merge branch 'liyunfan1223:master' into Correction-Code
+- Update PlayerbotAI.cpp
+- Merge pull request #1419 from Raz0r1337/master
+- Update playerbots.conf.dist
+- Fix missing BotStrategy enums
+- Move GetBotStrategyForTeam from core
+- Battleground Rewrite
+
+## 2025-07-02
+- Merge pull request #1411 from ThePenguinMan96/PVP-Talents-&-InitGlyph-expansion
+- Update PlayerbotMgr.cpp (#1414)
+- Update PlayerbotMgr.cpp (#1412)
+
+## 2025-07-01
+- PVP Talents and InitGlyph changes
+- Corrections to Vanilla max iLevels (#1409)
 
 ## 2025-06-27
 - Warlock overhaul (#1397)
