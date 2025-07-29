@@ -1,4 +1,220 @@
+## 2025-07-25
+- Merge branch 'master' into Playerbot
+- chore(DB): import pending files
+- fix(Script/Creature): Add random delay to Gargoyle casts (#22512)
+- fix(DB/Event): Scourge Invasion Shadow of Doom and rare loot (#22518)
+
+## 2025-07-24
+- chore(DB): import pending files
+- fix(DB/Spawns) Removes 6x creature spawns for "Lordaeron Citizen" (#22552)
+- feat(Core/Load): Add debug logs for zone and area assignment (#22509)
+- fix(Conf/Misc): Update max visibility description (#22187)
+- chore(DB): import pending files
+- fix(DB/SAI): Implement various missing Culling of Stratholme behaviours (part 2). (#22550)
+- fix(Core/Spell): skip Guardian pets when searching for Party/Raid members (#22528)
+- fix(Core/Account): Change account flag updates to async connection (#22547)
+- chore(DB): import pending files
+- feat(Core/Account): Add account flags support (#22533)
+- fix(Core/Unit): wrong behavior of `HasUnitMovementFlag` (#22529)
+- chore(DB): import pending files
+- fix(DB/SAI): Implement various missing Culling of Stratholme behaviours (#22545)
+- fix(Scripts/Northrend): Ulduar Mimiron plasma ball always target victim (#22543)
+- chore(DB): import pending files
+- fix(DB/Creature): Update Amanitar spawn position (#22542)
+
+## 2025-07-23
+- fix(DB/SQL): Do not give all permissions to user "acore" upon creation via the sql file (#22540)
+- fix(Core/Player): Only mark spells as invalid when none of the Skills match (#22537)
+- chore(DB): import pending files
+- fix(DB/Creature): Rhunok cannot be attacked anymore without using first Tormentor's Incense. (#22534)
+
+## 2025-07-22
+- chore(DB): import pending files
+- fix (DB/Creature) Edit Geirrvif's position. (#22531)
+- chore(DB): import pending files
+- fix (DB/Creature) Set right faction for Ice Steppe Rhinos. (#22530)
+- chore(DB): import pending files
+- fix (DB/Gameobject) Vordrassil Seeds now have a corrected spawn point. (#22527)
+- chore(DB): import pending files
+- fix (DB/Creature) Eyes Above quest issues are now solved. (#22513)
+
+## 2025-07-21
+- chore(DB): import pending files
+- fix(Scripts/GrizzlyHills): Refactor Red Rocket quest to use SmartAI s… (#22517)
+- chore(DB): import pending files
+- fix(DB/Event): Scourge Invasion vendor conditions (#22519)
+
+## 2025-07-20
+- fix(Scripts/Ulduar): Phase 1 of Thorim (#22037)
+- fix(Scripts/Spells): killing with Victory Rush grants Victory Rush (#22514)
+- chore(DB): import pending files
+- fix(DB/Custom): Stackable debuffs for wotlk dungeons/T7 raids (#22062)
+- chore(DB): import pending files
+- fix(DB/Custom): Stackable debuffs for wotlk T8 and up raids (#22105)
+- chore(DB): import pending files
+- fix(Scripts/Spells): Update Death Knight Ebon Gargoyle auras and damage, and Ghoul auras (#22398)
+
+## 2025-07-19
+- fix(Core/Metrics): InfluxDB v1 config check #22358 (#22479)
+
+## 2025-07-20
+- fix(Core/Authserver): HandleLogonProof query as async (#22510)
+
+## 2025-07-19
+- chore(DB): import pending files
+- fix(DB/Event): Scourge Invasion creature_template, quest mail, loot (#22501)
+- feat(DB): Release ACDB 13.0.0 (#22508)
+- refactor(Core/PlayerSettings): Refactor Player settings handling for efficiency (#22494)
+- refactor(Core/Misc): string handling and use smart pointer for strand (#22351)
+- fix(Core/Player): Unlearn invalid spells for race/class on login (#22370)
+- fix(Core/Creatures): Always update temp summons (#22484)
+
+## 2025-07-18
+- chore(DB): import pending files
+- fix(DB/Spells): Update Killing Machine PPM rate (#22477)
+- fix(Core/Player): implement Character flag `CHARACTER_FLAG_RESTING` (#22499)
+
+## 2025-07-16
+- fix(Scripts/AuchenaiCrypts): Remove debuff on summon death (#22461)
+- fix(Script/ScarletEnclave) Acherus Soul Prisons now reset properly. (#22496)
+
+## 2025-07-15
+- chore(DB): import pending files
+- fix(Scripts/Midsummer): improve torch tossing based on sniffs (#22378)
+- Merge branch 'master' into Playerbot
+- fix(Core/Config): align worldconfig default values to .conf.dist (#22475)
+- chore(DB): import pending files
+- fix(Core/Spells): Fixed explosive shot ammo consumption (#21501)
+- fix(Scripts/Kalimdor): Fix hardcoded gossip in zone_felwood (#21931)
+
+## 2025-07-14
+- fix(Core/FleeingMovementGenerator): Prevent fleeing players from moving off cliffs (#22462)
+- fix(Core/AI): prevent PetAI autocast leap to self and allies (#22472)
+- chore(DB): import pending files
+- fix (DB/Creature) Remove Blood Plague, Frost Fever etc... from various Scarlet Enclave npcs. (#22471)
+
+## 2025-07-13
+- fix (Script/Scarlet Enclave) Named Npcs can no longer be attacked after the end of the The Light of Dawn battle. (#22463)
+
+## 2025-07-12
+- chore(Core/Config): Finish removing config option. (#22464)
+
+## 2025-07-13
+- fix(Scripts/World): fix windows/mac build (#22465)
+
+## 2025-07-12
+- chore(DB): import pending files
+- feat(Core/WorldState): init Scourge Invasion pre-wrath event (#22286)
+- chore(DB): import pending files
+- fix(Scripts/EasternKingdoms): Add quest requirement to Orbaz Bloodbane's Ebon Hold portal (#22443)
+
+## 2025-07-11
+- chore(CI): Corrected the name of workflow in action tab to be more clear. (#22459)
+- fix(Core/FleeingMovementGenerator): Prevent fear movement from causing characters to fall through the ground (#22451)
+- feat(Core/Maps): Improve map object updater (#22392)
+- fix(Core/Group): incorrect parameter type in RegisterGroupId (#22448)
+- feat(Codestyle/SQL): Ensure InnoDB is used as DB Engine (#22457)
+- chore(DB): import pending files
+- fix(DB/world_state): Update engine to InnoDB (#22456)
+- fix(Core/Battlegrounds): Add Call to Arms bonus data to Alterac Valley and fix bonuses for other battlegrounds. (#21923)
+- feat(Core): Add config for legacy arena team start rating. (#22080)
+- fix(Core/Unit): Don't extend leash when taking self-inflicted damage. (#22449)
+
+## 2025-07-10
+- fix(Core/SharedDefines): Define creature static flags. (#22127)
+- fix(Core/Opcodes): Crash fix (#22453)
+- fix(Script/ScarletEnclave): Darion now have Corrupter Ashbringer on respawn. (#22452)
+- fix(Core/LFG): revert #22360 (#22436)
+- chore(DB): import pending files
+- fix (DB/Creature) Ensure that Scarlet Npcs respawn without the NON_ATTACKABLE flag. (#22450)
+
+## 2025-07-09
+- chore(DB): import pending files
+- fix (DB/Quest) Chapter V aura is now added to players when “The Light of Dawn” is delivered. (#22437)
+
+## 2025-07-08
+- chore(DB): import pending files
+- fix(DB/CreatureFormations): Add formations to NPCs in the Magister's Terrace (#22440)
+- feat(Core/Chat): Allow whispers to Game Masters regardless of sender … (#22417)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Refactor 'How to Win Friends' quest scri… (#22432)
+- fix(Core/Spells): Glyph of Scourge Strike can prolong diseases that were reapplied (#22438)
+
+## 2025-07-07
+- chore(DB): import pending files
+- fix (DB/Creature) The Eye of Acherus now removes the aura from the player on death. (#22428)
+
+## 2025-07-06
+- feat(tests): add BATS test parallel conf and integration tests for compiler module (#22421)
+- feat: improve session management and PM2 support in startup scripts (#22420)
+
+## 2025-07-05
+- fix(bash): Improve session management and GDB handling in service scripts (#22418)
+- BREAKINGCHANGE(Metrics): Support InfluxDB v2 (#22358)
+
+## 2025-07-04
+- Merge branch 'master' into Playerbot
+
+## 2025-07-03
+- fix(installer/windows): update OpenSSL version to 3.5.1 to fix gh build errors (#22416)
+- chore(DB): import pending files
+- fix(DB/SAI): Use Holy Fire spell for Draenei Anchorite (#22414)
+- chore(DB): import pending files
+- fix(DB/Autobroadcast): Update 'text' column in autobroadcast_locale t… (#22382)
+- chore(DB): import pending files
+- fix(DB/Quests) - Corrected the Reputation requirements for the Scryers and Aldor  (#22362)
+- chore(DB): import pending files
+- fix(DB/ArathiBasin): Replacement for previously lost tabards added and adjustements to quests (#22338)
+- fix(Scripts/Spells): Don't proc Misdirection from Mend Pet's heal effect. (#22293)
+- fix(Core/Unit): Add previously unreferenced DealDamage script hook in Unit (#22207)
+- fix(Core/Spells): No longer add a signature to items created by NPCs (#22415)
+- feat(Core/LFG): RDF CF (#22360)
+- fix(CI): update build job to support multiple Ubuntu versions (#22413)
+- chore(DB): import pending files
+- fix(DB/SAI) - Corrects Corpse.Decay for Patchwerk from the end of the Death Knight zone (#22412)
+
+## 2025-07-02
+- chore(DB): import pending files
+- fix(DB/SAI: Fix Archerus Deathcharger not despawning if players move … (#22411)
+- chore(DB): import pending files
+- fix (DB/Creature) Tirion doesn't get back on his horse anymore during The Light of Dawn event. (#22406)
+
+## 2025-07-01
+- fix(Core/Reputation): Remove `At War` flag when rising above hated reputation. (#22386)
+- chore(DB): import pending files
+- fix (DB/Creature) A couple of simple SmartAI corrections for Scarlet Ghouls and Scourge Gryphons. (#22405)
+- chore(DB): import pending files
+- fix (DB/Creature) Elite npcs no longer die during The Light of Dawn battle. (#22402)
+- chore(DB): import pending files
+- fix (DB/Creature/Scarlet Enclave) Implement Ghouls and Gryphon spawn and behaviour. (#22348)
+- feat(bash): startup-scripts reworked + bash scripts workflow  integration (#22401)
+- chore(DB): import pending files
+- fix(Scripts/ScarletEnclave): Correct Tirion spawn position in Light o… (#22394)
+
+## 2025-06-30
+- refactor(Scripts/Pet): Death Knight use creature register macros (#22399)
+- feat(Core/Config): Improvements to config caching (#21647)
+- chore(DB): import pending files
+- feat(Core/Command): add GM spectator to allow cross-faction `/follow` (#22393)
+
+## 2025-06-29
+- chore(DB): import pending files
+- fix(Core/Spells): Fix SPELL_EFFECT_LEAP_BACK not working on targeted … (#22389)
+- chore(DB): import pending files
+- feat(Scripts/Commands): Add guild ranks display to guild info command (#22380)
+- fix(Scripts/Spells): Death Knight Bone shield charges now have a 2 second delay between uses. (#22340)
+- chore(DB): import pending files
+- fix(DB/Creature): Make Captured Raptor immune to player characters. (#22387)
+- chore(DB): import pending files
+- fix(Scripts/Spells): add script to GM spell CooldownAll (#22383)
+- Merge branch 'master' into Playerbot
+
 ## 2025-06-28
+- refactor(db-scripts): replace PowerShell database tools with Bash scripts and update documentation (#22372)
+- fix(Core/Player): Mutilate + Cold Blood crit fix (#22308)
+- fix(CI/Codestyle): Add directory check to SQL codestyle script (#22376)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove respawn time from the smartAI of some npc's in the scarlet enclave. (#22375)
 - Merge branch 'master' into Playerbot
 
 ## 2025-06-27
