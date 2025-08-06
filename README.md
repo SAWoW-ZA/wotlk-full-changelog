@@ -1,4 +1,68 @@
+## 2025-08-02
+- Merge branch 'master' into Playerbot
+
+## 2025-08-01
+- chore(DB): import pending files
+- fix(DB/SAI): fix scourge invasion quest 12616 'Chamber of Secrets' (#22606)
+- chore(DB): import pending files
+- fix(Core/Items): count stats programatically instead of manually set (#22564)
+- fix(CORE/lfg): Correct random LFG reward bug (#22599)
+
+## 2025-07-31
+- fix(Core/Pet): Fix player pets attack (#22601)
+
+## 2025-07-30
+- fix(Core/Grids): Fix corpse loading after a server restart (#22594)
+
+## 2025-07-29
+- chore(DB): import pending files
+- fix(DB/Commands): Added and updated commands for go objects, go creatures and group revive (#22229)
+- fix(Scripts/Spell): improve handling of refreshing diseases with Glyph of Disease (#22434)
+- chore(DB): import pending files
+- fix(DB/Spells): add various spells to spell_groups (#22075)
+- chore(DB): import pending files
+- feat(Core/ServerMail): Add AccountFlags condition to server mail temp… (#22549)
+- chore(DB): import pending files
+- fix(Spells/Druid): Moonglade Raiment 2-piece set bonus  (#22148)
+- fix(Core/Unit): Add melee leeway for auto attacks (#22566)
+- fix(Core/Leash): Improve leashing behavior and timer handling (#22525)
+- fix(Core/Player): allow attacking target within boundary radius when… (#22500)
+- feat(Core/Spell): implement `SPELL_ATTR2_CHAIN_FROM_CASTER` (#22515)
+- feat(Core/Maps): Remove worldobject container switch functionality (#22586)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix Poisonous Mushroom cast logic and move script to SAI (#22567)
+- refactor(Core): Clean (#22583)
+- feat(Core/Maps): Multithread startup map preloading (#22580)
+- feat(Core/Unit): Optimize AuraEffectList container (#22584)
+- fix(Core/Spell): skip Guardian pets when searching for Party/R… (#22587)
+
+## 2025-07-27
+- refactor(World/WorldState): use prepared statements (#22582)
+
+## 2025-07-28
+- fix(Scripts/AhnKahet): Refactor Prince Taldaram vanish and embrace logic (#22524)
+
+## 2025-07-27
+- chore(DB): import pending files
+- fix(DB/SAI): Implement Dialogue in the tavern (#22577)
+- fix(bash/starter): enhance interactive mode handling (#22516)
+- chore(DB): import pending files
+- feat(Script/Command): Add AccountFlag pinfo output (#22548)
+- chore(DB): import pending files
+- fix(DB/SAI): Grant quest credit to all group members for quest The Mi… (#22572)
+- refactor(Core/Account): Move account flag logic from AccountMgr to WorldSession (#22558)
+
+## 2025-07-26
+- fix(Scripts/Spells): Death and Decay not breaking Hungering Cold (#22573)
+- feat(Core/Player): Allow spell validation to be skipped at server owner's risk (#22521)
+- chore(DB): import pending files
+- fix(DB/Spell): Fix serverside spell Grow (#22569)
+- fix(Scripts/CullingOfStratholme): Prevent Arthas from despawning (#22570)
+- chore(DB): import pending files
+- fix(DB/page_text_locale): fix gender tags and html for 3539, 3540, 3541 (#22562)
+
 ## 2025-07-25
+- feat(Core): make BGs and Arena prep time configurable (#22136)
 - Merge branch 'master' into Playerbot
 - chore(DB): import pending files
 - fix(Script/Creature): Add random delay to Gargoyle casts (#22512)
