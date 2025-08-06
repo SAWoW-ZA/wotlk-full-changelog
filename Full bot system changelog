@@ -1,3 +1,35 @@
+## 2025-08-02
+- Sync with azerothcore (#1492)
+
+## 2025-08-01
+- Changed OnPlayerBeforeAchievementComplete to allow random bots to unlock achievements (#1487)
+- Add optional gender parameter to .playerbot bot addclass command (#1491)
+- New roll for item action (#1482)
+- Add config to disable hunters from generating specified pet families (#1485)
+- Revise bot logic for initializing and using consumables (#1483)
+
+## 2025-08-02
+- Fix initself crash (#1488)
+
+## 2025-08-01
+- - Added generic boss shadow aura trigger and action (#1480)
+
+## 2025-07-31
+- Merge pull request #1477 from ThePenguinMan96/Channel-Cancel-checks-for-Channeled-AOE-DPS-Spells
+- Merge pull request #1475 from EricksOliveira/patch-33
+- Merge pull request #1473 from Tierisch/master
+
+## 2025-07-28
+- Merge pull request #1474 from ThePenguinMan96/Druid-Flight-Form-Bug-Fix
+- Fix
+- .
+- The bot immediately moves to a new position if the target is lost by LoS even during the cast.
+- ..
+- Fix
+- .
+- Improve Bot Repositioning Based on Line of Sight and Vertical Distance
+- Channel Cancel checks for Channeled AOE DPS Spells
+
 ## 2025-07-28
 - Merge pull request #1474 from ThePenguinMan96/Druid-Flight-Form-Bug-Fix
 
