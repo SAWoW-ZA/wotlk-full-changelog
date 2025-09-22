@@ -1,4 +1,420 @@
+## 2025-09-20
+- Merge branch 'azerothcore:master' into Playerbot
+- chore(DB): import pending files
+- refactor(Scripts/Dragonblight): Move Strengthen the Ancients quest sc… (#22983)
+- chore(DB): import pending files
+- fix(DB/SAI): add AI to some Northrend creatures (#22987)
+- fix(Core/Spells): crashfix (#22986)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove Herald Volazj interrupt immunity (#22981)
+- chore(Core/Handlers): Remove unused item query optimization. (#22971)
+- chore(DB): import pending files
+- fix(DB/Creature) Set Force Destination off on Kvaldir Raider's Action List. (#22979)
+- Improve INSTALL_ARGS handling and update OpenSSL version (#22978)
+- feat(Core/SAI): enhance movement actions with force destination option (#22974)
+- chore(DB): import pending files
+- fix(DB/Misc): Fix Neutralizing the Cauldrons animations (#22980)
+- chore(DB): import pending files
+- fix(DB/StormPeaks): Fix Fjorlin Frostbrow gossip prerequisite conditions (#22914)
+- feat(NPC): add configuration for creature repositioning during NPC combat (#22973)
+- chore(DB): import pending files
+- fix(DB/Creature): Sindragosa's Fall Wyrm Reanimator/Frost Brood Spawn… (#22963)
+
+## 2025-09-19
+- chore(DB): import pending files
+
+## 2025-09-20
+- fix(DB/Borean Tundra) Solve various issues in Kaskala area. (#22970)
+
+## 2025-09-19
+- chore(DB): import pending files
+- fix(DB/SmartAI): add visuals and animations to quest Vision of Air  (#22946)
+- Merge pull request #70 from kadeshar/guild-crash-fix
+- chore(DB): import pending files
+- refactor(DB/SmartAI): quest 'X Marks... Your Doom!' (#22961)
+- refactor(DB/SmartAI): quest 'That's What Friends Are For...' (#22960)
+- refactor(DB/SmartAI): quest  'Uncovering the Tunnels'  (#22959)
+- fix(DB/Achievement): Add missing criteria to 'Disturbing the Peace' (#22957)
+- fix(DB/SmartAI): quest The Collapse and Deploy the Shake-n-Quake (#22945)
+- Merge pull request #69 from hermensbas/core/update_2025_09_18
+- feat(Core/Spells): Implement OnSpellCastFinished hook (#22941)
+
+## 2025-09-18
+- - Possible crash fix while adding member to guild
+- Merge remote-tracking branch 'upstream/master' into core/update_2025_09_18
+
+## 2025-09-17
+- chore(DB): import pending files
+- fix(DB/Creature): Fix Fallen Earthen Warrior (#22950)
+
+## 2025-09-16
+- chore(DB): import pending files
+
+## 2025-09-17
+- fix(DB/Gameobject): Sniffed Values for 'Sturdy Vine' spawns (#22947)
+
+## 2025-09-16
+- chore(DB): import pending files
+- fix(DB/Creature): Implement Naxxanar visuals (#22932)
+- fix(Scripts/AzjolNerub): Fix Drain Power spell (#22933)
+- fix(Scripts/BoreanTundra): Script Soul Deflection spell (#22931)
+- chore(DB): import pending files
+- fix(Scripts/Dragonblight): Script Wyrmrest Vanquisher Flame Fury spell (#22940)
+- chore(DB): import pending files
+- fix(DB/loot) adjusting droprate for earthfury bracer and earthfury belt (#22935)
+- fix(DB/npc_vendor) Adjusted Wood frog box restock value from 2.5 hours to 30 mins (#22936)
+
+## 2025-09-15
+- fix(Core/Creature): ensure target is valid when acquiring GUID (#22937)
+- chore(DB): import pending files
+- feat(DB): Add `VerifiedBuild` column for `creature_model_info` (#22934)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix several A Returning to Resting quest issues (#22930)
+- chore(DB): import pending files
+- fix(DB/Creature): Adjust addon info for Storm Giant. (#22922)
+- chore(DB): import pending files
+- fix(DB/SAI): Script On Brann's Trail turn in event (#22919)
+- feat(Core/SAI): Implement delay option to SMART_ACTION_TALK (#22918)
+- chore(PlayerSettings): Save data and lowGuid (#22921)
+
+## 2025-09-14
+- chore(DB): import pending files
+
+## 2025-09-15
+- fix(DB/Creature) Gjalerbron Prisoners no longer swim in air. (#22917)
+
+## 2025-09-14
+- feat(Core/AI): Allow preventing health check events while casting (#22897)
+- fix(World/WorldState): SI main event can only be disabled manually (#22911)
+- feat(World/WorldConfig): ScourgeInvasion Add config BattlesWon tresholds (#22913)
+- Merge pull request #67 from kadeshar/guild-cross-faction-fix
+- chore(DB): import pending files
+- fix(DB/Sholazar) Captive Crocolisk no longer has a wonky path. (#22891)
+- chore(DB): import pending files
+- fix(DB/Quest) - Only allow either News for Rakoria or News from Zangarmarsh be picked up and completed (#22904)
+
+## 2025-09-13
+- chore(DB): import pending files
+- fix(DB/Creature) Remove skinning loot from Soriid the Devourer (#22908)
+- chore(DB): import pending files
+- fix(DB/StormPeaks) Add quest prerequisite for Unwelcome Guests (#22858)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Fortunate Misunderstandings quest completion and oracle pathing (#22888)
+- - Fixed cross faction guilds not allowed by config
+- chore(DB): import pending files
+- fix(DB/SAI): Scavenge-bot not granting credit for Weakness to Lightni… (#22899)
+
+## 2025-09-12
+- chore(DB): import pending files
+- fix(DB/SAI): Remove Lash of Pain from Succubus Minion. (#22890)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fix Ebon Blade Banner target conditions (Leave Our Mark) (#22880)
+- chore(DB): import pending files
+- fix(DB/Spells): Anub'arak now uses heroic pound when heroic (#22862)
+- chore(DB): import pending files
+
+## 2025-09-11
+- fix(Scripts/Spells): Friendship Bread does not display hearts when eating (#22875)
+
+## 2025-09-12
+- chore(DB): import pending files
+
+## 2025-09-11
+- fix(DB/SAI): Borean Tundra Foolish Endeavors various issues (#22876)
+
+## 2025-09-12
+- chore(DB): import pending files
+
+## 2025-09-11
+- fix(DB/Quest): 'The Aberrations Must Die.' is available early (#22889)
+
+## 2025-09-12
+- fix(Core/Creature): group members should also follow the movement (#22690)
+
+## 2025-09-11
+- chore(DB): import pending files
+
+## 2025-09-12
+- fix(DB/Oculus): Add various formations. (#22885)
+
+## 2025-09-11
+- feat(Core/Conditions): Implement CONDITION_AI_DATA and support for st… (#22879)
+- fix(Scripts/Spells): Druid ability Starfall now will no longer try to hit outside line of sight targets (#22422)
+- fix(Core/Player): Haunted Memento aura remains after mailing the item (#22877)
+- chore(DB): import pending files
+- fix(DB/SpellProcEvent): Warrior Sword Specialization and Sudden Death (#22042)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Zul'Drak Voltarus teleporters sometimes do not work (#22878)
+- chore(DB): import pending files
+- fix(DB/Script/Gundrak) Implement Rhino event when the bridge moves.  (#22873)
+- Merge pull request #65 from liyunfan1223/Playerbot-250911
+- Merge branch 'master' into Playerbot-updated
+
+## 2025-09-10
+- chore(DB): import pending files
+- fix(Core/Formations): Prevent formation members from moving when cont… (#22859)
+- fix(Scripts/Stormpeaks): Fix Feed Stormcrest Eagle spell target condi… (#22848)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Weapon Rack' spawns (#22854)
+- chore(DB): import pending files
+- fix(DB/Conditions): Horde Siege Tank cannot be entered without the required quest (#22856)
+
+## 2025-09-09
+- chore(DB): import pending files
+- fix(DB/SAI) "The Earthen Oath" quest kill credit  from 2 to 1 (#22667)
+- fix(Scripts/ScarletEnclave): fix crash in Persuasive Strike spell script (#22840)
+- chore(DB): import pending files
+- fix(DB/Creature): Correct visibility distance and addon auras of Fel Reaver. (#22847)
+- chore(DB): import pending files
+
+## 2025-09-08
+- fix(Scripts/Dragonblight): quest Fresh Remounts (#22846)
+
+## 2025-09-09
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Meat Wagon' spawns (#22843)
+- fix(DB/Gameobject): Sniffed Values for 'Death's Gaze Orb' spawns (#22844)
+- chore(DB): import pending files
+
+## 2025-09-08
+- fix(Scripts/Northrend): Scourge Plague Spreader summons ghouls mid-air (#22845)
+- fix(Core/Visibility): Visibility should be using 2d distance checks (#22839)
+- fix(Core/Visibility): Mark destructible objects infinite visibility (#22838)
+- fix(Core/Visibility): Add some safety to visibility grid container (#22837)
+
+## 2025-09-07
+- fix(Core/Visibility): Fix visibility issue at sight limit (#22830)
+- chore(DB): import pending files
+- fix(DB/SAI): Escape Silverbrook escort should only start on passenger… (#22829)
+- feat(Core/Visibility): Far visibility worldobjects (#22828)
+
+## 2025-09-06
+- fix(Scripts/Commands): Don't set error message flag for successful `event activelist` command. (#22824)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Doodad_FrostGiantIceShard' sp… (#22823)
+- fix(CMake/Boost): package finding logic + suppress deprecation warnings + support Boost 1.89
+- chore(DB): import pending files
+- fix(DB/Creature) Add immunities to various NPCs. (#22815)
+- fix(Core/Player): Haunted Memento aura is present when item is in bank (#22811)
+- chore(DB): import pending files
+- fix(Scripts/AzjolNerub): Modernize Krikthir the Gatewatcher script (#22647)
+- feat(Scripts): Add health and console commands to service manager and corresponding tests (#22814)
+- feat(config): add support for excluding modules during installation and updates (#22793)
+- chore(DB): import pending files
+- fix(DB/SAI): Scourge Invasion mini bosses various issues (#22809)
+- chore(DB): import pending files
+- fix(DB/Event): missing Ironforge Argent Quartermaster (#22810)
+- fix(DB/Creature): Necrotic Shard is sometimes regenerating health (#22812)
+- fix(Scripts/Spells): Shadow of Doom death sometimes deals no damage (#22813)
+
+## 2025-09-05
+- chore(DB): import pending files
+- fix(DB/Creature): Correct spells for Orc Warlock chess piece. (#22770)
+- chore(DB): import pending files
+
+## 2025-09-04
+- fix(DB/SAI): Fix Leave no one Behind not granting credit if crusaders… (#22790)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Quest Draconis Gastritis can't be completed (#22805)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Gravestone' spawns (#22796)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove incorrect other gender display from Vurtok Axebreaker. (#22782)
+- Refactor menu command handling for direct execution (#22791)
+- chore(DB): import pending files
+- fix(DB/SAI): Despawn Frozen Phylactery on use (#22788)
+- fix(Core/SAI): Fix crash in SMART_TARGET_OWNER_OR_SUMMONER (#22789)
+
+## 2025-09-03
+- fix(Core/Maps): Move corpse expiration updates to map (#22780)
+- fix(Scripts/Oculus): Fix oculus npc belgaristrasz gossip menu (#22765)
+- chore(DB): import pending files
+- fix(DB/SAI): low-level scourge invasion mobs are killed by guards (#22784)
+- fix(Scripts/WorldState): zone invasion marks self as defeated when ti… (#22787)
+- fix(Scripts/WorldState): defeated scourge zone invasions not restarting after a defeat (#22783)
+
+## 2025-09-04
+- feat(MenuSystem): Implement unified menu system for AzerothCore management (#22786)
+
+## 2025-09-03
+- chore(DB): import pending files
+- fix(Scripts/Spells): Fix group credit for Salvaging Life's Strength quest spell (#22779)
+- fix(Scripts/HowlingFjord): Fix Falcon vs Hawk quest credit being gran… (#22778)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'various doodad' spawns (#22773)
+- chore(DB): import pending files
+- feat(core): implement 31-bit safe petition_id for improved database integrity (#22774)
+
+## 2025-09-02
+- chore(DB): import pending files
+- fix(DB/SAI): Despawn Wooly Mammoth on dismount (#22776)
+- fix(Core/SAI): Remove combat flag on evade for SAI-scripted charmed u… (#22775)
+- chore(DB): import pending files
+- fix(DB/Creature): Add spawn for Bubulo Acerbus. (#22768)
+- chore(DB): import pending files
+- fix(DB/SAI) Add missing abilites for various npcs in The Shadow Vault area. (#22766)
+
+## 2025-09-01
+- fix(Scripts/World): Swap Shard communication spell to direct cast instead of AoE. (#22764)
+
+## 2025-08-31
+- refactor(Core/Packets): Rewrite various item packets to modern class. (#22758)
+
+## 2025-08-30
+- Feat/refactoring-module-menu (#22733)
+- Merge pull request #8 from azerothcore/master
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Stranglekelp Sack' spawns (#22756)
+- fix(DB/Gameobject): Sniffed Values for 'Mag'har Rug' spawns (#22755)
+- fix(DB/Creature): Sniffed Values for 'Tahu Sagewind' spawns (#22754)
+- chore(DB): import pending files
+- fix(Scripts/Karazhan): Minor adjustments to Tenris Mirkblood. (#22753)
+
+## 2025-08-29
+- refactor(Core/Script): Rename Creature_SelectLevel to OnCreatureSelectLevel for clarity (#22750)
+- chore(DB): import pending files
+- fix (db/smart_scripts): Skeletal Horrors only cast when 2 or more players (#22745)
+- fix(Scripts/SI): crash fix (#22744)
+- chore(DB): import pending files
+
+## 2025-08-28
+- fix(DB/Loot): Adjust drops for various Scourge Invasion related items. (#22738)
+- chore(DB): import pending files
+- fix(DB/Creature): Bind players to instance upon killing Tenris Mirkblood. (#22743)
+- fix(Core/WorldState): Start boss activation event when starting Scourge Invasion. (#22739)
+
+## 2025-08-27
+- chore(DB): import pending files
+- fix(DB/SmartAI): port Shadow of Doom script to SmartAI (#22735)
+- Merge pull request #7 from azerothcore/master
+- fix(Core/Player): Recast lost by death item obtain spells of any item… (#22736)
+- chore(DB): import pending files
+- fix(Scripts/Karazhan): Implement Tenris Mirkblood. (#22551)
+- feat(Core/Scripting): Add OnPlayerGiveReputation script hook (#21869)
+- chore(DB): import pending files
+
+## 2025-08-26
+- fix(DB/Item): Add some stat values to Death Knight Brutal Gladiator set. (#22725)
+- fix(Core/GroupHandler): Adjust maximum value for rolls. (#22686)
+
+## 2025-08-25
+- feat(Service Manager): add service registry custom dir and restore functionality (#22589)
+- chore(DB): import pending files
+- fix(DB/SAI): fix dark portal creatures calling for help on aggro (#22730)
+- chore(DB): import pending files
+- fix(DB/SAI): set dark portal event creatures active (#22724)
+- fix(Entities/Creature): do not touch setActive() state in setDeathSta… (#22729)
+- chore(DB): import pending files
+- fix(DB/Conditions): Everfrost Chip should require atleast friendly Sons of Hodir standing (#22718)
+
+## 2025-08-24
+- refactor(Core/Packets): Rewrite various query packets to modern class. (#22719)
+- chore(DB): import pending files
+- fix(DB/SAI): fix event_type of Pit Commander SAI entry (#22723)
+
+## 2025-08-23
+- fix(CI/modules-build): disable archived / outdated module mod-war-effort (#22722)
+- fix(Scripts/Spells): Fix Death and Decay interrupting spellcasting (#22720)
+- chore(DB): import pending files
+- fix(DB): Add spawns/events for Ahn'Qiraj War Effort event. (#22497)
+
+## 2025-08-22
+- chore(Core/Player): Change player setting index type from uint8 to ui… (#22716)
+- fix(Core/DB): Update connection type for character settings select (#22712)
+
+## 2025-08-21
+- fix(SERVER/Main): Implementation for version param (#22707)
+- fix(Core/SAI): GameObject smart_script based on GUID (#22710)
+
+## 2025-08-19
+- refactor(Core/Packets): Rewrite `MSG_MINIMAP_PING` to modern packet class. (#22696)
+- fix(Scripts/Commands): Allow using debug LFG and BG from console (#22705)
+- refactor(Core): Improve readability (#22691)
+- chore(DB): import pending files
+- fix(DB/Creature) Resolve Return of the High Chief quest issues. (#22695)
+
+## 2025-08-18
+- fix(Core/Visibility): Fix visibility crash (#22704)
+
+## 2025-08-19
+- feat(core): add standalone functions for player settings (#22703)
+
+## 2025-08-18
+- chore(DB): import pending files
+- fix(Scripts/SunwellPlateau): Remove Kil'jaeden's debuffs from Shield of the Blue effects. (#22687)
+- chore(DB): import pending files
+- fix(DB/Creature): Add more spawns for Isle of Quel'Danas harbor quest credit creatures. (#22698)
+
+## 2025-08-14
+- chore(DB): import pending files
+- fix(DB/SAI): Some Azjob-Nerub spell fixes (#22603)
+
+## 2025-08-13
+- chore(DB): import pending files
+- fix(DB/Spell): Allow Poison Bolt to stack (#22668)
+- fix(Conf/Logs): fix Error appender log level, enable sql.updates error logging (#22682)
+
+## 2025-08-12
+- chore(DB): import pending files
+
+## 2025-08-13
+- fix(DB/Spell): Allow Sunder Armor to stack (#22669)
+
+## 2025-08-12
+- Fix Error (#22681)
+- fix(Core/SAI):  Force SMC creatures to resume chasing victims once in… (#22581)
+- fix(Scripts/Pet): Fixes behavior of Army of the Dead Ghouls to attack… (#22665)
+- chore(DB): import pending files
+- fix(DB/SAI): Fezzix Geartwist now flies correctly and the wreckages despawn. (#22674)
+
+## 2025-08-11
+- fix(Core/Visibility): Fix initial visibility on player reused sessions (#22673)
+
+## 2025-08-10
+- fix(Scripts/Pet): Fix Risen Ghoul behavior that does not automaticall… (#22546)
+- fix(Core/Maps): Improve large object updater (#22659)
+- fix(Core/Transports): Improve static transport visibility (#22660)
+- chore(DB): import pending files
+- fix(DB/creature_loot): Remove wotlk skinning items from creature loot tables (#22645)
+- chore(DB): import pending files
+- fix(DB/Creature): En'kilah Gargoyles fly well again. (#22658)
+
+## 2025-08-09
+- Merge pull request #56 from liyunfan1223/Playerbot_sync_0809
+- Merge branch 'master' into Playerbot
+
+## 2025-08-08
+- feat(Core/Grids): Remove WorldObject separation in grid containers (#22595)
+- feat(Core/Maps): Remove active objects nearby cell marking handling (#22585)
+- chore(DB): import pending files
+- fix(DB/Misc): fix low level scourge invasion quests (#22611)
+- fix(DB/SAI): Anok'ra the Manipulator no longer retreats when he has low health. (#22635)
+
+## 2025-08-07
+- chore(DB): import pending files
+- fix(DB/Creature) Init creature_template_addon in Wastes Scavenger. (#22637)
+- feat(Core/Visibility): Visibility improvements part 1 (#22624)
+
+## 2025-08-06
+- fix(Scripts/Spells): DK Ghoul pet is no longer immune to Horn of Winter and other stat mod auras (#22636)
+- chore(DB): import pending files
+- fix(DB/Creature) Add dialogue to the deaths of Anok'ra, Sinrok, and Tivax. (#22634)
+- chore(DB): import pending files
+- fix(DB/Creature): remove skinning from Clutchmother Zavas (#22631)
+- fix(CI/windows): bump openssl to 3.5.2 (#22628)
+- chore(DB): import pending files
+- fix(DB/SAI): Captain Arathyn despawning his mount (#22061)
+- fix(apps/docker): put TZ ARG after FROM to be correctly applied (#22600)
+- chore(DB): import pending files
+- fix(DB/Creature) Kvaldir Mistweavers no longer swim. (#22622)
+- chore(DB): import pending files
+- fix(DB/Creature) Edit spawn point for a Snowfall Glade Shaman. (#22623)
+- fix(bash): Exit simple-restarter script if shutdown is requested (#22617)
+
 ## 2025-08-02
+- fix(Core/DBUpdater): disable exception throwing for dryrun (#22610)
+- Merge pull request #54 from liyunfan1223/Playerbot_sync
+- Merge pull request #52 from Rochet2/patch-1
 - Merge branch 'master' into Playerbot
 
 ## 2025-08-01
