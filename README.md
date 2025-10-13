@@ -1,5 +1,111 @@
-## 2025-09-20
+## 2025-10-03
+- fix(Core/Unit): add Dual Wield 'auto' to improve scripting (#23078)
+
+## 2025-10-02
+- fix(CI/Windows): installer script - update OpenSSL version to 3.5.4 (#23081)
+- chore(DB): import pending files
+- fix(DB/Creature): Pushed Too Far quest Stormcrest Eagle spell list (#23075)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Icecrown quest Seeds of Chaos flight speed and eject (#23074)
+
+## 2025-10-01
+- Merge pull request #72 from kadeshar/relic-usage-fix
+- - Added method BotCanUseItem
+- chore(DB): import pending files
+- fix(DB/Creature): Correct model assigns for Demolisher Engineer Blastwrench. (#22923)
+- feat(Core/Updater): Add configurable shutdown delay on update exceptions (#23042)
+- chore(DB): import pending files
+- fix(DB/gameobject): Adjust Quetz'lun's Corpse Spell Focus location (#22944)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for '186957' spawns (#22953)
+- fix(Scripts/Commands): escape string before query on go creature command (#23036)
+
+## 2025-09-30
 - Merge branch 'azerothcore:master' into Playerbot
+- fix(Core/Server): Fix player login checks (#23073)
+- chore(DB): import pending files
+- fix(Script/Gundrak) Drakkari Colossus will now use Mortal Strikes (#23065)
+- fix(DB) Riding Ram Upgraded to a beast from a critter (#23071)
+- chore(DB): import pending files
+
+## 2025-09-29
+- fix(DB/Formations): Drakkari Colossus will now call help from Drakkari Golems (#23064)
+- fix(Scripts/Gundrak): Fix Sladran Venom Bolt target and Poison Nova f… (#23055)
+- - Fix to make bots roll and equip for correct relic
+- chore(DB): import pending files
+- fix(DB/SmartAI) Update Bleeding Hollow Necrolyte and Tunneler AI. (#23057)
+- refactor(Core/Player): small clean in Player.h (#23018)
+- fix(Core/Weather): Improve weather system thread safety (#22772)
+
+## 2025-09-28
+- chore(DB): import pending files
+- fix(Core/Spells): updates trajectory target selection (#23031)
+- chore(DB): import pending files
+- fix(Scripts/UtgardePinnacle): Fix Skadi start and reset checks (#23034)
+
+## 2025-09-27
+- chore(DB): import pending files
+- fix(DB/SmartAI): Add Eagle flight of quest Fervor of the Frostborn (#23037)
+- fix(Core/SAI): Fix crash when using SMART_TARGET_INSTANCE_STORAGE in … (#23033)
+- refactor(Player): replace visibility detection calls with dedicated methods (#23025)
+- feat(bash): test command in dashboard + fix tests (#23030)
+- chore(DB): import pending files
+- fix(DB/Quest): add prerequisite to Catching up with Brann quest (#23028)
+- fix(DB/Quest): add prerequisite to Sniffing out the Perpetrator quest (#23029)
+- fix(DB/Quest): add prerequisite to Loyal Companions quest (#23027)
+
+## 2025-09-26
+- chore(DB): import pending files
+- fix(DB/Creature) Set right Phasemask for two Scarlet Crusaders. (#23024)
+- chore(DB): import pending files
+- fix(DB/SAI): SCRIPT_COMMAND_CAST_SPELL error Heb'Drakkar Headhunter (#22984)
+
+## 2025-09-25
+- Revert "fix(Core/Conditions): `ConditionList` use after free (#23006)" (#23023)
+
+## 2025-09-23
+- feat(Core/Config): Infinite ammo config setting (#22969)
+
+## 2025-09-24
+- Merge branch 'azerothcore:master' into Playerbot
+
+## 2025-09-23
+- chore(DB): import pending files
+
+## 2025-09-24
+- fix(DB/SAI): 'The Raven Stones' Cenarion Sparrowhawk will guide players (#22966)
+
+## 2025-09-23
+- chore(DB): import pending files
+
+## 2025-09-24
+- fix(Core/Conditions): `ConditionList` use after free (#23006)
+- fix(Scripts/Spells): Brewfest Hops (#22998)
+- fix(apps/installer): windows setup (#23007)
+- fix(Core/SAI): idle casters (#23005)
+
+## 2025-09-23
+- fix(Scripts/EasternKingdoms) : Fix issues in Battle For The Undercity Horde (#23011)
+- fix(Core/Creature): prevent crash due to recursive call for help (#23008)
+- fix(Scripts/AzjolNerub): Fix Anubarak impale sequence (#22717)
+- fix(Scripts/Gundrak): Update Slad'ran script (#22975)
+- chore(DB): import pending files
+- fix(Core/Vehicles): Fix issue with Wyrmrest Vanquisher and other issues with On Ruby Wings (#22989)
+- chore(DB): import pending files
+- fix(DB/Creature: update some old SmartAIs (#23010)
+
+## 2025-09-22
+- fix(Scripts/SMV): Infernal attacker respawn (#23001)
+- chore(DB): import pending files
+- fix(Scripts/Spells): Fix Relief of the Fallen quest issues (#22968)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Frostbrood Spawn can now fly away (#22985)
+- chore(DB): import pending files
+- fix(DB/Waypoints): Add WPs for Mountain Gronns in Nagrand (#22993)
+- chore(DB): import pending files
+- fix(DB/Items): Add stats to savage / hateful gladiator weapons (#22976)
+
+## 2025-09-20
 - chore(DB): import pending files
 - refactor(Scripts/Dragonblight): Move Strengthen the Ancients quest sc… (#22983)
 - chore(DB): import pending files
