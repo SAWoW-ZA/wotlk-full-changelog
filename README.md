@@ -1,4 +1,205 @@
+## 2025-10-20
+- fix(Scripts/UtigardePinnacle): Skadi the Ruthless is not selectable when in Phase 2 (#23333)
+- Merge branch 'azerothcore:master' into Playerbot
+- Merge pull request #85 from hermensbas/feature/core_merge_10_2025
+- added comments for future merge conflicts
+
+## 2025-10-19
+- core merge fixes for playerbots
+- Merge remote-tracking branch 'upstream/master' into feature/core_merge_10_2025
+- chore(DB): import pending files
+- fix(DB/Conditions): Krik'thir the Gatewatcher can be hit by Acid Splash (#23301)
+- Update core-build-playerbots.yml
+- Update core-build-playerbots.yml
+
+## 2025-10-18
+- chore(DB): import pending files
+- fix(Scripts/HoL): fix the Hall of Watchers gauntlet event (#23287)
+- Update core-build-playerbots.yml
+- chore(DB): import pending files
+- fix(DB/Proc): fix Mind Flay not applying Misery (#23289)
+- fix(Scripts/HoL): Fix Ionar ball lightning target and overload knockback (#23290)
+- Update core-build-playerbots.yml
+- Update core-build-playerbots.yml
+
+## 2025-10-17
+- fix(Scripts/HoL): Fix Loken intro event (#23286)
+- chore(DB): import pending files
+- fix(DB/GameObject): General Bjarngrim and Loken exit door should be oâ€¦ (#23285)
+- Update core-build-playerbots.yml
+
+## 2025-10-18
+- fix(Core/Pet): Implement sound playback when dismissing warlock's pet. (#23240)
+
+## 2025-10-17
+- fix(Scripts/HoL): Implement door handling (#23282)
+- refactor(Scripts/HallOfLightning): modernize scripts (#23209)
+- refactor(Core): AddEventAtOffset (#23140)
+- fix(Core/LFG): Fix Leader flag being ignored (#23239)
+
+## 2025-10-16
+- chore(DB): import pending files
+
+## 2025-10-17
+- fix(DB/Creature): Add immunities to various npcs inside Halls of Lightning. (#23273)
+
+## 2025-10-16
+- chore(DB): import pending files
+- fix(DB/SmartAI): Argent Dawn Priest can now hand out Mark of Dawn (#23269)
+- fix(Core/Player): add missing vendor and repair icons to creatures (#23270)
+
+## 2025-10-17
+- refactor(Core): SetTimedFacingToObject (#23142)
+
+## 2025-10-16
+- chore(DB): import pending files
+- feat(Scripts/Commands): Implement debug zonestats command (#23249)
+- chore(DB): import pending files
+- feat(Core/Network): Per-user togglable packet logging (#23254)
+- feat(apps/service-manager): Add logging output for service uptime checks (#23252)
+- chore(DB): import pending files
+- Fix (DB/SmartAI) Set Repeat and Run to 0 on Scarlet Ghoul Action List. (#23264)
+- chore(DB): import pending files
+- fix(DB/SAI): update waypoint start events for new forcedMovement parameter (#23255)
+- fix(apps/installer): bump client-data to v17 (#23256)
+
+## 2025-10-15
+- fix(Bash): installer also copies module configs (#23231)
+- feat(bash): several chores to bash scripts: (#23250)
+- fix(Core/Unit): prevent creature triggering combat from self damage (#23245)
+
+## 2025-10-14
+- feat(Core/mmaps): Add configuration file for mmaps-generator. (#22506)
+- fix(Core/Unit): rework Walk/Run mode (#22988)
+- chore(DB): import pending files
+- fix(DB/SAI): Move Westfall Infantries waypoints to Waypoint_Data table. (#23232)
+- Merge pull request #75 from mod-playerbots/project_transfer
+
+## 2025-10-13
+- fix(Core/Object): Improve safety of visibility override containers (#23219)
+- fix(Core/Map): Fix zone player count update on player removal (#23211)
+- fix(Scripts/Commands): inverted display in chat for gm fly (#23222)
+- refactor(Core): DespawnOrUnsummon (#23141)
+- refactor(Core): Make ObjectGuid const (#23170)
+- refactor(Core/EventMap): Refactor EventMap and related scripts (#23121)
+- fix(Script/HallOfLightning): wrong spell group with General Bjarngrim (#23205)
+- fix(Scripts/HallOfLightning): wrong stance when bjarngrim reset (#23207)
+- fix(Core/CreatureText): race conditions in CreatureTextMgr repeat group (#23153)
+- fix(bash/service-manager): pipeline errors (#23210)
+- fix(ServiceManager): add sentinel to argument serialization in exec definition
+- feat(ServiceManager): enhance path handling and add canonicalization function
+
+## 2025-10-12
+- feat(Bash/ServiceManager): enhance path portability  (#22982)
+- fix(Core/Scripting): fix Defias Thug waypoint errors (#22994)
+- chore(DB): import pending files
+- fix(Core/Player): remove vendor icon if there is no gossip vendor option (#23026)
+- chore(DB): import pending files
+- fix(DB/Creature): Verify creature models previously from build 11723. (#22924)
+- chore(DB): import pending files
+- fix(DB/Creature): Verify various creature models with no verified build. (#22927)
+- fix(DB/Creature): Verify creature models previously from build 10505. (#22928)
+- fix(CORE/DBUpdater): Use stdin instead of -e SOURCE (#22949)
+- fix(Scripts/Karazhan): Fix Tenris Mirkblood area trigger conditions. (#23162)
+- chore(DB): import pending files
+- feat(Scripts/Spells): GM utility spells and Beastmaster Mode (#22964)
+- fix(Core/ObjectMgr): Force probabilities of creature displays during runtime if total probability is 0. (#23197)
+- chore(DB): import pending files
+- fix(DB/SAI): Duskwood Flesh Eating Worms (#22189)
+- fix(Scripts/TrialOfTheChampion):  Fix Grand Champions agro before event end (#21775)
+- fix(Script/BloodmystIsle): Tel'athion the Impure will no longer spawn from webbed creature (#22898)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix NPC Kurzen Medicine Man (#22954)
+- fix(modules): fix path to setup_git_commit_template.sh in create_module.sh (#22757)
+- feat(Core): BG reputation modifier for WSG, AB and AV (#22685)
+- fix(Scripts/Item): Introduce Blizzlike Val'anyr absorption value bug. (#23152)
+
+## 2025-10-11
+- chore(DB): import pending files
+- fix(DB/Gossip) - Ancient Skull Pile no longer shows 2 gossip menu options (#23183)
+- chore(DB): import pending files
+- fix(Script/Gundrak): Moorabi timing and hard reset (#23079)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Scorn spawns after Bloodmage Thalnos dies (#23106)
+- chore(DB): import pending files
+- fix(DB/SAI): fix Ruin Dweller Spring (#23190)
+- fix(DB/SAI): Fix robot chicken escort quests not granting credit to gâ€¦ (#23193)
+- fix(Core/Movement): rework root protocol with ack in mind (#23147)
+- chore(DB): import pending files
+- fix(DB/SAI): Move Rizzle Sprysprocket event to smartscript. (#23167)
+- fix(Core/Player): Recalculate all StatModEffects on levelup (#23184)
+- fix(Scripts/Gundrak): Fixed behavior for Colossus and Elemental (#23150)
+- chore(DB): import pending files
+- fix(DB/Loot): Kodo apparation no longer can be skinned (#23173)
+
+## 2025-10-10
+- fix(Scripts/Spells): Add checks for Relief for the Fallen script. (#23168)
+- fix(Core/Module): don't fallback to .dist for module configs (#22874)
+- chore(DB): import pending files
+- fix(DB/SAI): Sergeant Lukas should be male (#22747)
+- chore(DB): import pending files
+- fix (db/smartscripts) : Milton Beats should be male (#22748)
+- fix(Core): Deeprun Tram Subway timer/syncronization by loading grid (#23009)
+- fix(Core): Correct fishing catch calculations (#23171)
+- fix(Core/Player): Fix NotAvoidSatisfy script hook to reference the current player (#23004)
+- fix(Core/Entities): Daily and other quests should grant XP when rewarded on subsequent completions. (#23160)
+- fix(Scripts/Karazhan): remove Blood Mirror auras from Mirkblood when mirrored target dies (#23159)
+- refactor(Core/Packets): Rewrite various calendar and complaint packets to modern class. (#22884)
+
+## 2025-10-09
+- chore(DB): import pending files
+- fix(Scripts/Spells): Move Eye of Gruul and Soul Preserver to the same script. (#22692)
+- fix(Core/Battlefield): AddressSanitizer new-delete-type-mismatch (#23038)
+- fix(Core/Handlers): Properly limit equipment set name length to client maximum. (#23151)
+- fix(Core/Spells): Correct follow position for Pets and Companions. (#23154)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Torch' spawns (#23111)
+- fix(DB/Gameobject): Sniffed Values for 'Frostglow' spawns (#23099)
+- fix(DB/Gameobject): Sniffed Values for 'Lava' spawns (#23097)
+- chore(DB): import pending files
+- fix(DB/Script/Gundrak) Improve Drakkari Rhino bridge event. (#23144)
+- docs(PR_Template): Added Commit Message Guidelines to PR template. (#23155)
+
+## 2025-10-07
+- fix(Core/Spells): Drakkari Medicine Man Earth Shield max targets (#23102)
+- chore(DB): import pending files
+- fix(Scripts/IsleOfQueldanas): Fix Greengill Slave script (#23109)
+- fix(Scripts/CoS): Fix chest despawning when player leaves map (#23112)
+- chore(DB): import pending files
+- fix(DB/Creature) Remove immunity to Disarm from Gal'darah. (#23136)
+
+## 2025-10-06
+- chore(DB): import pending files
+- fix(Scripts/Gundrak): Eck should spawn when the Ruin Dweller formatioâ€¦ (#23114)
+
+## 2025-10-05
+- fix(Script/Gundrak): Eck spring now resets threat after cast and Spit/Spring Timings (#23124)
+- fix(Core/Movement): Add safeguards against root freezes (#23117)
+
+## 2025-10-04
+- fix(Script/Sunwell): Sinister reflection delays 5 seconds before set in combat (#22939)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Doodad_Nox_portal_top01' spawns (#23110)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Fix Fuel Tank and Horde Siege Tank issues. (#23104)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fix conditions for The Demoralizer spell (#23101)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Wounded Westfall Infantries now have an offy-like behaviour. (#23098)
+- fix(Core/Unit): Fix all that have UNIT_STATE_NO_ENVIRONMENT_UPD (#23100)
+- fix(Core/Unit): Fix thorns/retribution aura only dealing damage on white hits (#23041)
+- chore(DB): import pending files
+- fix(Scripts/Northrend): quest Sniffing out the Perpetrator (#23076)
+- fix(Core/Movement): Implement order counters (#23015)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Stolen Pack' spawns (#23094)
+
+## 2025-10-04
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Big Rancid Meat' spawns (#23095)
+
 ## 2025-10-03
+- fix(Script/Gundrak): path for Eck will only open in heroic (#23072)
 - fix(Core/Unit): add Dual Wield 'auto' to improve scripting (#23078)
 
 ## 2025-10-02
