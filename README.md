@@ -1,3 +1,158 @@
+## 2025-11-05
+- Merge branch 'azerothcore:master' into Playerbot
+- fix(Core): Change client data downloader version to v18.0 (#23546)
+- fix(Core): Update client data downloader version to v18 (#23544)
+- Merge branch 'azerothcore:master' into Playerbot
+- chore(DB): import pending files
+- fix(DB/SAI): Solve Astor Hadren waypoint issue. (#23436)
+- Merge branch 'azerothcore:master' into Playerbot
+- Merge pull request #92 from mod-playerbots/update/core_4_11_2025
+- fix(mmaps): [REQUIRES_REGENERATION] Fix baseUnitDim division to resolve pathing edge cases (#23480)
+
+## 2025-11-04
+- naxx merge fixes
+- Merge remote-tracking branch 'upstream/master' into update/core_4_11_2025
+- fix(Core/Unit): Make players turn to their target during charm automatically (#23534)
+- chore(DB): import pending files
+- fix(DB/Gameobject): fix z position of some 195164 'Pumpkin' spawns (#23530)
+- fix(DB/creature_addon): add missing Winter Reveler costume auras (#23519)
+
+## 2025-11-03
+- chore(DB): import pending files
+- fix(DB/AreaTrigger): Teleport on the top of Naxxanar now works. (#23466)
+- chore(DB): import pending files
+- fix(Scripts/AzjolNerub): update Azjol-Nerub's Anub'arak (#23329)
+- fix(Script/HoS): Various issues with brann boss (#23413)
+- fix(Core/Movement): Fixup root distancing mobs being stuck in a loop (#23514)
+- fix(Core/Unit): Fix root/stun client freeze (#23521)
+
+## 2025-11-01
+- chore(DB): import pending files
+- fix(Scripts/HoS) Various issues with Krystallus (#23414)
+- chore(DB): import pending files
+- fix(DB/SAI): Scourge Reanimator casts Unholy Frenzy on self. (#23497)
+- refactor(Core): use the WeaponAttackType enum (#23457)
+- chore(DB): import pending files
+- fix(Script/HoS): The door for Hall of the High Father is open (#23412)
+- chore(DB): import pending files
+- fix(Script/HoL): General Bjarngrim starting location, timings and pathing corrected (#23416)
+- fix(Script/HoL) Ionar timers and spark now follows seperate players (#23481)
+
+## 2025-10-31
+- fix(Core/Spells): only include the targets size for some GroundEffects (#23478)
+- chore(DB): import pending files
+- refactor(Scripts/Raids): move spell ids for Raids to dungeondifficulty_dbc (#23477)
+- chore(DB): import pending files
+- fix(DB/Creature): Set root flag on Shadow Fissure Trigger. (#23486)
+- chore(DB): import pending files
+- fix(DB/SAI): Dark Rune Controller will use Domination only on more then 1 group as well as summon shardling timing. (#23400)
+- fix(Script/Naxx): Remove root when Thaddius is in combat and decrease the first Polarity Shift cast by 10 seconds. (#23484)
+- Merge pull request #91 from mod-playerbots/Playerbot_merge29102025
+
+## 2025-10-30
+- fix(Scripts/HoS): Maiden of Grief various issues (#23415)
+- fix(Script/HoL): Volkhan timings and Molten Golem timers and abilities (#23433)
+
+## 2025-10-31
+- refactor(Core): SendDirectMessage (#23230)
+
+## 2025-10-30
+- fix(Core/Unit): Fix dying from fall damage and incorrect flying on map teleport (#23465)
+- chore(DB): import pending files
+- refactor(Scripts/Instances): move spell ids for Heroic to dungeondifficulty_dbc (#23470)
+- chore(DB): import pending files
+- fix(Scripts/Misc): Adjust points from old wrong 0 based indexing to smart ai indexing (#23472)
+
+## 2025-10-29
+- chore(DB): import pending files
+- fix(DB/SAI): Hardened Steel Skycaller Disengage in heroic and proper movement in normal. (#23429)
+- chore(DB): import pending files
+- fix(DB/Gossip): Fix Isfar incorrect dialogue options (#23321)
+- chore(DB): import pending files
+- fix(DB/SAI) Dark Rune Giant uses Iron Fist in combat on cooldown. (#23405)
+- Merge branch 'azerothcore:master' into Playerbot_merge29102025
+
+## 2025-10-28
+- chore(DB): import pending files
+- fix(SAI/HoS) Multiple changes to Unrelenting Construct SmartAI (#23407)
+- Waypoint: Fix last point not being reached on non 0 indexed paths (#23460)
+- chore(DB): import pending files
+- fix(DB/AI): Update Thousand Needles racing event (#23417)
+- chore(DB): import pending files
+- fix(DB/HoL) Blistering Streamrager has Scald in heroic (#23431)
+- fix(DB/HoL) Hardened Steel Reaver Heroic Dull Weapons aura in addon (#23426)
+- SmartAI: Fix npcs not waypointing when offset is too big (#23453)
+- chore(DB): import pending files
+- fix(SAI/HoS) Lightning Construct Electrical Overload timings in combat (#23408)
+- chore(DB): import pending files
+- fix(DB/Creature): Hardened Steel Berserker now has windfury in heroic (#23430)
+
+## 2025-10-27
+- fix(Core/Arena): flying upon arrival in arena if joining on flying mount (#23440)
+
+## 2025-10-26
+- feat(CI): enable cache in dashboard checks (#23432)
+- chore(DB): import pending files
+- fix(HoS/DB) Lightning construct now linked (#23398)
+- chore(DB): import pending files
+- feature(SmartAI/Movement) - Unify waypoint systems (#23251)
+- chore(DB): import pending files
+- fix(HoS/SmartAI) Fix issues with Dark Elementalist and added SmartAI for air elemental (#23404)
+- feat(CI): enable caching for pch build (#23422)
+- chore(DB): import pending files
+- fix(HoS/DB) Unrelenting Construct now linked (#23397)
+- fix(CI): improve caching (#23387)
+- fix(Core/Vehicle): Fix invisible vehicle passengers (#23406)
+
+## 2025-10-25
+- chore(DB): import pending files
+- fix(HoS/SmartAI): Raging Construct uses correct Potent Jolt timings (#23409)
+- Merge branch 'azerothcore:master' into Playerbot
+- chore(DB): import pending files
+- fix(DB/AI): Disclosure quest now works as intended. (#23384)
+- Spell/GameObject: Fix flying upon teleport between map initiated from GO (#23390)
+- feat(Config): Implement configuration severity policy and logging mechanism (#23284)
+- Merge remote-tracking branch 'upstream/master' into Playerbot
+
+## 2025-10-24
+- fix(Core/Movement): Add force speed ack to async movement and resolve stutter (#23371)
+- fix(apps/bash) - Command substitution for backtick command / statement. (#23344)
+- chore(DB): import pending files
+- fix(Core/Spells): Acid Splash can stack on Krik'thir the Gatewatcher (#23302)
+- fix(Script/Commands): ticket response append crash (#23357)
+- chore(DB): import pending files
+- fix(DB/SAI): Add missing texts for Doomclaw (#23316)
+- fix(Scripts/Commands): arena lookup/info improvemenets (#23355)
+- docs(README): add logo for dashboard-ci build status (#23377)
+- fix(CI): eluna->ale mod rename (#23382)
+- fix(CI/modules-build): rename mod-eluna to mod-ale (#23379)
+- fix(apps/installer): expired key issue, bump mysql-apt-config to 0.8.35-1 (#23356)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Solve Blight Geist issues. (#23324)
+- chore(DB): import pending files
+- fix(Scripts/Gundrak): Update Galdarah script (#23206)
+- fix(DB/SmartAI): Zul'Drak Drakuramas mid to top teleporter (#23317)
+- fix(Core/Scripts): Fix the wrong run in npc_escortAI (#23293)
+- chore(DB): import pending files
+- fix(DB/SmartAI): update abilities of Anub'ar Webspinner (#23300)
+
+## 2025-10-23
+- chore(Core/modules): necessary core changes for mod-eluna rename (#22962)
+- Merge branch 'azerothcore:master' into Playerbot
+
+## 2025-10-22
+- fix(Scripts/EOE): add null check for killer before updating achievement criteria (#23353)
+- fix(CI/Windows): installer script - update MYSQL version to 8.4.6 (#23348)
+- fix(Core/Visibility): Fix sentry totem visibility not toggling (#23228)
+
+## 2025-10-21
+- Merge pull request #87 from hermensbas/hermensbas-patch-1
+- chore(DB): import pending files
+- fix(DB/Creature) Set Unit Flag to Persistence. (#23325)
+- Update MotionMaster.cpp
+- fix: MotionMaster.cpp
+- Merge branch 'azerothcore:master' into Playerbot
+
 ## 2025-10-20
 - fix(Scripts/UtigardePinnacle): Skadi the Ruthless is not selectable when in Phase 2 (#23333)
 - Merge branch 'azerothcore:master' into Playerbot
