@@ -1,3 +1,263 @@
+## 2025-11-23
+- fix
+- Merge remote-tracking branch 'upstream/master' into core_update_no_squash
+- Revert "Core merge 17112025 (#104)"
+- Core merge 17112025 (#104)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Set Everfrost Chip respawn timer to 30 minutes (#23871)
+- fix(Core/Movement): Handle player-controlled vehicles on transports (#23860)
+- fix(Core/Handler): player can reclaim corpse regardless of phase (#23862)
+
+## 2025-11-22
+- fix(Scripts/Spells): Raise Ally now properly handles target check (#23272)
+
+## 2025-11-21
+- fix(Scripts/HoS): Remove custom Dark Matter speed calculation (#23817)
+- chore(DB): import pending files
+- fix(DB/Creature): Warbear Matriarch vehicle (#23841)
+- fix(DB/Quest): update RewardText 'An End and a Beginning' (#23842)
+- fix(DB/SAI): Megalith (#23840)
+- chore(DB): import pending files
+- fix(DN/SAI): Move Beryl Sorcerer behaviour into SmartAI. (#23839)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Everfrost Chip' spawns (#23823)
+- fix(Core/Spells): cache reflection target information for reflected thunderstorm direction (#23762)
+- fix(Scripts/Dragonblight): Fix Rescue Villager cast conditions (#23822)
+- chore(DB): import pending files
+- fix(Scripts/StormPeaks): Script Ample Inspiration quest meat spawner … (#23819)
+- chore(DB): import pending files
+- fix(DB/Loot): Remove quest requirement from Everfrost Chip (repeatable) (#23821)
+- fix(DB/Gameobject): Everfrost Chip (#23820)
+
+## 2025-11-20
+- chore(DB): import pending files
+
+## 2025-11-21
+- fix(Scripts/HOR): Fix leader walking during escape (#23787)
+
+## 2025-11-20
+- fix(DB/Creature): Fix dead Infesting Jormungar flags and aura (#23809)
+- fix(DB/Creature): Update run speed of Novos minions (#23812)
+- fix(DB/Spells): Remove hacks for quest Slim Pickings (#23815)
+- fix(DB/SAI): Fix Capture Jormungar Spawn spell target conditions (#23816)
+- fix(Scripts/Karazhan): Barnes Missing Wizard of Oz Speech (#23373)
+- fix (Core/Vehicle): Fix vehicle unrooting on dismiss controlled vehicle (#23802)
+- fix(Scripts/HoS): Brann should be immune to PC/NPC after Tribunal of … (#23801)
+- chore(DB): import pending files
+- fix(Scripts/AhnKahet): Spawn Twilight Worshippers at Jedoga encounter… (#23800)
+
+## 2025-11-19
+- fix(Scripts/DTK): Fix Trollgore evade boundary (#23796)
+
+## 2025-11-20
+- fix(Scripts/VH): Add missing second type for keeper NPC (#22171) (#23789)
+
+## 2025-11-19
+- fix(Core/BG): EOTS correct tower control faction value (#23757)
+- fix(Core/Player): Fix two uninitialized variables causing bad fall damage (#23788)
+- fix(Script/SpellInfo): Summon Scourged Captive spell now summons only one creature (#23768)
+
+## 2025-11-18
+- fix(Scripts/DTK): Update Tharon'ja timers (#23765)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fiery Lance can only hit Dragonflayer Defender (#23773)
+- docs(README): Add BountyHub badge (#23688)
+- chore(DB): import pending files
+- fix(Scripts/DTK): Update Novos the Summoner script (#23758)
+- fix(Scripts/HoS): Update Sjonnir script (#23695)
+- chore(DB): import pending files
+- fix(Scripts/AzjolNerub): Rework Kirthik the Gatewatcher event (#23763)
+- fix(Scripts/AzjolNerub): Update Krikthir the Gatewatcher engage timers (#23761)
+- fix(Scripts/AzjolNerub): Anub'arak stuck underground (#23743)
+
+## 2025-11-17
+- chore(DB): import pending files
+- fix(Scripts/Commands): Implement quest status command (#23721)
+- Fix https://github.com/mod-playerbots/azerothcore-wotlk/issues/96
+- Fix codestyle nag
+- Update crash issue template with log submission guidelines (#23754)
+- Fix
+- chore(DB): import pending files
+- fix(DB/SAI): Remove Harrison Johnes quest flag on escort accept (#23700)
+- chore(DB): import pending files
+- fix(DB/SAI): Nerub'ar member packs now attack together. (#23727)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix Flamebringer gossip interaction (#23740)
+- chore(DB): import pending files
+- fix(DB/SAI): Update Iron Rune Construct SAI to use DO_ACTION instead … (#23716)
+- refactor(Core/Movement): Fix Build (#23739)
+- fix(Core/Movement): Fix SummonMovementInform for summons (#23725)
+
+## 2025-11-16
+- chore(DB): import pending files
+- fix(DB/Quest): Correct prerequisite for Salvaging Life's Strength (#23734)
+- fix(DB/Quest): Correct prerequisite for Reclaimed Ration (#23736)
+- fix(Scripts/Oculus): Implement crossfaction support for drakes (#23704)
+- chore(DB): import pending files
+- fix(DB/Reputation): Oculus normal & UP correction (#23723)
+
+## 2025-11-15
+- fix(DB/Reputation): Lower reputation according to rates handling (#23722)
+- fix(Scripts/HoS): Clean up faction update hacks (#23720)
+- chore(DB): import pending files
+- fix(DB/Reputation): Utigarde Pinnacle normal reputation (#23719)
+- chore(DB): import pending files
+- fix(Core/Spells): Remove King Mrgl-Mrgl costume on spell casting (#23713)
+- fix(Scripts/DTK): Fix Oh Novos! achievement (#23539) (#23718)
+- chore(DB): import pending files
+- fix(DB/Loot): Fix Master Summoner Staff drop chance (#23717)
+- chore(DB): import pending files
+- fix (DB/Creature): Set Surveyor Orlond flags. (#23714)
+- chore(DB): import pending files
+- fix(DB/SAI): To Stars' Rest! taxi flight (#23712)
+- chore(DB): import pending files
+- fix(DB/Creature): Set Trigger flag on Steam Vent. (#23710)
+- fix(DB/Script): Move Tailhorn Stag and Amberpine Woodsman behavior into SmartAI. (#23708)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fix Fordragon Resolve target conditions (#23701)
+- fix(DB/Creature): Fix Fjord Hawk Matriarch unit flags (#23696)
+- fix(DB/SAI): Timely respawn Nesingwary Trappers (#23703)
+- fix(DB/SAI): Reanimated Frost Wyrm engage after being hit by quest spell (#23697)
+- fix(Scripts/SholazarBasin): Fix Song of Wind and Water double credit (#23707)
+- chore(DB): import pending files
+- fix(DB/Creature): Peon Gakra should be an innkeeper (#23699)
+- fix(Core/Entities): Improve interactions between taxis and players regarding PvP flag. (#23681)
+- fix(Scripts/BoreanTundra): Fix Beryl Sorcerer engaging mobs (#23690)
+- fix(Scripts/Northrend): IOC boss cast ability Mortal Strike (#23684)
+- chore(DB): import pending files
+- fix(DB/Creature): update IOC Demolisher spells (#23685)
+- chore(DB): import pending files
+- fix(DB/Gameobject): fix spell focus location for 'Will of the Titans' (#23683)
+- chore(DB): import pending files
+- fix(DB/Loot): add Scourge Curio drop to Lost Shandaral Spirit (#23686)
+
+## 2025-11-14
+- chore(DB): import pending files
+- fix(DB/Conditions): Ice Shard require Icy Imprisonment (#23661)
+- chore(DB): import pending files
+- fix(DB/SAI): Bitter Departure quest credit (#23658)
+- fix(Scripts/DTK): Update King Dred script (#23572)
+- fix(Scripts/HoL): Update Loken script (#23587)
+- chore: fix leftover license header (#23678)
+- fix(Core/Achievements): a character can only have 1 race realm first (#23626)
+- fix(docs/license): use GPLv2 as MaNGOS-based project (#23655)
+- chore(DB): import pending files
+- fix(DB/SAI): Sibling Rivalry quest credit if mounted (#23659)
+- chore(DB): import pending files
+- fix(Scripts/BoreanTundra): Script Bloodspore Haze/Psychosis (#23657)
+- fix(Scripts/Spell): Fix Animal Blood spawning when it shouldn't (#23656)
+
+## 2025-11-13
+- fix(Script/BlackTemple): Reliquary of Souls will use 45 degree in front to set incombat (#22938)
+
+## 2025-11-14
+- fix(Scripts/Northrend): Betrayal quest (#23650)
+
+## 2025-11-13
+- chore(DB): import pending files
+- fix(DB/Loot): Fireproof Satchel will now always drop the Ritual of Torch  (#23585)
+- fix(DB/SAI): Solve various issues with It Goes to 11... quest. (#23651)
+- chore(DB): import pending files
+- fix(DB/Spell): Infectious Bites should stack from different casters (#23647)
+- chore(DB): import pending files
+- fix(DB/Creature): Fix Weakened Reanimated Frost Wyrm inhabit type (#23645)
+- chore(DB): import pending files
+- fix(DB/SAI): Remove SmartAI from Valkyrion Harpoon Gun. (#23646)
+- chore(DB): import pending files
+- fix(DB/SAI): Burning Depths Necromancer no longer stays in place. (#23641)
+
+## 2025-11-12
+- chore(DB): import pending files
+- fix(DB/SAI): Emerald Lasher goes out of the terrain when aggroed. (#23642)
+- chore(DB): import pending files
+- fix(DB/SAI): don't remove all auras when mounting flamebringer (#23640)
+- fix(Core): Fix waterwalking after dying in instance (#23593)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix Fizzcrank Paradrop teleporters (#23633)
+- fix(Core/Unit): Druid Talent Survival of the Fittest lacking immunity to creature daze (#23471)
+- fix(Core/SmartAI): startup warnings unused params (#23551)
+- refactor(Core/PlayerScript): Delete OnPlayerChat, use OnPlayerCanUseChat (#23617)
+- chore(DB): import pending files
+- fix(DB/Conditions): update quest conditions to drop chokers (#23610)
+- fix(DB/QuestOfferReward): remove mention of a beta recipe in text (#23629)
+- fix(DB/SmartAI): quest 'Reconnaissance Flight' (#23628)
+- chore(DB): import pending files
+- fix(Scripts/Northrend): ensure Drakuru stays in place during Betrayal (#23619)
+
+## 2025-11-11
+- fix(Scripts/Northrend): Sniffing Out The Perpetrator horde (#23620)
+- fix(Core/Map): It should be ensured that the instance is unloaded only after the Creature Respawn. (#23103)
+- chore(DB): import pending files
+- fix(DB/ReputationRewardRate): Patch 3.0.0 gain for Northrend factions (#23597)
+- chore(DB): import pending files
+- fix(DB/SmartAI): remove large combat distance of Frostbrood Sentry (#23607)
+- fix(DB/Gameobject): Sniffed Values for 'Wild Mustard' spawns (#23608)
+- fix(Core/Vmaps): Fix inconsistency of hitInstance and hitModel to cause wrong area ids (#23233)
+- chore(DB): import pending files
+- fix(Scripts/AreaTrigger): players become stuck after Last Rites (#23613)
+
+## 2025-11-10
+- chore(DB): import pending files
+
+## 2025-11-11
+- fix(DB/SmartAI): increase reliability of quest event Foolish Endeavors (#23612)
+
+## 2025-11-10
+- chore(DB): import pending files
+- fix(DB/GameEvent): Remove midsummer pole in K3 (#23614)
+- chore(DB): import pending files
+- fix(DB/Quest): The Kalu'ak dailies reward 500 rep (#23600)
+- fix(DB/SmartAI): improve Harry surrendering during quest 'Gambling Debt' (#23598)
+- Merge branch 'azerothcore:master' into Playerbot
+
+## 2025-11-09
+- chore(DB): import pending files
+- fix(Scripts/Northrend): Zul'Drak Betrayal quest (#23562)
+- fix(Scripts/HoL): Killing Volkhan should despawn all Slags (#23581)
+- chore(DB): import pending files
+- fix(DB/Spells): Ionar spark Arcing Burn should stack from different c… (#23588)
+- Merge branch 'azerothcore:master' into Playerbot
+- chore(DB): import pending files
+- fix(DB/SmartAI): Howling Fjord quest vehicle Iron Rune Construct  (#23063)
+- chore(DB): import pending files
+- fix(DB/Creature): Despawn all instances of Superior Healing Ward (#23584)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove xp from Reclamation mobs (#23579)
+- chore(DB): import pending files
+- fix(DB/Creature): Fix Sorlof visibility distance (#23573)
+
+## 2025-11-08
+- Remove double unroot in Unit::_ExitVehicle (#23545)
+- Merge branch 'azerothcore:master' into Playerbot
+- fix(Scripts/AzjolNerub): update Azjol-Nerub's Anub'arak (#23570)
+- fix(Scripts/DTK): Fix a couple of Prophet Tharon'ja issues (#23568)
+- chore(DB): import pending files
+- fix(DB/Creature): Adjust experience modifiers for Wrath instance bosses. (#23567)
+- chore(DB): import pending files
+- fix(DB/Conditions): Malister's Frost Wand should require Proto-Drake (#23569)
+- Merge branch 'azerothcore:master' into Playerbot
+- chore(DB): import pending files
+- fix(Core): Move and adjust experience modifiers for instanced elite creatures. (#23563)
+
+## 2025-11-07
+- fix(Scripts/Ahnkahet): Clean up Herald Volazj insanity casting and ph… (#23549)
+- chore(DB): import pending files
+- fix(DB/Script): Add various corrections to Massacre At Light's Point event. (#23558)
+- chore(DB): import pending files
+- fix(DB/Creature): add chains to Blightblood Troll (#23561)
+- Movement: Fix flying in dalaran after disconnect (#23559)
+- Merge branch 'azerothcore:master' into Playerbot
+- fix(Core/Player): simultaneously swap melee and ranged weapon in combat (#23557)
+- chore(DB): import pending files
+- fix(DB/Creature): Deleted Wendigo entity spawning under the ground… (#23555)
+- Merge branch 'azerothcore:master' into Playerbot
+
+## 2025-11-06
+- chore(DB): import pending files
+- Fix(DB/Creature): Remove accessory from Enslaved Proto-drake. (#23550)
+- chore(DB): import pending files
+- fix(DB/SAI): Solved a couple of issue with the quest Into the realm of shadow. (#23547)
+
 ## 2025-11-05
 - Merge branch 'azerothcore:master' into Playerbot
 - fix(Core): Change client data downloader version to v18.0 (#23546)
