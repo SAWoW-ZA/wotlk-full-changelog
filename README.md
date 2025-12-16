@@ -1,5 +1,183 @@
-## 2025-11-23
+## 2025-12-07
+- Merge pull request #119 from mod-playerbots/core_update_2025_12_7
+- core_merge_fix_due_header_split
+- Merge remote-tracking branch 'upstream/master' into Playerbot
+- feat(Core/LFG): Add option to exclude locked heroic dungeons in RDF (#24055)
+
+## 2025-12-06
+- fix(Core/Player): prevent null pointer dereference in SendLoot function (#23965)
+
+## 2025-12-05
+- chore(DB): import pending files
+- fix(DB/ObsidianSanctum): Fix various issues with trash behavior. (#24050)
+- fix(Core/Player): reapply talent auras on item change (#24048)
+- chore(DB): import pending files
+- fix(Scripts/Naxxramas): Save Horsemen Hub Portal between sessions (#24034)
+- fix(Scripts/Naxxramas): Thaddius says intro only once (#24036)
+
+## 2025-12-04
+- fix(DB/Quest): Westguard Sergeant despawns when leaving Skorn (#23978)
+- Merge pull request #115 from mod-playerbots/license_syncing
+- fix(Core/LFG): Random Dungeon Finder should ignore heroic dungeon locks (#24021)
+- chore(DB): import pending files
+- fix(DB/Creature): Set Overseer Veraj's health points. (#24031)
+
+## 2025-12-03
+- fix(Bash/CLI): Bump Data to version 19  (#24025)
+- fix(Bash/CLI): Bump Data to version 19 (#24023)
+
+## 2025-12-02
+- chore(DB): import pending files
+- fix(DB/Creature): update loot of Seething Revenant (30387) (#23981)
+- fix(Core/mmaps): Set the maximum slope angle to 45 degrees for the Dark Portal area. (#23611)
+- fix(Core/Vmaps): Introduce skipping of antiportals and unreachable mogp (#23781)
+- chore(DB): import pending files
+- fix(DB/Quest) - Corrected Reward Text for "Troll Patrol: The Alchemist's Apprentice" (#24020)
+- fix(DB/Pool) - Everfrost Chips are now pooled (#24018)
+- chore(DB): import pending files
+- fix(DB/SmartAI): quest 'The Drakkensryd' (#23843)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove Overseer Faedris double spawn point. (#24015)
+- fix(Core/SAI): SMARTCAST_COMBAT_MOVE prevents movement on successful cast (#23913)
+
+## 2025-12-01
+- chore(DB): import pending files
+- fix(DB/SAI): Wolfsbane Root despawn on use (#23920)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Kaskala Supplies' spawns (#23967)
+- chore(DB): import pending files
+- fix(DB/Conditions): Drak'aguul now correctly applies debuff to soldiers (#23976)
+- chore(DB): import pending files
+- fix(DB/Creature): Set Forsaken Blight Spreader HP. (#24013)
+- fix(Github/Template) - Added required fields for the CC to AC triage (#24009)
+- chore(DB): import pending files
+- fix(Scripts/Northrend): 'Preparations for War' flight to Icecrown (#23999)
+- fix(Core/Unit): spell_group leftovers (#23995)
+- chore(DB): import pending files
+- fix(DB/Spells): Scrolls can overwrite each other no matter the strength (#23997)
+
+## 2025-11-30
+- chore(DB): import pending files
+- fix(DB/Loot) - Adjusted loot for Corrupted Kor Gem (#23951)
+- chore(DB): import pending files
+- fix(Scripts/Northrend): Rework 'The Cleansing' quest (#23942)
+- chore(DB): import pending files
+- fix(DB/Quest): Judgment Day Comes! breadcrumb for Honor Above All Else (#23968)
+- chore(DB): import pending files
+- fix(DB/Creature): Assign loot to Ravenous Jormungar (#23972)
+- fix(DB/Quest): 'Ursoc, the Bear God' (A) should be available correctly (#24005)
+- chore(DB): import pending files
+- fix(DB/SAI): Forsaken Blight Spreader now despawn when player dismounts. (#23996)
+- chore(DB): import pending files
+- fix(DB/Condition): Solve continuous despawn issue with Alliance Steam Tank. (#23988)
+- fix(Core/Unit): Call UpdatePosition() for pets as well (#23971)
+- chore(DB): import pending files
+- fix(DB/Quest) - Burning To Help no longer requires Sharpening Your Talons  (#23982)
+- fix(DB/SAI) - Adjust Dalaran Wizard's Timers (#23973)
+
+## 2025-11-29
+- feat(Core): Linux: Support systemd socket activation for the worldserver game socket (#21998)
+- fix(Core/Handlers): potential falling to death on teleport (#23867)
+- chore(DB): import pending files
+- fix(DB/Quest): Where Dragons Fell available with Cradle/Sindragosa (#23923)
+- chore(DB): import pending files
+- fix(DB/Quest): No prerequisite for The Artifacts of Steel Gate (#23847)
+- chore(DB): import pending files
+- fix(DB/Creature): fix Oculus heroic reputation (#23960)
+- fix(Core/Player): Use uint8 for combat rating loop index (#23956)
+- chore(DB): import pending files
+- fix(Scripts/Spells): apply healing modifiers on paladin Lay On Hands (#23861)
+- fix(Core/Unit): fix AoE aggro and contested guard attack logic (#23935)
+
+## 2025-11-28
+- fix(Scripts/Gundrak): Eck the Ferocious wrong enrage timing (#23929)
+- chore(DB): import pending files
+- fix(DB/SmartAI): quest Assault by Air attack Alliance and Horde players (#23077)
+- chore(DB): import pending files
+- fix(DB/SmartAI): add 'The Hills Have Us' Wintergarde Gryphon taxi (#23848)
+- chore(DB): import pending files
+- fix(DB/SAI): Sindragosa's Fall Wyrm Reanimator despawns (#23914)
+- chore(DB): import pending files
+- fix(Core/Spells): Implement TrinityCore spell_group and spell_group_stack_rules (#23346)
+- chore(DB): import pending files
+- fix(DB/SAI): Ensure completion of the quest ‘The Flesh Giant Champion’. (#23946)
+- chore(DB): import pending files
+- fix(DB/SAI): Cabal Assassin (#23335)
+- chore(DB): import pending files
+- fix(DB/gameobject_loot_template): update loot of Deep Sea Monsterbell… (#23864)
+- chore(DB): import pending files
+- fix(DB/SmartAI): fix double quest credit for quest 'Of Keys and Cages' (#23940)
+- fix(Scripts/Northrend): Dalaran guards now ignore non-combat pets (#23939)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove Cannibalize (visual) from Ruby Keepers (#23943)
+
+## 2025-11-27
+- Solve error in Update 2025_11_27_08.sql (#23941)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Increase the respawn time of all northerend resource objects (#23938)
+- fix(DB/SAI): Image of Stone Giant now despawns after The Lodestone quest event (#23926)
+- fix(DB/SAI): Margrave Dhakar now leaves the vehicle on death. (#23933)
+- fix(Scripts/Northrend): Brann Bronzebeard HoS soft lock after Tribunal (#23937)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Everfrost Chip nows is seen by all possible phases used in Northrend (#23934)
+- chore(DB): import pending files
+- fix(DB/SmartAI): rework 'The Conquest Pit' quest series (#23886)
+- chore(DB): import pending files
+- fix(DB/SAI): Alliance Steam Tank despawn when dismounted. (#23888)
+- Delete src.zip
+- chore(DB): import pending files
+- fix(DB/Quest): Remove duplicate Kaskala Supplies spawn (#23918)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Make all Everfrosts phasemask 15 (#23931)
+- chore(DB): import pending files
+- fix(DB/Quest): Plagued Proto-Drake Egg despawn on freeze (#23925)
+- chore(DB): import pending files
+- fix(DB/Creature): add missing equipment for some creature spawns (#23898)
+- fix(Scripts/AhnKahet): fix Jedoga Shadowseeker's ritual not starting (#23921)
+- chore(DB): import pending files
+- fix(DB/SAI): quest 'Changing the Wind's Course' (#23859)
+- fix(DB/SAI): Gargoyle Ambusher no longer aggro players at 100 yard of distance. (#23917)
+
+## 2025-11-26
+- fix(Core/Spells): MC should work on mounted targets (#23905)
+- fix(Core/PlayerStorage): correct fmt logs (#23915)
+- chore(DB): import pending files
+- fix(DB/SAI) - Adjust Morbent Fel's timers for casting. (#23912)
+- chore(DB): import pending files
+- fix(DB/SAI): Duke Vallenhal incorrect ability (#23909)
+- chore(DB): import pending files
+- fix(DB/SAI): solve issues with The Flesh Giant Champion quest (#23890)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fix Ahunae's Knife (#23879)
+- chore(DB): import pending files
+- fix(Scripts/UtgardeKeep): Update special Enslaved Proto-Drake and rider (#23818)
+- chore(DB): import pending files
+- fix(DB/Quest): Musty Coffin for Disclosure limited to 1 use (#23877)
+
+## 2025-11-25
+- fix(DB/Quest) - Remember Everfrost! is now repetable (#23878)
+- fix(DB/Quest) - Elixir of Agony doesn't require any quest to be picked up (#23883)
+- fix(Modules): Propagate lualib to Sol2 (#23838)
+
+## 2025-11-24
+- fix(DB/Quest): Light Won't Grant Me Vengeance now requires Crusader Forward Camp (#23876)
+- chore(DB): import pending files
+- fix(DB/Quest) No prerequisite for Suppressing the Elements (#23849)
+- fix(DB/Quest): No prerequisite for To Conquest Hold (#23858)
+- fix(DB/Quest): Correct quest conditions for vrykul scroll (#23853)
+- fix(Core/SAI): Allow game objects to use load grid (#23881)
+- changed into the current license model
+- merge_conflict_fix
 - fix
+- fix(Core/WorldSession) Allow automatic session DBC locale selection from available locales (#23706)
+- fix(Cmake/FindMySQL): corrected registry hints on windows (#23303)
+- chore(DB): import pending files
+- fix(DB/Creature): update gossip for pilgrims bounty cooking trainers (#23873)
+- Merge pull request #110 from hermensbas/core_update_no_squash
+- Merge branch 'Playerbot' into core_update_no_squash
+- Merge pull request #109 from mod-playerbots/revert-104-core-merge-17112025
+
+## 2025-11-23
 - Merge remote-tracking branch 'upstream/master' into core_update_no_squash
 - Revert "Core merge 17112025 (#104)"
 - Core merge 17112025 (#104)
