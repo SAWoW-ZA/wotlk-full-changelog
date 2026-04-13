@@ -1,3 +1,1021 @@
+## 2026-04-03
+- Merge remote-tracking branch 'acore/master' into test-staging
+- chore(DB): import pending files
+- fix(Scripts/UtgardePinnacle): Fix Skadi Poisoned Spear not applying DOT in Heroic (#25364)
+- chore(DB): import pending files
+- feat(Core/Opcodes): Implement CMSG_COMPLAIN & CMSG_CALENDAR_COMPLAIN (#25329)
+- chore(DB): import pending files
+- fix(Core/Creature): Implement CREATURE_FLAG_EXTRA_CANNOT_ENTER_COMBAT  (#25363)
+- chore(Core/Loot): apply clang-tidy to use bool literal (#25356)
+- fix(Core/Immunities): PvP trinkets no longer remove Silence or Disarm (#25354)
+- chore(DB): import pending files
+- fix(Scripts/UtgardePinnacle): Fix Skadi gauntlet add movement and reset (#25359)
+- chore(DB): import pending files
+- fix(DB/Immunities): set Water Elemental (mage pet) to Frost Immune only (#25352)
+
+## 2026-04-02
+- Merge branch 'Playerbot' into test-staging
+- windows build shorter root path
+- various build corrections
+- various build corrections
+- Merge pull request #185 from mod-playerbots/20260328-ac-merge
+- fix(Core/Spells): Include absorbed damage in PROC_SPELL_TYPE_DAMAGE classification (#25314)
+- fix(Core/Spells): Resolve pet to owner in EffectSummonType default path (#25322)
+- Added test-staging
+
+## 2026-03-31
+- fix(Scripts/Karazhan): Fix Moroes resetting during Vanish (#25333)
+- fix(Core/Movement): restore JustExitedCombat evade to fix waypoint resume (#25332)
+- fix(Scripts/VioletHold): Fix Ethereal Sphere speed in Xevozz encounter (#25313)
+- chore(DB): import pending files
+
+## 2026-04-01
+- fix(DB/Creatures): fix Valithria dream phase NPC not visible to players (#25320)
+
+## 2026-03-30
+- chore(DB): import pending files
+- feat(DB/Misc): Add state and assignee to bugreport (#25316)
+- fix(Core/Scripts): Fix Valithria Dreamwalker encounter and default JustExitedCombat (#25315)
+- Merge fix.
+- fix(Core/Unit): Skip evade aura removal for player-owned creatures (#25311)
+- fix(Core/Scripts): Fix multiple ICC encounter regressions after threat system port (#25303)
+- chore(DB): import pending files
+- fix(Scripts/MoltenCore): Move Majordomo Executus gossip to database (#25309)
+
+## 2026-03-29
+- fix(Scripts/MoltenCore): Fix Majordomo Executus gossip for Ragnaros summoning (#25307)
+- fix(Core/SmartAI): Suppress evade during SMART_ACTION_COMBAT_STOP (#25249)
+- chore(DB): import pending files
+- fix(DB/Immunities): add missing effects to knockback immunities (#25264)
+- fix(Core/Scripts): Fix Aeranas reset loop during quest Avruu's Orb (#25290)
+- chore(DB): import pending files
+- fix(Core/Combat): Restrict NullCreatureAI combat disallow to triggers only (#25289)
+- fix(Scripts/SunwellPlateau)More fix for boss Kalecgos resetting during death (#25284)
+- fix(Core/Movement): resume waypoint movement after casting interruption (#25269)
+- feat(Core/Scripting): Add `OnPlayerLearnTaxiNode` hook (#25288)
+- chore(DB): import pending files
+
+## 2026-03-28
+- fix(Core/Scripts): Move EasternKingdoms gossip to database (#25208)
+- fix(Core/Battlegrounds): Remove siege damage buffs on node assault in IoC (#25155)
+- chore(DB): import pending files
+- refactor(Core/Scripts): move Northrend gossip handlers to database (#25275)
+- refactor(Core/Scripts): move Outland gossip handlers to database (#25274)
+- fix(Scripts/HoR): fix HoR escape event outro and refactor tracking (#25287)
+- fix(Core/LFG): prevent RDF anti-kick exploit via loot rolls (#25112)
+- chore(DB): import pending files
+- feat(Scripts/Commands): allow achievement add from console for offline players (#25283)
+- fix(Scripts/HoR): clear IMMUNE_TO_PC before engaging Falric and Marwyn (#25273)
+- Merge pull request #184 from kadeshar/20260328-ac-merge
+- Merge fix
+- chore(DB): import pending files
+
+## 2026-03-27
+- refactor(Core/Scripts): move Kalimdor gossip handlers to database (#25207)
+- fix(Core/Scripts): Clear IMMUNE_TO_PC before engaging after threat system port (#25263)
+- fix(Core/Combat): Immediately reselect victim after taunt aura update (#25254)
+- fix(Core/Movement): Fix use-after-free in WaypointMovementGenerator (#25270)
+- fix(Scripts/Naxx): fix Gothik the Harvester evading during phase 2 teleport (#25265)
+- fix(Core/Spells): resolve pet to owner in SummonGuardian (#25266)
+- Merge pull request #181 from mod-playerbots/20260320-ac-merge
+- chore(DB): import pending files
+- feat(CI): Add `mod-ptr-template` to list of modules to compile for workflow. (#25260)
+- fix(DB/Immunities): update magic immunity for Atal'ai Deathwalker (#25262)
+- chore(DB): import pending files
+- fix(DB/Creature): immunities, spawn and equipment of Koltira Deathweaver (#25261)
+- chore(DB): import pending files
+- fix(DB/SAI): Restore Havenshire Stallion behavior. (#25236)
+- fix(Core/Loot): fix quest item count logic for FFA (MULTI_DROP) loot (#25257)
+
+## 2026-03-26
+- fix(Core/Combat): Re-enable combat for training dummies (#25239)
+- fix(Scripts/Icecrown): Fix idle scourge NPCs in The Battle For Crusaders' Pinnacle (#25224)
+- fix(Core/Movement): Fire WaypointReached before PathEndReached (#25241)
+
+## 2026-03-27
+- chore(DB): import pending files
+
+## 2026-03-26
+- fix(Scripts/BRD): Fix Doom'rel and Gloom'rel gossip not working (#25256)
+- fix(Core/Spells): Fix Flexweave Underlay script targeting wrong spell (#25255)
+- fix(Core/Spells): Fix ranged spell minimum range incorrectly applying leeway (#25230)
+- fix(Core/Commands): Show combat refs in .debug hostile output (#25248)
+- fix(Core/Movement): Pass waypoint point ID to MovementInform (#25252)
+- chore(DB): import pending files
+- fix(Script/ObsidianSanctum): Solve path and visual effect issues with Flame Tsunami. (#25243)
+- chore(DB): import pending files
+- feat(Scripts/Commands): add .mail list and .mail return commands (#25213)
+
+## 2026-03-25
+- fix(Core/Movement): Clear CanNotReachTarget when chase spline finishes (#25235)
+- refactor(Scripts/Ulduar): leverage DoorData, persistent data, and code standards (#25163)
+- chore(DB): import pending files
+- fix(DB/Creature): Remove smoothTransition for Guardian of Life (33528) (#25233)
+- fix(Scripts/Pet): Port TrinityCore snake trap AI to use CombatManager (#25232)
+- chore(DB): import pending files
+- fix(DB/Creature): add Power Spark visual to Power Spark (1) (#25231)
+- fix(DB/Movement): Enable smooth waypoint transitions for flying creatures (#25227)
+- fix(Scripts/Naxx): Fix Heigan evading and regenerating HP at end of Phase 2 (#25223)
+- fix(Scripts/Naxxramas): reset threat when Thaddius become active (#25226)
+- fix(Core/Movement): Prevent vehicles from following their own passenger on evade (#25225)
+- fix(Core/Combat): Prevent NullCreatureAI creatures from entering combat (#25222)
+- fix(Core/Movement): Remove unconditional SetWalk(false) from WaypointMovementGenerator::DoFinalize (#25221)
+- fix(Scripts/Oculus): Fix Mage-Lord Urom not teleporting between platforms (#25220)
+- fix(Core/Unit): partial immunity for mixed spells (#25219)
+- chore(DB): import pending files
+- fix(DB/Creature): seed `creature_immunities` from `creature_template` (#25218)
+- fix(Scripts/Pet): prevent recursive EnterEvadeMode in snake trap AI (#25217)
+- chore(DB): import pending files
+- fix(DB/Creature): repopulate CreatureImmunitiesId after broken migration (#25216)
+- fix(Scripts/Gundrak): Fix Drakkari Colossus not activating when Living Mojo is attacked (#25214)
+- chore(Core/Movement): Add missing co-author attribution for #25106 (#25209)
+
+## 2026-03-24
+- fix(Core/Movement): DAMAGE_FALL_TO_VOID bypasses all immunities (#25211)
+- chore(Core): add .claude directory to .gitignore (#25210)
+
+## 2026-03-25
+- chore(DB): import pending files
+
+## 2026-03-24
+- feat(Scripts/Commands): add commands for autobroadcast management (#25154)
+
+## 2026-03-25
+- chore(DB): import pending files
+
+## 2026-03-24
+- feat(Scripts/Commands): add debug factionchange command (#25156)
+- chore(Core/OutdoorPvP): Add outdoor pvp min/max getters (#25203)
+- chore(DB): import pending files
+- feat(Scripts/Commands): Add .debug loot command (#25164)
+- fix(DB/SAI): Solve High Priest Talet-Kha AI issues. (#25205)
+- chore(DB): import pending files
+- fix(DB/Pet Names) - Adjustments to Death Knights Ghoul names (#25201)
+- chore(DB): import pending files
+- fix(Scripts/UP): rework Skadi the Ruthless encounter (#25195)
+- chore(DB): import pending files
+
+## 2026-03-23
+- fix(DB/SAI): "Klaven's Tower" Defias Tower Patroller/Sentry Backstab/Ambush fix (#25200)
+
+## 2026-03-24
+- chore(DB): import pending files
+
+## 2026-03-23
+- refactor(Core/Scripts): move npc_maredis_firestar to DB gossip (#25192)
+- chore(DB): import pending files
+- fix(DB/Gossip): convert npc_slim gossip to database conditions (#25191)
+- chore(DB): import pending files
+- feat(Core/Movement): port smooth waypoint movement from Cataclysm Preservation Project (#25106)
+- fix(Core/Scripts): skip areatrigger scripts for gamemasters (#25196)
+- chore(DB): import pending files
+- fix(DB/Scripts): CoS Stephanie Sindree and citizen now talk (#24045)
+
+## 2026-03-22
+- fix(Core/Tests): Add missing GetDataPath mock to combat tests (#25198)
+
+## 2026-03-23
+- feat(Core/Spawns): introduce SpawnData base struct and spawn group infrastructure (#25152)
+
+## 2026-03-22
+- refactor(Core/Collision): Store collision data on map context (#25049)
+- chore(DB): import pending files
+- fix(Core/Spells): Do not add PROC_HIT_NORMAL/PROC_HIT_CRITICAL if damage is fully nullified (#25105)
+- fix(Core/Spell): spell immunity system and new separate immunities table (#24956)
+- fix(DB/SAI): Only despawn Terokk on evade if there are Skyguard Ace nearby (#25118)
+- refactor(Core/Scripts): remove redundant scheduler SetValidator calls (#25189)
+- chore(DB): import pending files
+- fix(DB/Scripts): CoS Brandon Eiredeck and citizens now talk (#24043)
+- fix(Core/AI): Prevent guardians from switching targets on owner combat interaction (#25190)
+-  fix(Core/SmartAI): despawn follow if player goes out of range / offline (#24450)
+- fix(Scripts/Ulduar): fix Mimiron ACU unkillable while grounded by Magnetic Core (#25141)
+- chore(DB): import pending files
+- fix(DB/Conditions): Fix Ruthless Cunning banner target conditions (#25150)
+- fix(Core/Combat): Restore pet/owner combat propagation (#25166)
+- fix(Core/SmartAI): Remove REACT_PASSIVE check from CanAIAttack (#25186)
+- refactor(Core/Scripts): convert Blackrock Mountain scripts to register macros (#25178)
+- refactor(Scripts/FoS): modernize Forge of Souls bosses to use BossAI (#25174)
+- fix(Core/Battlefield): fix stale queue/invite entries and wrong-team kicks (#25168)
+- fix(Core/Scripts): Fix boss scripts resetting during death/defeat RP after threat system port (#25185)
+- refactor(Scripts/HoR): modernize Halls of Reflection scripts (#25176)
+- fix(Scripts/Ulduar): spawn keepers at Observation Ring on defeat (#25144)
+- fix(Core/Spells): Invert disarm aura-keep check for weapons (#25175)
+- fix(Core/Map): Ensure grid is valid before unloading to prevent potential â€¦ (#24621)
+- fix(Core/Spells): Enter combat at spell launch for delayed spells (#25167)
+- chore(DB): import pending files
+- fix(Scripts/Stormpeaks): Add Oathbound Warder pet abilities (#24062)
+- choreCore/Scripts): Remove unused includes from scripts (#25179)
+- fix(Scripts/Oculus): preserve warrior stances when boarding drakes (#25149)
+
+## 2026-03-21
+- fix(Core/Scripts): Fix Ebon Gargoyle infinite evade loop (#25173)
+- fix(Core/Spells): Don't remove item-dependent auras on disarm/weapon swap (#25170)
+- fix(Core/Taxi): Use original team for flight path lookups (#25165)
+- refactor(Core/Battlefield): replace manual timers with TaskScheduler â€¦ (#25083)
+- fix(Core/Combat): Fix guardians not attacking after threat system port (#25157)
+- chore(DB): import pending files
+- fix(Core/Spells): Prevent Flexweave Underlay use on ground (#25158)
+- fix(agents): Tone down copilot (#25159)
+- fix(Core/Combat): Fire OnPlayerLeaveCombat hook from CombatManager exit path (#25137)
+- chore(DB): import pending files
+- refactor(Script/Command): learn spell (#24319)
+- chore(DB): import pending files
+- fix(Core/Loot): Fix Master Loot visibility and assignment for quest iâ€¦ (#24828)
+- fix(DB/Trainer): Shattrath Leatherworking and Engineering bookshelves (#25130)
+- fix(Core/Movement): skip TriggerAlert for creatures immune to players (#25147)
+- fix(Core/Spells): Spells that don't initiate combat shouldn't affect â€¦ (#25146)
+- chore(DB): import pending files
+- feat(Scripts/Commands): Add online session time to pinfo command (#24388)
+
+## 2026-03-20
+- fix(Core/Movement): Only update home position for patrolling NPCs (#24080)
+
+## 2026-03-21
+- chore(DB): import pending files
+
+## 2026-03-20
+- fix(Core/Arena): Make personal rating season-aware on team join (#24755)
+- fix(DB/Spell): Add internal cooldown to Spirit Burn proc (#25129)
+
+## 2026-03-21
+- refactor(Scripts/Northrend): use emplace_back instead of push_back (#25142)
+
+## 2026-03-20
+- fix(Core/Cinematics): Cinematic camera improvements (#25097)
+
+## 2026-03-21
+- fix(Core/Unit): Improve vehicle exit safety checks and fallback logic (#24612)
+
+## 2026-03-20
+- fix(Scripts/VioletHold): VioletHold globules no longer inherit boss speed (#25143)
+- fix(Scripts/EoE): fix Vortex only hitting 8 players (#25119)
+- Merge branch 'azerothcore:master' into 20260320-ac-merge
+- Merge pull request #177 from mod-playerbots/20260313-ac-core-merge
+- fix(Core/Player): Fix potion cooldown not ticking after combat ends (#25135)
+- fix(Core/Scripts): Fix DK pets not correctly attacking (#25128)
+- fix(Scripts/EoE): Cross-faction Wyrmrest Skytalon support in Eye of Eternity (#25132)
+- chore(DB): import pending files
+- fix(DB/SAI): Death Knight Initiates must remove HP invincibility and re-enable evade on respawn. (#25127)
+- chore(DB): import pending files
+- fix(DB/Loot) - Correct who should or not drop Pattern: Robes of Arcana (#23916)
+
+## 2026-03-19
+- fix(Core/Scripts): Fix GetVictim() returning null during JustEngagedWith (#25131)
+- fix(Scripts/Dalaran): Prevent Minigob Manabonk from targeting GMs (#25123)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Eye of Eternity' spawns (#25057)
+- chore(DB): import pending files
+
+## 2026-03-18
+- fix(Core/DB): Fix Malygos not engaging due to IMMUNE_TO_PC spawn flag (#25121)
+
+## 2026-03-19
+- Revert "fix(scripts/OldHilldBradFootHills): fix Captain Skarloc reacting to stealthed players" (#25120)
+
+## 2026-03-18
+- refactor(Core/Combat): Port TrinityCore heap-based threat system (#24715)
+- fix(Core/Spells): Fix Entrapment not proccing from trap activation (#25110)
+- chore(DB): import pending files
+- fix(DB/Conditions): add implicit target conditions to Oculus' Stop Time (#25113)
+- chore(DB): import pending files
+- fix(DB/Page_Text): Missing content "Saga of the Sin'dorei" (#25111)
+- chore(DB): import pending files
+- fix(DB/Loot): fix Eye of Eternity loot (#25115)
+- fix(Core/Unit): avoid iterator invalidation in RemoveAllControlled (#25108)
+
+## 2026-03-17
+- feat(Core/OutdoorPvP): Add getters for Capture points for Outdoorpvp (#25103)
+- feat(Core/Player): Add 'OnPlayerCanLearnTalent' hook (#24826)
+- chore(DB): import pending files
+- fix(DB/Creature): Update Fjord Hawk (24747) spawns with sniffed data (#25075)
+- fix(Build/nix): Include mysql and zlib dependencies (#25093)
+
+## 2026-03-16
+- fix(Scripts/Desolance): use correct gossip hook for kodo kombo quest (#25104)
+- chore(DB): import pending files
+- fix(DB/Spell): Correct Demonic Pact ICD to 20 seconds (#25098)
+- fix(Core/Movement): followers match their target's motion speed (#25085)
+- feat(DB): Release ACDB 15.0.0 (#25091)
+- fix(Core/IPLocation): Prevent crash when parsing invalid IP (#25095)
+
+## 2026-03-15
+- chore(DB): import pending files
+- fix(DB/SAI): Drakuru replace Elixir Gossip (#24727)
+- chore(DB): import pending files
+- chore(DB/Creature): Update verified build for creature display entries that match official data. (#25076)
+- chore(DB): import pending files
+- fix(DB/creature) Pools of Aggonar ooze aggro linking (#23463)
+- chore(DB): import pending files
+- fix(DB/SAI): Fix waypoints for Darkfallen Bloodbearer (26115) (#23013)
+- fix(Core/Unit): Fix infinite loop in RemoveAllControlled (#25087)
+
+## 2026-03-14
+- chore(DB): import pending files
+- fix(DB/Creature): Update Spotted Hippogryph (23772) spawns with sniffed data (#25072)
+- chore(DB): import pending files
+- fix(Scripts/EoE): fix Malygos Phase 3 Surge of Power warning (#25084)
+- fix(Core/Unit): Keep Lightwell alive on player death (#24675)
+- fix(Core/GridNotifiers): fix ImmuneToPC npcs reacting to stealthed players (#21652)
+- chore(DB): import pending files
+- fix(DB/Script): Move Death Knight Initiate script on SAI and implement assault feature. (#25077)
+
+## 2026-03-13
+- refactor(Core/Battlefield): remove Hungarian notation and modernize code (#25070)
+- - Merge fix
+- Merge pull request #176 from mod-playerbots/20260306-ac-core-merge
+- chore(DB): import pending files
+- fix(DB/lang): Update esES NPC title & subname (#23668)
+- chore(DB): import pending files
+- fix(DB/lang): Update ruRU NPC title & subname (#25066)
+- chore(DB): import pending files
+- fix(DB/lang): Update esMX NPC title & subname (#23669)
+- chore(DB): import pending files
+- fix(DB/lang): Update koKR NPC title & subname (#23670)
+- chore(DB): import pending files
+- fix(DB/lang): Update zhTW NPC title & subname (#23673)
+- chore(DB): import pending files
+- fix(DB/lang): Update zhCN NPC title & subname (#23672)
+- fix(DB/SAI): Improve Scarlet Peasant behavior. (#25080)
+- chore(DB): import pending files
+- fix(DB/lang): Update frFR NPC title & subname (#23666)
+- chore(DB): import pending files
+- fix(Server/Scripting): Remove packet copy from server script hooks (#25063)
+- fix(Core/Spells): Register missing Ice Barrier AuraScript for Incanter's Absorption (#25079)
+- fix(Core/Spells): Fix Chimera Shot Viper Sting mana cap (#25078)
+- feat(Core/Cli): Re-Enable Console Pipe Functionality (#24963)
+- fix(Core/Spells): Fix typo in tangent() function causing incorrect negative value clamping (#23900)
+
+## 2026-03-12
+- fix(Core/Spells): Pass nullptr to KILL/KILLED/DEATH procs (#25074)
+- fix(Core/Spells): Make Illidan's Demon Fire Unable to Miss (#24994)
+- fix(Core/Movement): Revert pet PATHFIND_NOT_USING_PATH teleport (#23494) (#25071)
+- refactor(Core/Movement): follower management of references (#25060)
+- fix(Core/Spells): Skip level-based resistance for binary spells (#25065)
+- chore(DB): import pending files
+
+## 2026-03-11
+- fix(Core/Battlefield): Erase invite by real team on war accept and add queue list command (#25056)
+- fix(Core/Spells): Fix Retaliation self-proc on activation (#25062)
+- chore(DB): import pending files
+- fix(DB/lang): Update deDE NPC title & subname (#23667)
+- chore(DB): import pending files
+- fix(DB/Proc): Restrict on-spellcast procs to damage/heal only (#25061)
+- fix(Core/Movement): fix creature freeze when switching chase targets (#25058)
+- refactor(Core/Spells): Pass nullptr as victim for PROC_SPELL_PHASE_CAST (#25007)
+- chore(DB): import pending files
+
+## 2026-03-10
+- fix(Core/Spells): Implement spell_jump_distance (#25023)
+
+## 2026-03-11
+- refactor(Core/Misc): port gossip validation, StringFormat APIs, and spell attribute naming from TC (#24789)
+
+## 2026-03-10
+- chore(DB): import pending files
+- fix(Scripts/Ulduar): Brundir invincible during Overload if not last boss (#25029)
+- fix(Core/Events): Fix multi-stage holiday events ending early on restart (#25032)
+- fix(DB/Loot): Tweak WotLK World Loot Green Chances to match chances before Normalization (#25046)
+- fix(Core/Spells): Use correct beacon copy spell for Flash of Light (#25053)
+- fix(Scripts/Deadmines): store state of newly added doors to DB, too (#25050)
+- chore(DB): import pending files
+- fix(DB): Update gameobject 'Deadmines Doors and Levers' with sniffed vâ€¦ (#25047)
+
+## 2026-03-09
+- chore(DB): import pending files
+- chore(DB/Text): Add German (deDE) translations for acore_string (#25011)
+- fix(Core/Spells): restore binary spell detection for CC resist via spell resistance (#25016)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix Arcane Potency consumed by same cast that triggered it (#24997)
+- fix(Core/Spells): Glyph of Polymorph should not remove Shadow Word: Death backlash (#25014)
+- fix(Core/Spells): Fix Divine Purpose not removing Intimidating Shout stun (#25021)
+- fix(Core/Scripts): Mirror Image should stop attacking invisible targets (#25027)
+- fix(Core/Spells): Fix ADD_TARGET_TRIGGER duration overwrite (#25042)
+- fix(Core/Spells): prevent aura rank downranking based on hostile target level (#25045)
+- chore(DB): import pending files
+- feat(Core/Commands): Allow .npc info to use GUID when no target selected (#24922)
+
+## 2026-03-08
+- fix(Core/Scripts): fix Solarian vanish phase evicting encounter (#25041)
+- chore(DB): import pending files
+- fix(DB/Ulduar): Set New Creature Formations and clean some guid SAI. (#25039)
+- fix(Core/Spells): apply SPELLFAMILY_GENERIC mods to spells by default (#24996)
+- fix(Core/Movement): Teleport pet when pathfinding returns PATHFIND_NOT_USING_PATH (#23494)
+- chore(DB): import pending files
+- fix(DB/Spell): Piercing Howl should break stealth (#25037)
+- fix(Core/Combat): Prevent burst melee attacks from attack timer debt (#24858)
+- chore(DB): import pending files
+- fix(DB/Waypoint): fix O'Reily waypoint (#24895)
+- feat(DB/Creature): Add class base stats for creatures. (#24910)
+- fix(Core/Spells): Fix Explosive Trap crit bonus multiplier (#24931)
+- chore(DB): import pending files
+- fix(Scripts/CoS): Chromie dialog options (#25024)
+- fix(Core/Movement): add creature formation movement generator (#25030)
+- feat(Core/Achievements): Add configurable realm first kill time window (#24920)
+- fix(Core/AI): fix OnSpellFailed crash on TempSummon despawn (#25036)
+
+## 2026-03-07
+- fix(Core/Scripts): Add missing BattlefieldScript EnabledHooks init (#25033)
+- chore(DB): import pending files
+- fix(Scripts/Creature): multi-raid faction leader credit (#22168)
+- feat(Core/AI): port OnSpellStart/OnSpellCast/OnSpellFailed/OnChannelFâ€¦ (#25026)
+- chore(DB): import pending files
+- fix(DB/Spell): Arcane Blast and Missile Barrage spell_proc corrections (#25015)
+- - Merge fix
+- chore(DB): import pending files
+- fix(DB/Spells): Restrict Rime proc to Obliterate only (#25025)
+- chore(DB): import pending files
+- fix(DB/Ulduar): Create a new Guardian Lasher. (#25018)
+- chore(DB): import pending files
+- fix(DB/Ulduar): Destroyed Vehicles are now present in 25M. (#25017)
+- fix(Core/Spells): Judgement of Wisdom should restore 2% base mana per proc (#25020)
+- Merge pull request #175 from azerothcore/master
+
+## 2026-03-05
+- fix(Core/Scripts): Fix Seal of Command cleave for Crusader Strike and ShoR (#25002)
+- fix(Core/Server): Remove unnecessary HandleTeleportTimeout (#25013)
+
+## 2026-03-06
+- chore(DB): import pending files
+
+## 2026-03-05
+- chore(DB/Text): Add Some Translations (esES And esMX) (#25010)
+- chore(DB): import pending files
+- fix(DB/Ulduar): Edit trashes spawn points and formations in XT-002 Deconstructor arena. (#24987)
+- fix(DB/Loot): Razormane Backstabber mistakenly added in World Loot (#25003)
+- fix(DB/Script): Move Brozebeard Radio behaviour on SAI. (#25006)
+- fix(Core/Spells): Use proc entry cooldown for item equip proc cooldown (#25005)
+- fix(Core/Misc): prevent crash and undefined behavior in Warden destructor and Object visibility (#24900)
+- chore(DB): import pending files
+- fix(Scripts/Ulduar): port TC Mimiron Magnetic Core handling (#24998)
+
+## 2026-03-04
+- fix(Scripts/Ulduar): Flame Leviathan evade mode if Pursue returns no â€¦ (#25000)
+- chore(DB): import pending files
+- fix(DB/Uldar): Set Chamber Overseer waypoint delay and orientation. (#24999)
+- fix(Core/Movement): use-after-free using DontCacheRandomMovementPaths (#24935)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Add Fissure Plants for quest The Stagnant Oasis (#24992)
+- fix(DB/Loot): Add World Loot to Stoic Mammoth (30260) (#24993)
+
+## 2026-03-03
+- fix(DB/Spell): Fix Seal of Command not proccing from HotR and ShoR (#24986)
+- fix(Core/Spells): Fix Seal of Vengeance using own stack for damage (#24985)
+- chore(DB): import pending files
+
+## 2026-03-04
+- fix(DB/Ulduar): Edit trashes movements and formations in Ignis arena. (#24982)
+
+## 2026-03-03
+- fix(Core/Spells): revert CAST proc ordering and add ApplySpellMod recursion guard (#24990)
+- chore(DB): import pending files
+- feat(Core/Commands): add honor and arena point reset to `.reset all` â€¦ (#24978)
+- chore(DB): import pending files
+- chore(DB/Text): Add some translations (esES and esMX) (#24824)
+- chore(DB): import pending files
+- fix(Scripts/Commands): battlefield commands console support and localized messages (#24980)
+
+## 2026-03-02
+- fix(Core/Spells): Fully absorbed periodic damage should not break stealth (#24975)
+
+## 2026-03-03
+- fix(Core/Movement): restore TimedFleeingMovementGenerator AttackStop (#24892)
+- fix(Core/Scripts): missing null checks for GetCharmerOrOwner and GetOwner (#24902)
+
+## 2026-03-02
+- fix(Core/Spells): Fix iterator invalidation crash in deferred spell mod cleanup (#24974)
+- feat(Core/Scripting): Implement OnBattlefieldBeforeInvitePlayerToWar()  (#24973)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'The Park' spawns (#24972)
+- fix(DB/Gameobject): Sniffed Values for 'Cathedral Square' spawns (#24971)
+- fix(Core/Spells): Add proc chain guard and TAKEN auto-trigger logic (#24966)
+- fix(Core/Spells): Port SPELL_ATTR3_INSTANT_TARGET_PROCS cascade proc suppression from TrinityCore (#24936)
+- chore(DB): import pending files
+- fix(DB/Creature): Rework Mechanolift 304-A spawns and waypoints. (#24959)
+
+## 2026-03-01
+- fix(Core/Scripting): Call OnBattlefieldPlayerJoinWar() before adding â€¦ (#24964)
+- feat(Core/Scripting): Add Battlefield scripting hooks and API  (#24957)
+- fix(Core/Skills): Remove profession passive auras on skill removal (#24955)
+- chore(DB): import pending files
+- fix(Core/Scripts): Fix Missile Barrage and Clearcasting proc with Arcane Missiles (#24958)
+- fix(Core/Scripts): Fix Judgement and Judgements of the Just seal interactions (#24953)
+- chore(DB): import pending files
+- fix(DB/Spells): Fix Seal of Light and Flame Cap proc rates (#24954)
+- fix(Core/Scripts): Fix Shifting Naaru Sliver not applying Limitless Power (#24952)
+- chore(DB): import pending files
+- fix(DB/Quest): Use sniffed data for Quests The Dormant Shade (410) and Proving Allegiance (409) (#24950)
+- chore(DB): import pending files
+- fix(DB/Conditions): Tie Wintergrasp gear vendors to arena seasons (#24913)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix channeled CASTâ†’HIT proc ordering and hasted DynObject duration (#24948)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Black Smoke - scale 2' spawns (#24946)
+
+## 2026-02-28
+- fix(DB/Gameobject): Add Junk in My Trunk gameobject spawning (#24945)
+
+## 2026-03-01
+- fix(DB/Gameobject): Sniffed Values for 'Thunder Ale' spawns (#24944)
+
+## 2026-02-28
+- refactor(Core/SharedDefines): Use one class enum instead of two for creatures. (#24918)
+- feat(Core/Globals): Dynamically calculate max race and racemasks from DBC data. (#24665)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix proc phase ordering CAST before HIT for instant spells (#24942)
+- fix(Core/Spells): Fix Frozen Power talent using wrong effect for proc chance (#24943)
+- chore(DB): import pending files
+- fix(DB/Quest): Rework Vile Hold / Malykriss quest handling (#24941)
+- chore(DB): import pending files
+- fix(Scripts/Ulduar): Fix Razorscale walking in air animation (#24940)
+- fix(Core/Battlegrounds): allow SotA turrets to be used during warmup (#24908)
+- fix(Core/Spells): Fix Vanish/Shadowmeld not absorbing spells via Sanctuary (#24937)
+- chore(DB): import pending files
+- fix(Scripts/SSC): remove Tainted Core from inventory on death (#24939)
+- chore(DB): import pending files
+- fix(DB/Ulduar): Add Various waypoints and formation. (#24934)
+- fix(Core/Spells): Fix item use macro breaking melee auto-attack (#24926)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix Cold Blood not consumed when Mutilate kills target (#24909)
+- chore(DB): import pending files
+- fix(DB/Item): Update Item values for some unobtainable WotLK items using Classic & Cata data (#24880)
+- chore(DB): import pending files
+
+## 2026-02-27
+- feat(Core/LFG): Implement dungeon selection cooldown to prevent repeat assignmeâ€¦ (#24916)
+
+## 2026-02-28
+- chore(DB): import pending files
+
+## 2026-02-27
+- fix(Core/Spells): Prevent Kill Command cast without a pet (#24929)
+
+## 2026-02-28
+- chore(DB): import pending files
+
+## 2026-02-27
+- fix(DB/Gameobject): Respawn Heigan's Plague Fissure objects. (#24897)
+- Merge pull request #170 from azerothcore/master
+- fix(Core/Spells): Remove range check on split damage auras (#24899)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'unnamed yellow dome' spawns (#24894)
+- fix(Core/BF/BG): update Titan Relic spawns with sniffed values (#24912)
+- chore(DB): import pending files
+- fix(Core/Spells): Restrict Beacon of Light proc to intended heals (#24921)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Doodad_OrcBonFire01' spawns (#24919)
+- chore(DB): import pending files
+- fix(DB/Proc): Add missing NONE DmgClass flags and fix SpellPhaseMask for on-cast procs (#24903)
+- fix(Core/Spells): Fix Cobra Strikes stack consumption (#24906)
+- fix(Core/Spells): Fix Swift Hand of Justice healing for 0 (#24911)
+- chore(DB): import pending files
+- fix(DB/Creature): Sniffed Values for 'Day of the Dead Celebrants and â€¦ (#24856)
+- chore(DB): import pending files
+
+## 2026-02-26
+- fix(Core/Spells): Allow Mutilate offhand to proc Focused Attacks (#24907)
+- chore(DB): import pending files
+- fix(Core/Scripts): Remove duplicate spell scripts causing double-firing (#24905)
+- chore(DB): import pending files
+- fix(DB/Loot): Gluth Loot Table (#24737)
+- fix(Core/Spells): Turn the Tables buff only applies to the rogue (#24896)
+- fix(Core/Spells): Check DONT_BREAK_STEALTH in stealth proc guard (#24898)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix Hungering Cold breaking from disease damage (#24888)
+- fix(DB/Proc): Add missing NONE DmgClass proc flags to Blue Dragon (#24890)
+- feat(Core/Commands): Add .spellinfo command with subcommands  (#24867)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Huge Laying Skeleton 02' spawns (#24886)
+- fix(DB/Gameobject): Sniffed Values for 'Huge Sitting Skeleton 02' spawns (#24884)
+- fix(DB/Gameobject): Sniffed Values for 'Sitting Skeleton 03' spawns (#24883)
+
+## 2026-02-25
+- chore(DB): import pending files
+
+## 2026-02-26
+- fix(DB/Gameobject): Sniffed Values for 'Doodad_WoodSign%' spawns (#24882)
+
+## 2026-02-25
+- chore(DB): import pending files
+- fix(DB/Loot): Remove ilvl 146 Weapons in the 72-74 Level Range that were never supposed to drop in original WotLK (#24885)
+- chore(DB): import pending files
+- fix(DB/Spells): Add scrolls to the str/agi spell group (#24877)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'unnamed flames' spawns (#24879)
+- chore(DB): import pending files
+- fix(DB/Spells): Port Proc Cooldowns from old spell_proc_event table (#24878)
+- fix(Core/Spells): Prevent friendly spells from breaking stealth (#24875)
+- chore(DB): import pending files
+- fix(DB/GameObject): Set Sniffed Flags to Serpentshrine Console Misc Doodad (#24876)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Blood of Heroes' spawns (#24855)
+- fix(Scripts/Spells): Fix Retaliation self-damage and charge loss on activation (#24868)
+- chore(DB): import pending files
+- fix(DB/Spells): Prevent Focused Attacks from proccing on offhand attacks (#24870)
+- chore(Scripts/Spells): Remove duplicate Shaman T8 Electrified script (#24869)
+- chore(DB): import pending files
+- fix(DB/Loot): Remove duplicate Void Crystal from disenchant entry 67 (#24871)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Serpentshrine Console' spawns (#24861)
+- fix(SpellEffects): GameObject Rotation (#24850)
+- chore(DB): import pending files
+
+## 2026-02-24
+- fix(Scripts/Spells): Add missing Druid T10 Balance 2P bonus (#24865)
+
+## 2026-02-25
+- chore(DB): import pending files
+
+## 2026-02-24
+- fix(DB/Spell): Fix Killing Machine PPM values for ranks 3-5 (#24866)
+
+## 2026-02-25
+- chore(DB): import pending files
+
+## 2026-02-24
+- fix(DB/Spell): Fix Threat of Thassarian not proccing on MH miss/dodge/parry (#24864)
+- feat(Core/LFG): Implement Debug.LFG config option  (#24854)
+- fix(Core/Spells): Fix SetSpellModTakingSpell assert from re-entrant calls (#24863)
+
+## 2026-02-25
+- chore(DB): import pending files
+
+## 2026-02-24
+- fix(Scripts/Ulduar): fix teleporters not activating after boss kills (#24860)
+- fix(Core/Spells): Exempt kill/death events from triggered-spell proc filter (#24859)
+- fix(Core/Spells): Restore asserts in SetSpellModTakingSpell (#24862)
+- fix(Core/Spells): Fix Piercing Shots to roll remaining damage on refresh (#24852)
+- fix(Core/Spells): Block SPELL_EFFECT_ENERGIZE_PCT on isolated targets (#24844)
+- fix(Scripts/Ulduar): Remove GUID-based harpoon identification in Razorsâ€¦ (#24846)
+- chore(DB): import pending files
+- fix(DB/Spell): update Maelstrom Weapon PPM (#24845)
+- fix(Core/Spells): Fix negative SPELL_AURA_MOD_DAMAGE_DONE client display (#24843)
+
+## 2026-02-23
+- fix(Core/AuthSession): Correct typo in query field fetch. (#24842)
+
+## 2026-02-24
+- chore(Github): Update issue labeler action to version 1.0.3 (#24802)
+- chore(DB): import pending files
+
+## 2026-02-23
+- fix(Core/Spells): Fix Cut to the Chase S&D duration (#24841)
+
+## 2026-02-24
+- fix(DB/Gameobject): Sniffed Values for 'Bottle' spawns (#24837)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Bread of the Dead' spawns (#24833)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Spirit Candle' spawns (#24835)
+- chore(DB): import pending files
+- fix(DB/Creature): Sniffed Values for 'Chapman' spawns (#24839)
+- fix(DB/Creature): Sniffed Values for 'Catrina' spawns (#24840)
+- chore(DB): import pending files
+- fix(DB/QuestTracker): add index (#24803)
+- chore(DB): import pending files
+
+## 2026-02-23
+- fix(Core/AuthSession): Send proper account flags for authentication responses. (#24829)
+- fix(Core/Spells): Fix Beacon of Light healing attribution (#24836)
+- fix(Core/Spells): Prevent stealth from breaking on friendly proc spells (#24834)
+
+## 2026-02-24
+- fix(DB/Gameobject): Sniffed Values for 'Mixed Fruit Bowl' spawns (#24832)
+
+## 2026-02-23
+- chore(Core/Battleground): expose damange,healing and kills attribute for modules (#24801)
+- fix(Core/DynamicObject): Fix Death and Decay not ticking while stationary (#24205)
+- chore(DB): import pending files
+- chore(Core/Spells): Remove duplicate seed of corruption spellscript (#24831)
+- fix(Core/Spells): Fix Rapid Recuperation, Rapid Killing, and auto-generate PROC_ATTR_REQ_SPELLMOD (#24830)
+- chore(DB): import pending files
+- fix (DB/Condition): Remove pre-requisites for Playing Along quest. (#24825)
+- chore(DB): import pending files
+
+## 2026-02-22
+- fix(DB/Loot): Cover more WotLK creatures in the Loot Normalization (#24819)
+- fix(Core/Spells): Fix Kill Command stacks not being consumed (#24822)
+
+## 2026-02-23
+- chore(DB): import pending files
+
+## 2026-02-22
+- fix(DB/Text): Add some translations (esES and esMX) (#24805)
+- feat(Core/SmartScripts): Implement Target Type for Formations (#24811)
+- fix(Core/Spells): Prevent vehicles from receiving party/raid area auras (#24820)
+- fix(Core/Spells): Fix Lock and Load proccing from Explosive Trap activation (#24821)
+
+## 2026-02-23
+- chore(DB): import pending files
+
+## 2026-02-22
+- fix(DB/Spells): Fix Darkmoon Card: Illusion restoring double mana (#24816)
+- fix(Core/Spells): Lock and Load proc on immune (#24818)
+
+## 2026-02-23
+- chore(DB): import pending files
+
+## 2026-02-22
+- fix(DB/Creature): Malygos (10/25) despawn on evade (#24814)
+
+## 2026-02-23
+- chore(DB): import pending files
+- fix(Scripts/ZulGurub): resolved an issue with Venoxis Holy Wrath spell targeting (#24746)
+- fix(DB/Gameobject): Sniffed Values for 'Offering Bowl' spawns (#24813)
+
+## 2026-02-22
+- fix(Core/Spells): Fix Prayer of Mending not bouncing to full-HP members (#24815)
+- fix(Core/Spells): Fix Swift Hand of Justice using wrong proc spell (#24808)
+- fix(Core/Spells): Do not set proc SpellFamilyName without SpellFamilyMask (#24807)
+- chore(DB): import pending files
+- fix(Core/Spells): Fix Lock and Load procs (#24795)
+- chore(DB): import pending files
+- fix(DB/SAI): Homing Robot OOX-17/TN fix waypoints and aura (#24769)
+- chore(DB): import pending files
+- fix(DB): Tweak some Loot Conditions for profession drops II (#24810)
+- fix(DB/Loot): Tweak some Loot Conditions for profession drops (#24809)
+- fix(Core/Spells): Prevent extra attack abilities from chain-proccing (#24806)
+- chore(DB): import pending files
+- fix(Core/Spells): Implement Honor Among Thieves spell scripts (#24799)
+- fix(Core/Spells): Beacon of Light no longer copies target healing modifiers (#24796)
+- chore(Scripts/Ulduar): boss_kologarn_pit_kill_bunny (#24636)
+- chore(DB): import pending files
+- fix(Core/CLI): Replace fgetws with ReadConsoleW for Windows console UTF-8 input (#24725)
+- fix(Scripts/EoE): Remove useless Focusing Iris script (#24804)
+- chore(DB): import pending files
+- fix(DB/Creature): Fix Power Spark movement (#24798)
+
+## 2026-02-21
+- chore(DB): import pending files
+- fix(Scripts/EoE): Implement Malygos Vortex (#24726)
+- fix(Core/Spells): Port HandleBreakableCCAuraProc from TrinityCore (#24793)
+- chore(DB): import pending files
+- refactor(Core/Entities): clean up vendor item removal and add QuaternionData Euler helpers (#24790)
+- fix(Scripts/Spells): Remove duplicate Sacred Shield script with wrong caster attribution (#24791)
+- fix(DB/Spells): Fix Soul Preserver trinket proccing from non-healing spells (#24792)
+- chore(DB): import pending files
+- fix(DB/Spell): Fix Omen of Clarity not proccing from utility spells (#24783)
+- fix(Core/Scripts): Allow Lock and Load to proc from fire school traps (#24784)
+- chore(DB): import pending files
+- fix(Scripts/Spells): Mad Alchemist's Potion and Gluth's Decimate 10m (#24788)
+
+## 2026-02-20
+- fix(Core/Spells): Fix Avenging Wrath not greying out Divine Protection/Shield (#24778)
+- fix(Core/Scripts): Prevent Judgement of Light from triggering Beacon of Light (#24781)
+- chore(DB): import pending files
+- fix(DB/Spell): Add spell_proc entry for Inner Focus (#24780)
+- chore(DB): import pending files
+- fix(Core/Spells): Use base mana cost for Illumination and Thrill of the Hunt (#24776)
+- fix(DB/Creature): Implement Steel Gate Gargoyle Attack Event (#24707)
+- fix(Core/Spells): Master of Elements mana refund with Living Bomb and base cost calculation (#24775)
+- chore(DB): import pending files
+- fix(DB/Loot): Loot Normalization Part 1 (#24398)
+- chore(DB): import pending files
+
+## 2026-02-19
+- fix(Core/Spells): Fingers of Frost proc and consumption with Blizzard (#24770)
+- fix(Core/Scripts): fix Pet Healing set bonus using heal info instead of damage info (#24768)
+
+## 2026-02-20
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Orange Marigolds' spawns (#24767)
+
+## 2026-02-19
+- fix(Core/Spells): add per-aura SpellTypeMask for auto-generated procs (#24766)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Ghostly Cooking Fire' spawns (#24764)
+- chore(DB): import pending files
+- fix(Scripts/Spells): fix Blood Presence not healing for damage dealt (#24765)
+- refactor(Core/Spells): remove defensive DamageInfo guard in PPM calc (#24763)
+- fix(Core/Spells): fix Lock and Load not proccing from Frost Trap (#24762)
+- chore(DB): import pending files
+- fix(Core/Spells): fix FINISH phase proc targeting for triggered spells (#24757)
+- fix(Core/Spells): fix DoEffectCalcAmount receiving amount without spell power (#24759)
+- fix(Core/Spells): fix PPM proc chance calculation for healing spells (#24761)
+- chore(DB): import pending files
+- fix(Core/Spells): Combustion non-crit hits now add crit stacks (#24752)
+- chore(DB): import pending files
+- fix(DB/Spell): Elemental Focus proc on hit instead of cast (#24753)
+
+## 2026-02-18
+- fix(Core/Arena): persist personal rating when adding arena team member (#24743)
+
+## 2026-02-19
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Candy Skulls' spawns (#24745)
+- fix(DB/Gameobject): Sniffed Values for 'InnTableTiny' spawns (#24744)
+
+## 2026-02-18
+- chore(DB): import pending files
+- fix(DB/Quest): Slaves to Saronite RP scripting improvements (#24343)
+- chore(DB): import pending files
+- refactor(Core/Spells): QAston proc system (#24233)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Valentine Arch (x2.00)' spawns (#24742)
+
+## 2026-02-17
+- fix(Scripts/Naxxramas): set Four Horsemen chest respawn timer to 7 days (#24739)
+
+## 2026-02-16
+- chore(DB): import pending files
+- fix(DB/SAI): update Obsidian Sanctum trash (#24732)
+- fix(Core/Handlers): Remove error message when leaving group in battleground. (#24712)
+- fix(Core/Arena): Fix inverted OnBeforeArenaTeamMemberUpdate hook (#24734)
+- chore(Core/Player): Improve one arena team log (#24730)
+
+## 2026-02-15
+- feat(Core/Hooks) Adds hooks for BG and Arena systems.  (#23543)
+
+## 2026-02-16
+- fix(Core/Battlegrounds): Fix Siege Engine being destroyed after spawn, fix demolishers not being destroyed after flag contest (#24461)
+
+## 2026-02-15
+- chore(DB): import pending files
+- fix(Core/Loot): Allow References to be grouped like Items (#24275)
+- chore(DB): import pending files
+- fix(DB/Loot): Abandoned Adventurer's Satchel (#24509)
+- feat(Core/Player): Add hooks for reputation price discount calculation. (#24666)
+- fix(Core/Spell): further limit exploit prevention standup to non-triggered spells (#24688)
+- chore(DB): import pending files
+- fix(DB/Gossip): Enable BoxCoded for Zas'Tysh and Tharl Stonebleeder (#24673)
+- refactor(Scripts/EoE): Make use of creature/GO storages (#24724)
+- chore(DB): import pending files
+- feat(Core/Scripts): Add gameobject_summon_groups with quaternion rotation support (#24708)
+- fix(Scripts/StormPeaks): Time-Lost & Vyragosa rescheduling and invisible combat (#24691)
+- fix(Core/Player): Fix skill rewarded spell learning to properly handle skill-rewarded spells with out-of-order IDs (#24581)
+- chore(DB): import pending files
+- fix(Script/ObsidianSanctum): Lava Strike event now starts correctly. (#24723)
+- refactor(Core/Unit): use spell_group functions for a few more cases (#24019)
+- chore(DB): import pending files
+- fix(Core/Commands): Add detailed quest availability info to .quest info (#24721)
+- chore(DB): import pending files
+- fix(Scripts/ObsidianSanctum): enable Sartharion drakes patrols (#24702)
+- refactor(Scripts/Ulduar): Update Ulduar to use boss states and other modernizations (#24714)
+- fix(Core/Cmake): Rename VER_* macros to AC_* and centralize build dirâ€¦ (#24717)
+- feat(Scripts/Commands): Add grid-based search to npc near and gobjectâ€¦ (#24718)
+- refactor(Core/Defines): Rename custom named creature family enum. (#24570)
+- docs(Agents): Configure AI PR review to enforce CLAUDE.md and wiki standards (#24655)
+
+## 2026-02-14
+- chore: Update build commands to indicate optional building
+- fix(Scripts/Naxxramas): fix Four Horsemen chest despawning (#24716)
+
+## 2026-02-15
+- fix(Core/Trade): correct packets, exchange checks, distance logic (#24710)
+
+## 2026-02-14
+- fix(Scripts/ShadowfangKeep): fix Love is in the Air to start after reset (#24713)
+- fix(Core/Unit): Fix duplicate sending of hitinfo in SMSG_SPELLNONMELEEDAMAGELOG  (#24711)
+- feat(Core/Config): Add configurable XP rate for battleground objectives (#24672)
+
+## 2026-02-13
+- fix(Scripts/Spell): 52308 Sample container clears Hydra Sputum (#23955)
+- refactor(Scripts/Ulduar): Update Auriaya register methods (#24706)
+- fix(Scripts/ObsidianSanctum): remove Sartharion's boss boundary (#24703)
+- refactor(Core/Packets): Rewrite various instance packets to modern class. (#22762)
+- chore: Update SQL update guidelines in CLAUDE.md (#24700)
+- chore(DB): import pending files
+- fix(DB/Quest): "Speak with Ruga" missing quest starters (#24677)
+- feat(Scripts/Commands): Show boss name in instance boss state (#24698)
+- chore(DB): import pending files
+- fix(Core/ObjectMgr): update npc_vendor.maxcount to u32 from u8 (#24685)
+- fix(Core/Movement): Don't take height into consideration for follow teleports (#24690)
+- chore(DB): import pending files
+- fix(Scripts/Naxxramas): Fix Undying/Immortal credit (#24694)
+- fix(DB/Spell): Set Avenging Fury range effect to 2 yards. (#24683)
+- fix(Scripts/Commands): Re-spawn pool quests after reload quest starters (#24696)
+- fix(CI): correct unit_tests binary path in linux-build action (#24697)
+
+## 2026-02-12
+- chore(DB): import pending files
+- fix(DB/SAI): Rewrite Last Rites in SmartAI (#24680)
+- chore(DB): import pending files
+- fix(DB/Creature): Reduce General Lightsbane (29851) default DamageModifier (#24682)
+
+## 2026-02-11
+- chore(DB): import pending files
+- fix(DB/Creature): Improve Stockades Entrance (#24676)
+- fix(Core/Spells): Lady Blaumeux and Sir Zeliek's cast uninterruptable (#24534)
+- chore(DB): import pending files
+- fix(DB/Creature): Adjust unit flags for Lightwell creature. (#24678)
+
+## 2026-02-10
+- fix(Core/Creature): implement SUMMON_PROP_FLAG_USE_SUMMONER_FACTION (#24674)
+
+## 2026-02-09
+- feat(Core/Handlers): Make use of a few billing plan flags for authentication response. (#24569)
+- fix(Core/Battlegrounds): remove unused ApplyPhaseMask from Arathi Basin (#24582)
+
+## 2026-02-10
+- chore(DB): import pending files
+- fix(DB/Vendor): Updates vendor lists for reagents and poisons (#24594)
+- fix(Scripts/Naxxramas): Thaddius casting Ball Lightning shouldn't prâ€¦ (#24624)
+- chore(DB): import pending files
+- refactor(Scripts/EoE): Modernize scripts (#24634)
+- fix(DB/Spells): add stack rule for love is in the air perfumes/colognes (#24659)
+- fix(Scripts/World): Lower engineering specialization swap requirements (#24670)
+- fix(Scripts/Naxxramas): Mr. Bigglesworth and Critter Bites interaction (#24671)
+- chore(DB): import pending files
+
+## 2026-02-09
+- fix(Core/GameObject): Handle zero quaternion rotation for dynamically spawned gameobjects (#24662)
+- chore(DB): import pending files
+- fix(DB/Creature): Adds and adjusts money loot for various NPCs (#24643)
+
+## 2026-02-08
+- chore(DB): import pending files
+- fix(Script/Quest): Kodo Roundup (#24241)
+- chore(DB): import pending files
+- feat(Scripts/Commands): Implement npc/gameobject load commands (#24644)
+- chore(DB): import pending files
+- fix(DB/Creature): Set Correct Speed to Illidan DB Target (23070) (#24647)
+
+## 2026-02-07
+- chore(DB): import pending files
+- fix(Core/SmartScript): Start Closest Waypoint can handle both wp tables. (#24638)
+- chore: Update ClaudeAI SQL updates directory instructions (#24640)
+- fix(Core/Scripts): apply safety improvements (#24635)
+- refactor(Scripts/ObsidianSanctum): Modernize script files (#24632)
+
+## 2026-02-06
+- chore(DB): import pending files
+
+## 2026-02-07
+- fix(Scripts/Spells): some LW drums cannot affect targets lvl80 or higher (#24611)
+
+## 2026-02-06
+- chore(DB): import pending files
+- fix(Scripts/SSC): Rewrite Coilfang Water Handling (#24559)
+- fix(DB/SAI): Rewrite Terokk's Downfall with Sniffed data (#24627)
+- fix(Core/Handlers): Handle vehicle and possess spells in CMSG_REQUEST_PET_INFO (#24575)
+- feat(Core/Config): Add configuration options for point multipliers for arena team brackets. (#24631)
+- fix(Core/Movement): Prevent Follow predictions from clipping through walls and add teleport as last resort (#24287)
+- fix(Core/Threat): Melee creatures should only target units they can attack when rooted (#24526)
+- chore(DB): import pending files
+- fix(Core/Pet): Allow Pets to attack players from any angle (#24580)
+- fix(Core/SmartScript): Change AREA_CASTING to align with VICTIM_CASTING on timer recalculation (#24563)
+- fix(Scripts/TempestKeep): Add Teleport Position to Astromancer Solarian and Threat Reset (#24622)
+- fix(Core/SmartAI): Ranged Creatures should have relaxed stances while outside melee range (#24623)
+- fix(Scripts/MagistersTerrace): Prevent Splitting Delrissa and Helpers on Aggro (#24560)
+- fix(Scripts/StormPeaks): Rewrite Time-Lost Proto Drake (#24497)
+- fix(DB/Creature): Adjust Field Values to Creature Flame Wave II (22228) (#24598)
+- fix(Core/Movement): Exclude Players and Player-controlled units from pet pathing cancellations (#24552)
+- chore(DB): import pending files
+- fix(DB/Gameobject): Recalculate quaternion rotation values from orientation (#24617)
+- fix(Scripts/SunkenTemple): sniffed values for 'Idol of Hakkar' spawn (#24606)
+- docs: init CLAUDE.md (#24630)
+- chore(DB): import pending files
+- fix(DB/Creature): Update gossip menus and options for select trainers (#24596)
+- fix(Commands): .go creature and .appear support transports (#23969)
+
+## 2026-02-03
+- fix(Core/Guild): Fix rare guild bank bug (#24614)
+
+## 2026-02-04
+- chore(DB): import pending files
+- fix(DB/Loot): Removes "Warsong Report" and "Battered Junkbox" from "Battered Junkbox" (#24588)
+
+## 2026-02-03
+- fix(DB/Creature): Correct model probabilities for various trigger creatures. (#24610)
+
+## 2026-02-04
+- chore(DB): import pending files
+
+## 2026-02-03
+- fix(DB/SAI): Implement Unstable Shroom Script (#24601)
+- fix(DB/SAI): Astromancer Lord should use Domination like Star Scryer (#24593)
+- fix(Core/Unit): Ignore Armor Calculation for spells with SPELL_ATTR4_IGNORE_DAMAGE_TAKEN_MODIFIERS (#24592)
+- chore(DB): import pending files
+- fix(Core/GameObject): Use quaternion rotation directly instead of orientation hackfix (#24602)
+- chore(Core/Handlers): Clear debug leftovers (#24603)
+
+## 2026-02-02
+- chore(DB): import pending files
+- fix(DB/Gameobject): Sniffed Values for 'Broken Cart' spawns (#24587)
+- chore(DB): import pending files
+
+## 2026-02-01
+- fix(DB/Loot): Rewrite TBC Raid BoE Loot and Recipes (#24586)
+- chore(DB): import pending files
+- fix(DB/SAI): fix talk timer for 'Brewfest Setup Crew' (#24583)
+- chore(DB): import pending files
+- fix(DB/Creature): Set Wyrmrest Protector emote to 0. (#24579)
+- chore(DB): import pending files
+- fix(DB/SmartAI): Improve targeting for Spectral Stable Hand (#24574)
+- fix(Scripts/HyjalSummit): Prevent Hyjal Bosses from talking when talking when dead (#24572)
+- fix(Scripts/Naxxramas): Sapphiron flight phase animation (#24535)
+
+## 2026-01-31
+- fix(CI/Codestyle): Ignore backtick checks in comments (#24573)
+- chore(DB): import pending files
+- fix(DB/game_event): implement 'Brewfest Building (Orgrimmar)' (#24517)
+- chore(DB): import pending files
+- fix(DB/game_event): Brewfest Building (Ironforge) (#24527)
+- fix(Scripts/Naxx): Thaddius Ball Lightning should check all players iâ€¦ (#24392)
+- fix(Scripts/EoE): fix Malygos reseting at p3 and other improvements (#24566)
+- chore(DB): import pending files
+- fix(DB/Loot): Adjust Jotunheim Cage Key Chances (#24564)
+- fix(DB/Creature): Set Correct Faction for Spotted Hippogryph (23772) and Shoveltusk Forager (29479) (#24565)
+- fix(CI/Windows): installer script - update OpenSSL version to 3.6.1 (#24558)
 
 ## 2026-01-30
 - Merge pull request #160 from azerothcore/master
@@ -12,7 +1030,7 @@
 - fix(DB/SAI) fix terokk dawnfall quest (#24511)
 - fix(Scripts/ShatteredHalls): Don't let Flame Arrows stack in Blood Guard Porung Gauntlet Event (#24434)
 - chore(DB): import pending files
-
+- 
 ## 2026-01-29
 - fix(Scripts/EoE): Remove red dragon hack (#24541)
 - fix(Core/Unit): Allow Spellsteal to handle Proc Auras and HoTs (#24536)
